@@ -1,6 +1,6 @@
 import type { IconType } from "react-icons";
 import {
-  GiAcidBlob, GiAngelWings, GiAnvilImpact, GiBlindfold, GiBodySwapping,
+  GiAngelWings, GiAnvilImpact, GiBlindfold, GiBodySwapping, GiChemicalArrow,
   GiBrokenShield, GiBroadsword, GiCat, GiCharm, GiCometSpark, GiCrystalBall,
   GiCrystalEye, GiDominoMask, GiEclipse, GiEyeball, GiFairyWand, GiFeather,
   GiFeatheredWing, GiFireball, GiFirePunch, GiFireRay, GiFlameSpin, GiFog,
@@ -29,7 +29,7 @@ export type Spell = {
 };
 
 const ICONS: Record<string, IconType> = {
-  "Acid Splash": GiAcidBlob, "Alarm": GiRingingBell, "Aid": GiHeartShield,
+  "Acid Arrow": GiChemicalArrow, "Alarm": GiRingingBell, "Aid": GiHeartShield,
   "Sleep": GiNightSleep, "Bless": GiAngelWings, "Burning Hands": GiFirePunch,
   "Charm Person": GiCharm, "Comprehend Languages": GiScrollQuill, "Cure Wounds": GiHealing,
   "Detect Magic": GiMagicSwirl, "Disguise Self": GiDominoMask, "Feather Fall": GiFeather,

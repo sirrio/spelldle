@@ -1,15 +1,16 @@
 [
   {
-    "name": "Acid Splash",
-    "level": 0,
+    "name": "Acid Arrow",
+    "level": 2,
     "school": "Evocation",
     "components": [
       "V",
-      "S"
+      "S",
+      "M"
     ],
     "ritual": false,
     "castingTime": "Action",
-    "range": "60 feet",
+    "range": "90 feet",
     "duration": "Instantaneous"
   },
   {
