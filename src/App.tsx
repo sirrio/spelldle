@@ -77,8 +77,7 @@ export const SPELLDLE_CONFIG: DndleConfig<Spell> = {
   shareUrl: "https://sirrio.github.io/spelldle/?share=1",
   shareAction: "Find out here!",
   relatedGame: {
-    prompt: "Or would you rather hunt monsters?",
-    label: "Play CRITTERDLE",
+    prompt: "Or hunt monsters instead?",
     url: "https://sirrio.github.io/critterdle/",
   },
   resultSummary: (spell) => `${levelLabel(spell.level)} · ${spell.school} · ${spell.range} · ${displayDuration(spell.duration)}`,
