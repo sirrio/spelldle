@@ -314,14 +314,6 @@ export default function Home() {
     window.setTimeout(() => setCopied(false), 1800);
   }
 
-  function resetRound() {
-    localStorage.removeItem(`zauberdle:${dayKey()}`);
-    setGuesses([]);
-    setSelectedName("");
-    setResultDismissed(false);
-    setShowStats(false);
-  }
-
   function showSpellTooltip(element: HTMLElement, name: string) {
     const rect = element.getBoundingClientRect();
     const left = Math.max(110, Math.min(window.innerWidth - 110, rect.left + rect.width / 2));
@@ -335,7 +327,6 @@ export default function Home() {
         <div className="game-tagline">THE DAILY ARCANE ARCHIVE</div>
         <div className="header-actions">
           <div className="attempts"><strong>{guesses.length}</strong><span>/ {MAX_GUESSES}</span></div>
-          <button className="icon-button" onClick={resetRound} aria-label="Reset local test round" title="Reset test round">↻</button>
           <button className="icon-button" onClick={() => setShowHow(true)} aria-label="Show game rules">?</button>
         </div>
       </header>
