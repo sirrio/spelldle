@@ -1,0 +1,964 @@
+[
+  {
+    "name": "Acid Splash",
+    "level": 0,
+    "school": "Evocation",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Alarm",
+    "level": 1,
+    "school": "Abjuration",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": true,
+    "castingTime": "1 Minute",
+    "range": "30 feet",
+    "duration": "8 hours"
+  },
+  {
+    "name": "Aid",
+    "level": 2,
+    "school": "Abjuration",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "30 feet",
+    "duration": "8 hours"
+  },
+  {
+    "name": "Sleep",
+    "level": 1,
+    "school": "Enchantment",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Bless",
+    "level": 1,
+    "school": "Enchantment",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "30 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Burning Hands",
+    "level": 1,
+    "school": "Evocation",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Self",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Charm Person",
+    "level": 1,
+    "school": "Enchantment",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "30 feet",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Comprehend Languages",
+    "level": 1,
+    "school": "Divination",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": true,
+    "castingTime": "Action",
+    "range": "Self",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Cure Wounds",
+    "level": 1,
+    "school": "Abjuration",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Detect Magic",
+    "level": 1,
+    "school": "Divination",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": true,
+    "castingTime": "Action",
+    "range": "Self",
+    "duration": "10 minutes"
+  },
+  {
+    "name": "Disguise Self",
+    "level": 1,
+    "school": "Illusion",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Self",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Feather Fall",
+    "level": 1,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Reaction",
+    "range": "60 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Find Familiar",
+    "level": 1,
+    "school": "Conjuration",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": true,
+    "castingTime": "1 Hour",
+    "range": "10 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Fireball",
+    "level": 3,
+    "school": "Evocation",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "150 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Fly",
+    "level": 3,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "10 minutes"
+  },
+  {
+    "name": "Fog Cloud",
+    "level": 1,
+    "school": "Conjuration",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "120 feet",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Guidance",
+    "level": 0,
+    "school": "Divination",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Healing Word",
+    "level": 1,
+    "school": "Abjuration",
+    "components": [
+      "V"
+    ],
+    "ritual": false,
+    "castingTime": "BonusAction",
+    "range": "60 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Identify",
+    "level": 1,
+    "school": "Divination",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": true,
+    "castingTime": "1 Minute",
+    "range": "Touch",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Invisibility",
+    "level": 2,
+    "school": "Illusion",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Knock",
+    "level": 2,
+    "school": "Transmutation",
+    "components": [
+      "V"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Light",
+    "level": 0,
+    "school": "Evocation",
+    "components": [
+      "V",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Mage Armor",
+    "level": 1,
+    "school": "Abjuration",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "8 hours"
+  },
+  {
+    "name": "Mage Hand",
+    "level": 0,
+    "school": "Conjuration",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "30 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Magic Missile",
+    "level": 1,
+    "school": "Evocation",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "120 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Mending",
+    "level": 0,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "1 Minute",
+    "range": "Touch",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Misty Step",
+    "level": 2,
+    "school": "Conjuration",
+    "components": [
+      "V"
+    ],
+    "ritual": false,
+    "castingTime": "BonusAction",
+    "range": "Self",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Prestidigitation",
+    "level": 0,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "10 feet",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Revivify",
+    "level": 3,
+    "school": "Necromancy",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Shield",
+    "level": 1,
+    "school": "Abjuration",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Reaction",
+    "range": "Self",
+    "duration": "1 round"
+  },
+  {
+    "name": "Animate Dead",
+    "level": 3,
+    "school": "Necromancy",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "1 Minute",
+    "range": "10 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Arcane Eye",
+    "level": 4,
+    "school": "Divination",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "30 feet",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Arcane Lock",
+    "level": 2,
+    "school": "Abjuration",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "Until dispelled"
+  },
+  {
+    "name": "Augury",
+    "level": 2,
+    "school": "Divination",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": true,
+    "castingTime": "1 Minute",
+    "range": "Self",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Web",
+    "level": 2,
+    "school": "Conjuration",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Beacon of Hope",
+    "level": 3,
+    "school": "Abjuration",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "30 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Blindness/Deafness",
+    "level": 2,
+    "school": "Transmutation",
+    "components": [
+      "V"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "120 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Blur",
+    "level": 2,
+    "school": "Illusion",
+    "components": [
+      "V"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Self",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Clairvoyance",
+    "level": 3,
+    "school": "Divination",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "10 Minutes",
+    "range": "1 mile",
+    "duration": "10 minutes"
+  },
+  {
+    "name": "Command",
+    "level": 1,
+    "school": "Enchantment",
+    "components": [
+      "V"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Continual Flame",
+    "level": 2,
+    "school": "Evocation",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "Until dispelled"
+  },
+  {
+    "name": "Counterspell",
+    "level": 3,
+    "school": "Abjuration",
+    "components": [
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Reaction",
+    "range": "60 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Create Food and Water",
+    "level": 3,
+    "school": "Conjuration",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "30 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Darkness",
+    "level": 2,
+    "school": "Evocation",
+    "components": [
+      "V",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "10 minutes"
+  },
+  {
+    "name": "Darkvision",
+    "level": 2,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "8 hours"
+  },
+  {
+    "name": "Daylight",
+    "level": 3,
+    "school": "Evocation",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Dispel Magic",
+    "level": 3,
+    "school": "Abjuration",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "120 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Enhance Ability",
+    "level": 2,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Enlarge/Reduce",
+    "level": 2,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "30 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Entangle",
+    "level": 1,
+    "school": "Conjuration",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "90 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Expeditious Retreat",
+    "level": 1,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "BonusAction",
+    "range": "Self",
+    "duration": "10 minutes"
+  },
+  {
+    "name": "Faerie Fire",
+    "level": 1,
+    "school": "Evocation",
+    "components": [
+      "V"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "False Life",
+    "level": 1,
+    "school": "Necromancy",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Self",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Flaming Sphere",
+    "level": 2,
+    "school": "Conjuration",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Gentle Repose",
+    "level": 2,
+    "school": "Necromancy",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": true,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "10 days"
+  },
+  {
+    "name": "Grease",
+    "level": 1,
+    "school": "Conjuration",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Hold Person",
+    "level": 2,
+    "school": "Enchantment",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Jump",
+    "level": 1,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "BonusAction",
+    "range": "Touch",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Lesser Restoration",
+    "level": 2,
+    "school": "Abjuration",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "BonusAction",
+    "range": "Touch",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Levitate",
+    "level": 2,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "10 minutes"
+  },
+  {
+    "name": "Locate Object",
+    "level": 2,
+    "school": "Divination",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Self",
+    "duration": "10 minutes"
+  },
+  {
+    "name": "Magic Mouth",
+    "level": 2,
+    "school": "Illusion",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": true,
+    "castingTime": "1 Minute",
+    "range": "30 feet",
+    "duration": "Until dispelled"
+  },
+  {
+    "name": "Magic Weapon",
+    "level": 2,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "BonusAction",
+    "range": "Touch",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Mirror Image",
+    "level": 2,
+    "school": "Illusion",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Self",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Pass without Trace",
+    "level": 2,
+    "school": "Abjuration",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Self",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Prayer of Healing",
+    "level": 2,
+    "school": "Abjuration",
+    "components": [
+      "V"
+    ],
+    "ritual": false,
+    "castingTime": "10 Minutes",
+    "range": "30 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "Protection from Poison",
+    "level": 2,
+    "school": "Abjuration",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Touch",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Ray of Enfeeblement",
+    "level": 2,
+    "school": "Necromancy",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "1 minute"
+  },
+  {
+    "name": "Alter Self",
+    "level": 2,
+    "school": "Transmutation",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Self",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Scorching Ray",
+    "level": 2,
+    "school": "Evocation",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "120 feet",
+    "duration": "Instantaneous"
+  },
+  {
+    "name": "See Invisibility",
+    "level": 2,
+    "school": "Divination",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "Self",
+    "duration": "1 hour"
+  },
+  {
+    "name": "Shatter",
+    "level": 2,
+    "school": "Evocation",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": false,
+    "castingTime": "Action",
+    "range": "60 feet",
+    "duration": "Instantaneous"
+  }
+]

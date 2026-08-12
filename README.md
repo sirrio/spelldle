@@ -1,12 +1,12 @@
 # Spelldle
 
-A daily Wordle-style guessing game for D&D SRD spells. Compare seven spell properties and uncover the entry hidden in the Arcane Archive in six guesses.
+A daily Wordle-style guessing game for spells from the 2024 D&D rules in SRD 5.2.1. Compare seven spell properties and uncover the entry hidden in the Arcane Archive in six guesses.
 
 ✨ **Live:** https://sirrio.github.io/spelldle/
 
 ## Features
 
-- 📖 **72 SRD spells** in a compact 8 × 9 visual archive
+- 📖 **72 SRD 5.2.1 spells** in a compact 8 × 9 visual archive
 - 🧩 Seven comparison fields: level, school, components, ritual, casting time, range, and duration
 - 🟩 Exact, 🟨 partial, and directional higher/lower clues
 - 🌍 One shared daily spell worldwide, changing at midnight UTC
@@ -37,7 +37,7 @@ GitHub Actions builds the site and deploys `dist/` to **GitHub Pages** after eve
 
 ## Credits
 
-This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode).
+This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at [dndbeyond.com/srd](https://www.dndbeyond.com/srd). The SRD 5.2.1 is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 Spell icons by Lorc, Delapouite, and the contributors of [Game-icons.net](https://game-icons.net/), used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 
