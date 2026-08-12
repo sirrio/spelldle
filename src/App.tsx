@@ -47,7 +47,7 @@ export const SPELLDLE_CONFIG: DndleConfig<Spell> = {
   id: "spelldle",
   storageKey: "zauberdle",
   brand: "SPELLDLE",
-  brandIconUrl: "favicon.svg",
+  brandIconUrl: "brand.svg",
   tagline: "THE DAILY ARCANE ARCHIVE",
   entries: SPELLS,
   traits: [
