@@ -74,7 +74,7 @@ export const SPELLDLE_CONFIG: DndleConfig<Spell> = {
   failureKicker: "THE ARCANE ARCHIVE CLOSES",
   nextLabel: "NEXT SPELL IN",
   shareQuestion: "Which spell is hidden in the Arcane Archive today?",
-  shareUrl: "https://sirrio.github.io/spelldle/",
+  shareUrl: "https://sirrio.github.io/spelldle/?share=1",
   shareAction: "Find out here!",
   relatedGame: {
     prompt: "Or would you rather hunt monsters?",
