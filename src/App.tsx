@@ -141,13 +141,13 @@ const EMPTY_STATS: GameStats = { played: 0, wins: 0, totalGuesses: 0, streak: 0,
 
 function dayKey() {
   const now = new Date();
-  return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+  return `${now.getUTCFullYear()}-${String(now.getUTCMonth() + 1).padStart(2, "0")}-${String(now.getUTCDate()).padStart(2, "0")}`;
 }
 
 function gameNumber() {
-  const start = new Date(2026, 0, 1).getTime();
+  const start = Date.UTC(2026, 0, 1);
   const now = new Date();
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+  const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
   return Math.floor((today - start) / 86400000) + 1;
 }
 
@@ -261,13 +261,15 @@ export default function Home() {
     } catch { /* Ignore invalid local data. */ }
     const update = () => {
       const now = new Date();
-      const next = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
-      const seconds = Math.max(0, Math.floor((next.getTime() - now.getTime()) / 1000));
+      const next = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1);
+      const seconds = Math.max(0, Math.floor((next - now.getTime()) / 1000));
       const hours = Math.floor(seconds / 3600);
       const minutes = Math.floor((seconds % 3600) / 60);
       const secs = seconds % 60;
       setCountdown(`${hours}h ${String(minutes).padStart(2, "0")}m ${String(secs).padStart(2, "0")}s`);
+      if (dayKey() !== initialDay) window.location.reload();
     };
+    const initialDay = dayKey();
     update();
     const timer = window.setInterval(update, 1000);
     return () => window.clearInterval(timer);
@@ -279,9 +281,8 @@ export default function Home() {
     if (localStorage.getItem(recordKey)) return;
     let current = EMPTY_STATS;
     try { current = { ...EMPTY_STATS, ...JSON.parse(localStorage.getItem("zauberdle:stats") || "{}") }; } catch { /* Use defaults. */ }
-    const yesterday = new Date();
-    yesterday.setDate(yesterday.getDate() - 1);
-    const yesterdayKey = `${yesterday.getFullYear()}-${String(yesterday.getMonth() + 1).padStart(2, "0")}-${String(yesterday.getDate()).padStart(2, "0")}`;
+    const yesterday = new Date(Date.now() - 86400000);
+    const yesterdayKey = `${yesterday.getUTCFullYear()}-${String(yesterday.getUTCMonth() + 1).padStart(2, "0")}-${String(yesterday.getUTCDate()).padStart(2, "0")}`;
     const next: GameStats = {
       ...current,
       played: current.played + 1,
