@@ -1,6 +1,7 @@
 @import "@sirrio/dndle-core/styles.css";
 
 .spelldle-theme {
+  --header-bg: #11162a;
   --red: #5170ff;
   --red-dark: #263bb7;
   --accent-hover: #3f5de8;
