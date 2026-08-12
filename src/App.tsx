@@ -75,6 +75,12 @@ export const SPELLDLE_CONFIG: DndleConfig<Spell> = {
   nextLabel: "NEXT SPELL IN",
   shareQuestion: "Which spell is hidden in the Arcane Archive today?",
   shareUrl: "https://sirrio.github.io/spelldle/",
+  shareAction: "Find out here!",
+  relatedGame: {
+    prompt: "Or would you rather hunt monsters?",
+    label: "Play CRITTERDLE",
+    url: "https://sirrio.github.io/critterdle/",
+  },
   resultSummary: (spell) => `${levelLabel(spell.level)} · ${spell.school} · ${spell.range} · ${displayDuration(spell.duration)}`,
   renderIcon: (spell) => <SpellIcon spell={spell} />,
   credits: <><p>This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at <a href="https://www.dndbeyond.com/srd" target="_blank" rel="noreferrer">dndbeyond.com/srd</a>. The SRD 5.2.1 is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank" rel="noreferrer">Creative Commons Attribution 4.0 International License</a>.</p><p>Spell icons by Lorc, Delapouite and the contributors of <a href="https://game-icons.net/" target="_blank" rel="noreferrer">Game-icons.net</a>, used under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noreferrer">CC BY 3.0</a>.</p></>,
