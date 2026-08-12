@@ -308,7 +308,7 @@ export default function Home() {
 
   async function share() {
     const rows = guesses.map((guess) => Object.values(comparison(guess, target)).map((value) => value === "exact" ? "🟩" : value === "partial" ? "🟨" : value === "higher" ? "⬆️" : value === "lower" ? "⬇️" : "⬛").join(""));
-    const text = `SPELLDLE #${gameNumber()} ${won ? guesses.length : "X"}/${MAX_GUESSES}\n${rows.join("\n")}\n\nWhich spell is hidden in the Arcane Archive today?\nFind out here: https://sirrio.github.io/spelldle/`;
+    const text = `SPELLDLE #${gameNumber()} ${won ? guesses.length : "X"}/${MAX_GUESSES}\n${rows.join("\n")}\n\nWhich spell is hidden in the Arcane Archive today?\n[Find out here!](https://sirrio.github.io/spelldle/)`;
     await navigator.clipboard.writeText(text);
     setCopied(true);
     window.setTimeout(() => setCopied(false), 1800);
