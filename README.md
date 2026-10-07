@@ -47,7 +47,7 @@ without a subsequent user instruction. Its skin is scoped to Spelldle and does
 not alter `dndle-core`, the daily sequence, storage or the spell icons.
 
 Original WizardBook PNGs in `public/book-ui` are drawn with CSS nine-slice
-borders: cover 32px; left page 3/1/3/8px, right page 3/8/3/1px; buttons 6/3/5/3px; slots 4px (top/right/bottom/left source pixels). Desktop
+borders: cover 32px; left page 3/1/3/8px, right page 3/8/3/1px; buttons 6/3/5/3px; slots 6/4/6/4px (top/right/bottom/left source pixels). Desktop
 shows a two-page spread with the 8 × 9 archive; narrow screens stack the pages.
 `sources.json` records the exact original filenames and SHA-256 hashes.
 
@@ -74,3 +74,16 @@ The original source code is available under the [MIT License](LICENSE). SRD mate
 WizardBook sprites render at an integer 2x pixel scale with nearest-neighbor
 rendering. Cover corner slices (64px display) are independent of the 24px
 layout inset, matching the original layered book construction.
+
+## Book theme implementation
+
+`src/book-layout.css` is intentionally identical in Spelldle and Critterdle.
+Until a coordinated core release, keep the two local copies in sync. The
+project-specific `src/index.css` contains only palette and original sprite
+metrics. Both games use the same page sizes, content insets, controls,
+84px mobile cards and 4/3/2-column mobile breakpoints. Sprite pixels render at
+2x; corner painting is independent of layout spacing. Modal padding is explicit.
+Used entries remain legible and the found entry retains full opacity.
+Button labels move with the original pressed artwork without shifting hit areas.
+
+WizardBook slots use asymmetric source slices 6/4/6/4 to preserve their highlights.
