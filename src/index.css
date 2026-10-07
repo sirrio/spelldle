@@ -93,17 +93,18 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 .spelldle-theme .selected-sigil {
   width: 62px;
   height: 62px;
-  color: var(--red);
+  color: #ffe7c6;
   border: 6px solid transparent;
   border-image: var(--book-slot) 4 fill / 6px / 0 stretch;
   background: transparent;
   border-radius: 0;
 }
-.spelldle-theme .has-selection .selected-sigil { color: #b8cbff; }
+.spelldle-theme .has-selection .selected-sigil { color: #ffe7c6; }
 .spelldle-theme .selected-copy h1 { font-size: clamp(22px, 2vw, 32px); }
 .spelldle-theme .selected-copy p { color: var(--ink-soft); font-size: 13px; }
 .spelldle-theme .section-head { padding: 8px 4px 14px; border-color: var(--line); }
-.spelldle-theme .section-head h2 { color: var(--red-dark); }
+.spelldle-theme .section-head h2 { color: var(--ink); }
+.spelldle-theme .tiny-label { color: var(--ink-soft); }
 .spelldle-theme .spell-grid { padding: 14px 4px 18px; gap: 5px; }
 .spelldle-theme .spell-option {
   border: 4px solid transparent;
@@ -113,7 +114,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   background: transparent;
   box-shadow: none;
 }
-.spelldle-theme .option-sigil { color: #b8cbff; }
+.spelldle-theme .option-sigil { color: #ffe7c6; }
 .spelldle-theme .spell-option strong { color: #ffe7c6; }
 .spelldle-theme .spell-option.selected {
   border-image-source: var(--book-slot-selected);
@@ -152,7 +153,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 .spelldle-theme .stats-button { min-height: 48px; padding: 6px 16px; }
 .spelldle-theme .submit-guess { min-width: 100px; }
 .spelldle-theme .name-toggle { min-width: 76px; height: 40px; padding: 0 6px; }
-.spelldle-theme .name-toggle strong { color: #303e66; }
+.spelldle-theme .name-toggle strong { color: #252c40; }
 .spelldle-theme .name-toggle[aria-pressed="false"] strong { color: #525b70; }
 .spelldle-theme .attempts span { color: #525b70; }
 .spelldle-theme .primary:hover:not(:disabled),
@@ -290,7 +291,8 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   .spelldle-theme .empty-row > span:first-child { width: 100%; aspect-ratio: auto; height: 36px; }
   .spelldle-theme .empty-row { height: 36px; }
 }
-.spelldle-theme .row-sigil, .spelldle-theme .reveal-sigil { color: #5170ff; }
+.spelldle-theme .row-sigil, .spelldle-theme .reveal-sigil { color: var(--ink); }
+.spelldle-theme .spell-cell.exact .row-sigil { color: #fff; }
 
 /* WizardBook is pixel art: draw source pixels at 2x, independently of
    the layout inset. Large corner slices must not become empty margins. */
