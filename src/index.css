@@ -1,18 +1,18 @@
 @import "@sirrio/dndle-core/styles.css";
 
 .spelldle-theme {
-  --header-bg: #493333;
-  --red: #923f49;
-  --red-dark: #632e37;
-  --accent-hover: #783942;
-  --accent-soft: #f7c993;
-  --accent-border: #ad7860;
-  --accent-shadow: rgba(99, 46, 55, .22);
-  --paper: #ffd7a8;
-  --ink: #3e2929;
-  --ink-soft: #62443a;
-  --muted: #78574a;
-  --line: #c19973;
+  --header-bg: #252c40;
+  --red: #405a9b;
+  --red-dark: #303e66;
+  --accent-hover: #405a9b;
+  --accent-soft: #e0e5f0;
+  --accent-border: #768093;
+  --accent-shadow: rgba(48, 62, 102, .22);
+  --paper: #fce5ca;
+  --ink: #342e2a;
+  --ink-soft: #62584d;
+  --muted: #786e61;
+  --line: #ccb298;
   --green: #356347;
   --yellow: #87611a;
   --gray: #655c58;
@@ -55,11 +55,11 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   height: max(650px, calc(100svh - 132px));
   margin: 0 auto;
   padding: 0;
-  gap: 6px;
+  gap: 0;
   grid-template-columns: minmax(400px, 44fr) minmax(0, 56fr);
-  border: 24px solid transparent;
-  border-image: var(--book-cover) 12 fill / 24px / 0 stretch;
-  filter: drop-shadow(0 8px 10px #49333324);
+  border: 32px solid transparent;
+  border-image: var(--book-cover) 32 fill / 32px / 0 stretch;
+  filter: drop-shadow(0 8px 10px #30354b24);
 }
 .spelldle-theme .archive-panel,
 .spelldle-theme .game-console {
@@ -142,19 +142,19 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 .spelldle-theme .name-toggle,
 .spelldle-theme .attempts {
   border: 6px solid transparent;
-  border-image: var(--book-button) 6 fill / 6px / 0 stretch;
+  border-image: var(--book-button) 6 3 5 fill / 6px 3px 5px / 0 stretch;
   border-radius: 0;
   background: transparent;
   box-shadow: none;
-  color: #ffe5c2;
+  color: #252c40;
 }
 .spelldle-theme .primary,
 .spelldle-theme .stats-button { min-height: 48px; padding: 6px 16px; }
 .spelldle-theme .submit-guess { min-width: 100px; }
 .spelldle-theme .name-toggle { min-width: 76px; height: 40px; padding: 0 6px; }
-.spelldle-theme .name-toggle strong { color: #c4e7af; }
-.spelldle-theme .name-toggle[aria-pressed="false"] strong { color: #d3bda8; }
-.spelldle-theme .attempts span { color: #d3bda8; }
+.spelldle-theme .name-toggle strong { color: #303e66; }
+.spelldle-theme .name-toggle[aria-pressed="false"] strong { color: #525b70; }
+.spelldle-theme .attempts span { color: #525b70; }
 .spelldle-theme .primary:hover:not(:disabled),
 .spelldle-theme .stats-button:hover,
 .spelldle-theme .icon-button:hover,
@@ -163,7 +163,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   border-image-source: var(--book-button-pressed);
   transform: none;
 }
-.spelldle-theme .primary:disabled { background: transparent; color: #d3bda8; opacity: .65; }
+.spelldle-theme .primary:disabled { background: transparent; color: #525b70; opacity: .65; }
 .spelldle-theme button:focus-visible,
 .spelldle-theme a:focus-visible,
 .spelldle-theme .spell-cell:focus-visible { outline: 3px solid #216586; outline-offset: 2px; }
@@ -171,12 +171,12 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 .spelldle-theme .table-scroll { padding: 12px 0 0; overflow-y: auto; }
 .spelldle-theme .table-head { color: var(--ink-soft); }
 .spelldle-theme .rows { grid-template-rows: repeat(6, minmax(48px, 1fr)); }
-.spelldle-theme .spell-cell { background: #f5c58e; border-color: #b28b65; }
+.spelldle-theme .spell-cell { background: #f2d9bb; border-color: #b28b65; }
 .spelldle-theme .spell-cell.exact { background: var(--green); border-color: var(--green); }
 .spelldle-theme .empty-row span,
-.spelldle-theme .empty-row i { background: #f6ce9e; border-color: #c59d75; color: #7c5c49; }
-.spelldle-theme .spell-tooltip { background: #493333; border-color: #8f6552; color: #ffe6c6; }
-.spelldle-theme .spell-tooltip::after { background: #493333; border-color: #8f6552; }
+.spelldle-theme .empty-row i { background: #f6dfc3; border-color: #ccb298; color: #7c5c49; }
+.spelldle-theme .spell-tooltip { background: #30354b; border-color: #768093; color: #ffe6c6; }
+.spelldle-theme .spell-tooltip::after { background: #30354b; border-color: #768093; }
 .spelldle-theme .site-footer { height: 42px; color: var(--ink-soft); }
 .spelldle-theme .modal,
 .spelldle-theme .result-popup {
@@ -184,7 +184,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   border-image: var(--book-left) 8 fill / 16px / 0 stretch;
   padding: 30px 24px 24px;
   background: transparent;
-  box-shadow: 0 0 0 8px #9c4351, 0 24px 60px #20151566;
+  box-shadow: 0 0 0 8px #484b68, 0 24px 60px #20151566;
 }
 .spelldle-theme .modal-close,
 .spelldle-theme .popup-close { top: 6px; right: 6px; }
@@ -192,9 +192,9 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 .spelldle-theme .result-backdrop { background: #211719c9; }
 .spelldle-theme .how-step,
 .spelldle-theme .modal-legend,
-.spelldle-theme .next-game { background: #f4c996; border-color: var(--line); }
+.spelldle-theme .next-game { background: #f2d9bb; border-color: var(--line); }
 .spelldle-theme .result-popup > p { color: var(--ink-soft); }
-.spelldle-theme .reveal-sigil { background: #f2c38e; border-color: var(--line); }
+.spelldle-theme .reveal-sigil { background: #f2d9bb; border-color: var(--line); }
 
 @media (max-width: 1100px) and (min-width: 901px) {
   .spelldle-theme .play-shell { width: calc(100% - 20px); border-width: 18px; border-image-width: 18px; }
@@ -234,7 +234,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   .spelldle-theme .selected-copy h1 { font-size: 23px; }
   .spelldle-theme .submit-guess { grid-column: 1 / -1; }
   .spelldle-theme .rows { display: block; }
-  .spelldle-theme .result-row { background: #f1c691; border-color: var(--line); }
+  .spelldle-theme .result-row { background: #f2d9bb; border-color: var(--line); }
   .spelldle-theme .modal, .spelldle-theme .result-popup { padding: 36px 10px 18px; }
   .spelldle-theme .result-actions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .spelldle-theme .result-actions button { min-width: 0; padding: 6px 4px; font-size: 11px; letter-spacing: .06em; }
@@ -256,7 +256,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
     overscroll-behavior-y: contain;
     scrollbar-gutter: stable both-edges;
     scrollbar-width: thin;
-    scrollbar-color: #ad7860 transparent;
+    scrollbar-color: #768093 transparent;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     grid-template-rows: none;
     grid-auto-rows: 76px;
@@ -291,3 +291,34 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   .spelldle-theme .empty-row { height: 36px; }
 }
 .spelldle-theme .row-sigil, .spelldle-theme .reveal-sigil { color: #5170ff; }
+
+/* WizardBook pages have a seven-pixel outer leaf edge and a one-pixel spine.
+   Keep source-pixel scale and reserve equal 20px content insets separately. */
+.spelldle-theme .archive-panel,
+.spelldle-theme .game-console {
+  border-width: 3px 1px 3px 8px;
+  border-image: var(--book-left) 3 1 3 8 fill / 3px 1px 3px 8px / 0 stretch;
+  padding: 17px 19px 17px 12px;
+}
+.spelldle-theme .game-console {
+  border-width: 3px 8px 3px 1px;
+  border-image: var(--book-right) 3 8 3 1 fill / 3px 8px 3px 1px / 0 stretch;
+  padding: 17px 12px 17px 19px;
+}
+.spelldle-theme .modal,
+.spelldle-theme .result-popup {
+  border-image: var(--book-left) 3 1 3 8 fill / 3px 1px 3px 8px / 0 stretch;
+}
+.spelldle-theme .primary:disabled { color: #525b70; }
+@media (max-width: 1100px) {
+  .spelldle-theme .play-shell { border-width: 16px; border-image-width: 16px; }
+}
+@media (max-width: 900px) {
+  .spelldle-theme .play-shell { gap: 10px; }
+  .spelldle-theme .archive-panel,
+  .spelldle-theme .game-console {
+    border-width: 3px 1px 3px 8px;
+    border-image: var(--book-left) 3 1 3 8 fill / 3px 1px 3px 8px / 0 stretch;
+    padding: 9px 11px 9px 4px;
+  }
+}
