@@ -1,0 +1,37 @@
+[
+  {
+    "file": "button-pressed.png",
+    "sha256": "B3FDA8170EA4CE09CF63DA3362D41283855C9F9EB1116AB0655B896ED06F8EF9",
+    "source": "01_TravelBook/Sprites Animated/UI_TravelBook_Button01a_2.png"
+  },
+  {
+    "file": "button.png",
+    "sha256": "A99437D381583D57AD763DF20D0C4365362E643D8C9052EC514B9E40ED5E7620",
+    "source": "01_TravelBook/Sprites Animated/UI_TravelBook_Button01a_4.png"
+  },
+  {
+    "file": "cover.png",
+    "sha256": "F9C3CB81ECC24121E81E2FDC4A5C6649301C9762AB69C56688AAE8ECF3D4DD92",
+    "source": "01_TravelBook/Sprites/UI_TravelBook_BookCover01a.png"
+  },
+  {
+    "file": "page-left.png",
+    "sha256": "C995619CE22336AD77839E8DB7361A0172AA6C9F364F6690129389C3A97DDFB4",
+    "source": "01_TravelBook/Sprites/UI_TravelBook_BookPageLeft01a.png"
+  },
+  {
+    "file": "page-right.png",
+    "sha256": "6AA209C941F73B9CE9553FA20E5DCAF7FE8083CB30CCBC2287437AD38A398B61",
+    "source": "01_TravelBook/Sprites/UI_TravelBook_BookPageRight01a.png"
+  },
+  {
+    "file": "slot-selected.png",
+    "sha256": "B84CB35435C66D6A36E842B7B4AA2969ED75C8C5737E614B43D85AAC07BC2A5D",
+    "source": "01_TravelBook/Sprites/UI_TravelBook_Slot01b.png"
+  },
+  {
+    "file": "slot.png",
+    "sha256": "B637CA52C351D1D5CEC4A1E89271B4B511DD5B4BCFC01A5E548393542FF6BCD6",
+    "source": "01_TravelBook/Sprites/UI_TravelBook_Slot01a.png"
+  }
+]

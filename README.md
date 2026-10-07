@@ -21,8 +21,8 @@ The current UTC date produces a deterministic game number. That number selects o
 ## Running locally
 
 ```sh
-npm install
-npm run dev
+npm ci
+npm run dev -- --host 127.0.0.1 --port 5173 --strictPort
 ```
 
 Create the production build with:
@@ -30,6 +30,26 @@ Create the production build with:
 ```sh
 npm run build
 ```
+
+The local development URL and health check is `http://127.0.0.1:5173/` (HTTP 200).
+For a live-equivalent preview, build first, then run
+`npm run preview -- --host 127.0.0.1 --port 4173 --strictPort` and check
+`http://127.0.0.1:4173/`. Browser checks require one of these servers; catalog
+tests and builds do not. The user normally manages the local server.
+
+On Windows PowerShell, use `npm.cmd` instead of `npm` if the PowerShell wrapper
+does not forward the flags after `--` correctly.
+
+### Local book UI prototype
+
+The `release/1.1.0` book-style prototype is local only; do not push or deploy it
+without a subsequent user instruction. Its skin is scoped to Spelldle and does
+not alter `dndle-core`, the daily sequence, storage or the spell icons.
+
+Original TravelBook PNGs in `public/book-ui` are drawn with CSS nine-slice
+borders: cover 12px, pages 8px, buttons 6px, slots 4px (source pixels). Desktop
+shows a two-page spread with the 8 × 9 archive; narrow screens stack the pages.
+`sources.json` records the exact original filenames and SHA-256 hashes.
 
 ## Deploying
 
@@ -42,5 +62,11 @@ This work includes material from the System Reference Document 5.2.1 (“SRD 5.2
 Spell icons by Lorc, Delapouite, and the contributors of [Game-icons.net](https://game-icons.net/), used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 
 ## License
+
+Book UI artwork by [Crusenho Agus Hennihuno](https://crusenho.itch.io/complete-ui-book-styles-pack),
+from the Complete UI Book Styles Pack (TravelBook). Original PNGs are unmodified;
+their layout and nine-slice display are adapted for Spelldle. This artwork uses
+the creator's custom license in [public/book-ui/LICENSE.txt](public/book-ui/LICENSE.txt),
+not this repository's MIT license. The full purchased pack is not included.
 
 The original source code is available under the [MIT License](LICENSE). SRD material and icons remain subject to their respective licenses above.

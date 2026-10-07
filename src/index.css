@@ -1,11 +1,246 @@
 @import "@sirrio/dndle-core/styles.css";
 
 .spelldle-theme {
-  --header-bg: #11162a;
-  --red: #5170ff;
-  --red-dark: #263bb7;
-  --accent-hover: #3f5de8;
-  --accent-soft: #eef1ff;
-  --accent-border: #b8c3ff;
-  --accent-shadow: rgba(81, 112, 255, .2);
+  --header-bg: #493333;
+  --red: #923f49;
+  --red-dark: #632e37;
+  --accent-hover: #783942;
+  --accent-soft: #f7c993;
+  --accent-border: #ad7860;
+  --accent-shadow: rgba(99, 46, 55, .22);
+  --paper: #ffd7a8;
+  --ink: #3e2929;
+  --ink-soft: #62443a;
+  --muted: #78574a;
+  --line: #c19973;
+  --green: #356347;
+  --yellow: #87611a;
+  --gray: #655c58;
+  --book-cover: url("/book-ui/cover.png");
+  --book-left: url("/book-ui/page-left.png");
+  --book-right: url("/book-ui/page-right.png");
+  --book-button: url("/book-ui/button.png");
+  --book-button-pressed: url("/book-ui/button-pressed.png");
+  --book-slot: url("/book-ui/slot.png");
+  --book-slot-selected: url("/book-ui/slot-selected.png");
+  height: auto;
+  min-height: 100svh;
+  overflow: visible;
+  background: #e8dfcf;
+  color: var(--ink);
+}
+
+/* Original Crusenho sprites; only edges and centres stretch, never the corners. */
+body { min-width: 0; overflow: auto; background: #e8dfcf; }
+.spelldle-theme .topbar {
+  height: 90px;
+  max-width: 1600px;
+  margin: auto;
+  padding: 12px 32px;
+  background: transparent;
+  color: var(--ink);
+  border: 0;
+}
+.spelldle-theme .brand { color: var(--red-dark); }
+.spelldle-theme .brand::after {
+  content: "SPELLDLE";
+  font: 400 clamp(27px, 3vw, 40px)/1 var(--font-display);
+  letter-spacing: .06em;
+}
+.spelldle-theme .brand-rune { display: none; }
+.spelldle-theme .game-tagline { color: var(--ink-soft); border-color: var(--line); }
+.spelldle-theme .play-shell {
+  position: relative;
+  width: min(1560px, calc(100% - 40px));
+  height: max(650px, calc(100svh - 132px));
+  margin: 0 auto;
+  padding: 0;
+  gap: 6px;
+  grid-template-columns: minmax(400px, 44fr) minmax(0, 56fr);
+  border: 24px solid transparent;
+  border-image: var(--book-cover) 12 fill / 24px / 0 stretch;
+  filter: drop-shadow(0 8px 10px #49333324);
+}
+.spelldle-theme .archive-panel,
+.spelldle-theme .game-console {
+  min-height: 0;
+  border: 16px solid transparent;
+  border-image: var(--book-left) 8 fill / 16px / 0 stretch;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.spelldle-theme .game-console {
+  border-image-source: var(--book-right);
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 18px;
+  align-content: stretch;
+}
+.spelldle-theme .selection-stage,
+.spelldle-theme .results-panel {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.spelldle-theme .selection-stage {
+  grid-template-columns: 66px minmax(0, 1fr) auto;
+  gap: 12px;
+  padding: 12px 4px 18px;
+  border-bottom: 1px solid var(--line);
+}
+.spelldle-theme .selected-sigil {
+  width: 62px;
+  height: 62px;
+  color: var(--red);
+  border: 6px solid transparent;
+  border-image: var(--book-slot) 4 fill / 6px / 0 stretch;
+  background: transparent;
+  border-radius: 0;
+}
+.spelldle-theme .has-selection .selected-sigil { color: #ffdfa8; }
+.spelldle-theme .selected-copy h1 { font-size: clamp(22px, 2vw, 32px); }
+.spelldle-theme .selected-copy p { color: var(--ink-soft); font-size: 13px; }
+.spelldle-theme .section-head { padding: 8px 4px 14px; border-color: var(--line); }
+.spelldle-theme .section-head h2 { color: var(--red-dark); }
+.spelldle-theme .spell-grid { padding: 14px 0 0; gap: 5px; }
+.spelldle-theme .spell-option {
+  border: 4px solid transparent;
+  border-image: var(--book-slot) 4 fill / 4px / 0 stretch;
+  border-radius: 0;
+  padding: 3px 1px;
+  background: transparent;
+  box-shadow: none;
+}
+.spelldle-theme .option-sigil { color: #ffdfa8; }
+.spelldle-theme .spell-option strong { color: #ffe7c6; }
+.spelldle-theme .spell-option.selected {
+  border-image-source: var(--book-slot-selected);
+  background: transparent;
+  outline: 2px solid #b87b2d;
+  outline-offset: 1px;
+  box-shadow: none;
+}
+.spelldle-theme .spell-option:hover:not(:disabled):not(.locked) {
+  transform: none;
+  box-shadow: none;
+  outline: 2px solid var(--red);
+  outline-offset: 1px;
+}
+.spelldle-theme .spell-option.used { background: transparent; opacity: .6; }
+.spelldle-theme .spell-option.used strong,
+.spelldle-theme .spell-option.used .option-sigil { color: #dbc7b6; }
+.spelldle-theme .spell-option.found { outline: 2px solid var(--green); background: transparent; }
+.spelldle-theme .spell-option.found .option-sigil,
+.spelldle-theme .spell-option.found strong { color: #bce3ba; }
+.spelldle-theme .primary,
+.spelldle-theme .stats-button,
+.spelldle-theme .icon-button,
+.spelldle-theme .modal-close,
+.spelldle-theme .popup-close,
+.spelldle-theme .name-toggle,
+.spelldle-theme .attempts {
+  border: 6px solid transparent;
+  border-image: var(--book-button) 6 fill / 6px / 0 stretch;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #ffe5c2;
+}
+.spelldle-theme .primary,
+.spelldle-theme .stats-button { min-height: 48px; padding: 6px 16px; }
+.spelldle-theme .submit-guess { min-width: 100px; }
+.spelldle-theme .name-toggle { min-width: 76px; height: 40px; padding: 0 6px; }
+.spelldle-theme .name-toggle strong { color: #c4e7af; }
+.spelldle-theme .name-toggle[aria-pressed="false"] strong { color: #d3bda8; }
+.spelldle-theme .attempts span { color: #d3bda8; }
+.spelldle-theme .primary:hover:not(:disabled),
+.spelldle-theme .stats-button:hover,
+.spelldle-theme .icon-button:hover,
+.spelldle-theme .name-toggle:hover { background: transparent; filter: brightness(1.15); }
+.spelldle-theme button:not(.spell-option):active:not(:disabled) {
+  border-image-source: var(--book-button-pressed);
+  transform: none;
+}
+.spelldle-theme .primary:disabled { background: transparent; color: #c3b2a5; opacity: .65; }
+.spelldle-theme button:focus-visible,
+.spelldle-theme a:focus-visible,
+.spelldle-theme .spell-cell:focus-visible { outline: 3px solid #216586; outline-offset: 2px; }
+.spelldle-theme .results-panel { height: 100%; }
+.spelldle-theme .table-scroll { padding: 12px 0 0; overflow-y: auto; }
+.spelldle-theme .table-head { color: var(--ink-soft); }
+.spelldle-theme .rows { grid-template-rows: repeat(6, minmax(48px, 1fr)); }
+.spelldle-theme .spell-cell { background: #f5c58e; border-color: #b28b65; }
+.spelldle-theme .spell-cell.exact { background: var(--green); border-color: var(--green); }
+.spelldle-theme .empty-row span,
+.spelldle-theme .empty-row i { background: #f6ce9e; border-color: #c59d75; color: #7c5c49; }
+.spelldle-theme .spell-tooltip { background: #493333; border-color: #8f6552; color: #ffe6c6; }
+.spelldle-theme .spell-tooltip::after { background: #493333; border-color: #8f6552; }
+.spelldle-theme .site-footer { height: 42px; color: var(--ink-soft); }
+.spelldle-theme .modal,
+.spelldle-theme .result-popup {
+  border: 16px solid transparent;
+  border-image: var(--book-left) 8 fill / 16px / 0 stretch;
+  padding: 30px 24px 24px;
+  background: transparent;
+  box-shadow: 0 0 0 8px #9c4351, 0 24px 60px #20151566;
+}
+.spelldle-theme .modal-close,
+.spelldle-theme .popup-close { top: 6px; right: 6px; }
+.spelldle-theme .modal-backdrop,
+.spelldle-theme .result-backdrop { background: #211719c9; }
+.spelldle-theme .how-step,
+.spelldle-theme .modal-legend,
+.spelldle-theme .next-game { background: #f4c996; border-color: var(--line); }
+.spelldle-theme .result-popup > p { color: var(--ink-soft); }
+.spelldle-theme .reveal-sigil { background: #f2c38e; border-color: var(--line); }
+
+@media (max-width: 1100px) and (min-width: 901px) {
+  .spelldle-theme .play-shell { width: calc(100% - 20px); border-width: 18px; border-image-width: 18px; }
+  .spelldle-theme .archive-panel, .spelldle-theme .game-console { border-width: 10px; border-image-width: 10px; }
+  .spelldle-theme .selection-stage { grid-template-columns: 54px minmax(0, 1fr); }
+  .spelldle-theme .selected-sigil { width: 50px; height: 50px; }
+  .spelldle-theme .submit-guess { grid-column: 1 / -1; }
+}
+@media (max-width: 900px) {
+  .spelldle-theme .topbar { height: 76px; padding: 10px 18px; gap: 12px; }
+  .spelldle-theme .game-tagline { display: none; }
+  .spelldle-theme .play-shell {
+    width: calc(100% - 20px);
+    height: auto;
+    grid-template-columns: 1fr;
+    border-width: 14px;
+    border-image-width: 14px;
+    gap: 8px;
+  }
+  .spelldle-theme .archive-panel, .spelldle-theme .game-console { border-width: 10px; border-image-width: 10px; }
+  .spelldle-theme .spell-grid { flex: none; grid-template-columns: repeat(8, minmax(0, 1fr)); grid-template-rows: repeat(9, 64px); }
+  .spelldle-theme .game-console { grid-template-rows: auto auto; gap: 8px; }
+  .spelldle-theme .results-panel { min-height: 0; }
+  .spelldle-theme .table-scroll { overflow: visible; }
+}
+@media (max-width: 720px) {
+  .spelldle-theme .topbar { padding-inline: 12px; }
+  .spelldle-theme .brand::after { font-size: 25px; letter-spacing: .02em; }
+  .spelldle-theme .header-actions { gap: 4px; }
+  .spelldle-theme .results-button { padding: 0 6px; width: auto; }
+  .spelldle-theme .play-shell { width: calc(100% - 12px); }
+  .spelldle-theme .section-head h2 { font-size: 25px; }
+  .spelldle-theme .spell-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: none; grid-auto-rows: 72px; padding: 10px 2px 2px; gap: 6px; }
+  .spelldle-theme .spell-option { min-height: 72px; }
+  .spelldle-theme .selection-stage { grid-template-columns: 54px minmax(0, 1fr); gap: 10px; }
+  .spelldle-theme .selected-sigil { width: 50px; height: 50px; }
+  .spelldle-theme .selected-copy h1 { font-size: 23px; }
+  .spelldle-theme .submit-guess { grid-column: 1 / -1; }
+  .spelldle-theme .rows { display: block; }
+  .spelldle-theme .result-row { background: #f1c691; border-color: var(--line); }
+  .spelldle-theme .modal, .spelldle-theme .result-popup { padding: 36px 10px 18px; }
+  .spelldle-theme .result-actions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .spelldle-theme .result-actions button { min-width: 0; padding: 6px 4px; font-size: 11px; letter-spacing: .06em; }
+  .spelldle-theme .site-footer { height: auto; }
+}
+@media (max-width: 380px) {
+  .spelldle-theme .brand::after { font-size: 20px; }
+  .spelldle-theme .attempts { min-width: 48px; }
+  .spelldle-theme .results-button { font-size: 10px; }
 }
