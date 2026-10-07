@@ -70,3 +70,7 @@ the creator's custom license in [public/book-ui/LICENSE.txt](public/book-ui/LICE
 not this repository's MIT license. The full purchased pack is not included.
 
 The original source code is available under the [MIT License](LICENSE). SRD material and icons remain subject to their respective licenses above.
+
+WizardBook sprites render at an integer 2x pixel scale with nearest-neighbor
+rendering. Cover corner slices (64px display) are independent of the 24px
+layout inset, matching the original layered book construction.
