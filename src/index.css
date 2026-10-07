@@ -2,13 +2,13 @@
 
 .spelldle-theme {
   --header-bg: #493333;
-  --red: #5170ff;
-  --red-dark: #263bb7;
+  --red: #923f49;
+  --red-dark: #632e37;
   --accent-hover: #783942;
   --accent-soft: #f7c993;
   --accent-border: #ad7860;
   --accent-shadow: rgba(99, 46, 55, .22);
-  --paper: #fce5ca;
+  --paper: #ffd7a8;
   --ink: #3e2929;
   --ink-soft: #62443a;
   --muted: #78574a;
@@ -58,7 +58,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   gap: 6px;
   grid-template-columns: minmax(400px, 44fr) minmax(0, 56fr);
   border: 24px solid transparent;
-  border-image: var(--book-cover) 32 fill / 24px / 0 stretch;
+  border-image: var(--book-cover) 12 fill / 24px / 0 stretch;
   filter: drop-shadow(0 8px 10px #49333324);
 }
 .spelldle-theme .archive-panel,
@@ -66,6 +66,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   min-height: 0;
   border: 16px solid transparent;
   border-image: var(--book-left) 8 fill / 16px / 0 stretch;
+  padding-inline: 4px;
   border-radius: 0;
   background: transparent;
   box-shadow: none;
@@ -103,7 +104,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 .spelldle-theme .selected-copy p { color: var(--ink-soft); font-size: 13px; }
 .spelldle-theme .section-head { padding: 8px 4px 14px; border-color: var(--line); }
 .spelldle-theme .section-head h2 { color: var(--red-dark); }
-.spelldle-theme .spell-grid { padding: 14px 3px 18px; gap: 5px; }
+.spelldle-theme .spell-grid { padding: 14px 4px 18px; gap: 5px; }
 .spelldle-theme .spell-option {
   border: 4px solid transparent;
   border-image: var(--book-slot) 4 fill / 4px / 0 stretch;
@@ -141,19 +142,19 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 .spelldle-theme .name-toggle,
 .spelldle-theme .attempts {
   border: 6px solid transparent;
-  border-image: var(--book-button) 4 fill / 6px / 0 stretch;
+  border-image: var(--book-button) 6 fill / 6px / 0 stretch;
   border-radius: 0;
   background: transparent;
   box-shadow: none;
-  color: #252c40;
+  color: #ffe5c2;
 }
 .spelldle-theme .primary,
 .spelldle-theme .stats-button { min-height: 48px; padding: 6px 16px; }
 .spelldle-theme .submit-guess { min-width: 100px; }
 .spelldle-theme .name-toggle { min-width: 76px; height: 40px; padding: 0 6px; }
-.spelldle-theme .name-toggle strong { color: #263bb7; }
-.spelldle-theme .name-toggle[aria-pressed="false"] strong { color: #484b68; }
-.spelldle-theme .attempts span { color: #484b68; }
+.spelldle-theme .name-toggle strong { color: #c4e7af; }
+.spelldle-theme .name-toggle[aria-pressed="false"] strong { color: #d3bda8; }
+.spelldle-theme .attempts span { color: #d3bda8; }
 .spelldle-theme .primary:hover:not(:disabled),
 .spelldle-theme .stats-button:hover,
 .spelldle-theme .icon-button:hover,
@@ -162,7 +163,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   border-image-source: var(--book-button-pressed);
   transform: none;
 }
-.spelldle-theme .primary:disabled { background: transparent; color: #484b68; opacity: .65; }
+.spelldle-theme .primary:disabled { background: transparent; color: #d3bda8; opacity: .65; }
 .spelldle-theme button:focus-visible,
 .spelldle-theme a:focus-visible,
 .spelldle-theme .spell-cell:focus-visible { outline: 3px solid #216586; outline-offset: 2px; }
@@ -183,7 +184,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   border-image: var(--book-left) 8 fill / 16px / 0 stretch;
   padding: 30px 24px 24px;
   background: transparent;
-  box-shadow: 0 0 0 8px #484b68, 0 24px 60px #20151566;
+  box-shadow: 0 0 0 8px #9c4351, 0 24px 60px #20151566;
 }
 .spelldle-theme .modal-close,
 .spelldle-theme .popup-close { top: 6px; right: 6px; }
@@ -253,7 +254,9 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
     height: clamp(210px, 38svh, 350px);
     overflow-y: auto;
     overscroll-behavior-y: contain;
-    scrollbar-gutter: stable;
+    scrollbar-gutter: stable both-edges;
+    scrollbar-width: thin;
+    scrollbar-color: #ad7860 transparent;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     grid-template-rows: none;
     grid-auto-rows: 76px;
@@ -287,3 +290,4 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   .spelldle-theme .empty-row > span:first-child { width: 100%; aspect-ratio: auto; height: 36px; }
   .spelldle-theme .empty-row { height: 36px; }
 }
+.spelldle-theme .row-sigil, .spelldle-theme .reveal-sigil { color: #5170ff; }

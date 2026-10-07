@@ -1,37 +1,37 @@
 [
   {
     "file": "button-pressed.png",
-    "sha256": "66F05CB7A2092A3D0EAAEE9584A69699025938C582486A620398A83DFD64B57A",
-    "source": "02_WizardBook/Sprites Animated/UI_WizardBook_Button01a_02.png"
+    "sha256": "B3FDA8170EA4CE09CF63DA3362D41283855C9F9EB1116AB0655B896ED06F8EF9",
+    "source": "01_TravelBook/Sprites Animated/UI_TravelBook_Button01a_2.png"
   },
   {
     "file": "button.png",
-    "sha256": "B859702C028281D025EADF6449D5937F5869E146BD642FA87AF2E5EC69B327C7",
-    "source": "02_WizardBook/Sprites Animated/UI_WizardBook_Button01a_04.png"
+    "sha256": "A99437D381583D57AD763DF20D0C4365362E643D8C9052EC514B9E40ED5E7620",
+    "source": "01_TravelBook/Sprites Animated/UI_TravelBook_Button01a_4.png"
   },
   {
     "file": "cover.png",
-    "sha256": "7AFC0E95821F136FE4B62E5CE3969B46977042B28E6C5065352B748711647327",
-    "source": "02_WizardBook/Sprites/UI_WizardBook_BookCover01a.png"
+    "sha256": "F9C3CB81ECC24121E81E2FDC4A5C6649301C9762AB69C56688AAE8ECF3D4DD92",
+    "source": "01_TravelBook/Sprites/UI_TravelBook_BookCover01a.png"
   },
   {
     "file": "page-left.png",
-    "sha256": "F57A0EC5E3BEE693469013EC6DA1C77F4FC98DAE8D7EB43F0E4A1F60409A5A42",
-    "source": "02_WizardBook/Sprites/UI_WizardBook_BookPageL01a.png"
+    "sha256": "C995619CE22336AD77839E8DB7361A0172AA6C9F364F6690129389C3A97DDFB4",
+    "source": "01_TravelBook/Sprites/UI_TravelBook_BookPageLeft01a.png"
   },
   {
     "file": "page-right.png",
-    "sha256": "F2EB22296E00EDA938C2365C31B1AC87B0339DC1B38B9E61EB87E425EBCA7F65",
-    "source": "02_WizardBook/Sprites/UI_WizardBook_BookPageR01a.png"
+    "sha256": "6AA209C941F73B9CE9553FA20E5DCAF7FE8083CB30CCBC2287437AD38A398B61",
+    "source": "01_TravelBook/Sprites/UI_TravelBook_BookPageRight01a.png"
   },
   {
     "file": "slot-selected.png",
-    "sha256": "D1BE4435F7C05BBCE9EAB249E178AEF9A0AC62E8F539D7FB40FA794B8DABDDFE",
-    "source": "02_WizardBook/Sprites/UI_WizardBook_Slot01b.png"
+    "sha256": "B84CB35435C66D6A36E842B7B4AA2969ED75C8C5737E614B43D85AAC07BC2A5D",
+    "source": "01_TravelBook/Sprites/UI_TravelBook_Slot01b.png"
   },
   {
     "file": "slot.png",
-    "sha256": "8CA670C335C3B0EE57BE756BDD2A09CD6278B61DE35F00E59E9AA897D88AD48A",
-    "source": "02_WizardBook/Sprites/UI_WizardBook_Slot01a.png"
+    "sha256": "B637CA52C351D1D5CEC4A1E89271B4B511DD5B4BCFC01A5E548393542FF6BCD6",
+    "source": "01_TravelBook/Sprites/UI_TravelBook_Slot01a.png"
   }
 ]
