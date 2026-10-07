@@ -708,7 +708,7 @@
   {
     "name": "Flaming Sphere",
     "level": 2,
-    "school": "Conjuration",
+    "school": "Evocation",
     "components": [
       "V",
       "S",

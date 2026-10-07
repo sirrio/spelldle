@@ -35,6 +35,11 @@ requirements.
 
 ## Verification
 
+During coding, select only the checks and UI flows that cover the affected
+behavior. Run the complete checks and desktop/mobile matrix below in the
+explicitly authorized PR phase, following the global policy. A coordinated
+shared-core upgrade still requires the full regression coverage specified above.
+
 - Install the locked dependency set with `npm ci` when a clean installation is
   required.
 - Run `npm test` to verify catalog completeness, unique signatures, full daily
