@@ -46,8 +46,8 @@ The `release/1.1.0` book-style prototype is local only; do not push or deploy it
 without a subsequent user instruction. Its skin is scoped to Spelldle and does
 not alter `dndle-core`, the daily sequence, storage or the spell icons.
 
-Original TravelBook PNGs in `public/book-ui` are drawn with CSS nine-slice
-borders: cover 12px, pages 8px, buttons 6px, slots 4px (source pixels). Desktop
+Original WizardBook PNGs in `public/book-ui` are drawn with CSS nine-slice
+borders: cover 32px, pages 8px, buttons 4px, slots 4px (source pixels). Desktop
 shows a two-page spread with the 8 × 9 archive; narrow screens stack the pages.
 `sources.json` records the exact original filenames and SHA-256 hashes.
 
@@ -64,7 +64,7 @@ Spell icons by Lorc, Delapouite, and the contributors of [Game-icons.net](https:
 ## License
 
 Book UI artwork by [Crusenho Agus Hennihuno](https://crusenho.itch.io/complete-ui-book-styles-pack),
-from the Complete UI Book Styles Pack (TravelBook). Original PNGs are unmodified;
+from the Complete UI Book Styles Pack (WizardBook). Original PNGs are unmodified;
 their layout and nine-slice display are adapted for Spelldle. This artwork uses
 the creator's custom license in [public/book-ui/LICENSE.txt](public/book-ui/LICENSE.txt),
 not this repository's MIT license. The full purchased pack is not included.

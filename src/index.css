@@ -2,13 +2,13 @@
 
 .spelldle-theme {
   --header-bg: #493333;
-  --red: #923f49;
-  --red-dark: #632e37;
+  --red: #5170ff;
+  --red-dark: #263bb7;
   --accent-hover: #783942;
   --accent-soft: #f7c993;
   --accent-border: #ad7860;
   --accent-shadow: rgba(99, 46, 55, .22);
-  --paper: #ffd7a8;
+  --paper: #fce5ca;
   --ink: #3e2929;
   --ink-soft: #62443a;
   --muted: #78574a;
@@ -47,7 +47,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   font: 400 clamp(27px, 3vw, 40px)/1 var(--font-display);
   letter-spacing: .06em;
 }
-.spelldle-theme .brand-rune { display: none; }
+.spelldle-theme .brand-rune { display: grid; width: 42px; height: 54px; flex-shrink: 0; }
 .spelldle-theme .game-tagline { color: var(--ink-soft); border-color: var(--line); }
 .spelldle-theme .play-shell {
   position: relative;
@@ -58,7 +58,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   gap: 6px;
   grid-template-columns: minmax(400px, 44fr) minmax(0, 56fr);
   border: 24px solid transparent;
-  border-image: var(--book-cover) 12 fill / 24px / 0 stretch;
+  border-image: var(--book-cover) 32 fill / 24px / 0 stretch;
   filter: drop-shadow(0 8px 10px #49333324);
 }
 .spelldle-theme .archive-panel,
@@ -98,12 +98,12 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   background: transparent;
   border-radius: 0;
 }
-.spelldle-theme .has-selection .selected-sigil { color: #ffdfa8; }
+.spelldle-theme .has-selection .selected-sigil { color: #b8cbff; }
 .spelldle-theme .selected-copy h1 { font-size: clamp(22px, 2vw, 32px); }
 .spelldle-theme .selected-copy p { color: var(--ink-soft); font-size: 13px; }
 .spelldle-theme .section-head { padding: 8px 4px 14px; border-color: var(--line); }
 .spelldle-theme .section-head h2 { color: var(--red-dark); }
-.spelldle-theme .spell-grid { padding: 14px 0 0; gap: 5px; }
+.spelldle-theme .spell-grid { padding: 14px 3px 18px; gap: 5px; }
 .spelldle-theme .spell-option {
   border: 4px solid transparent;
   border-image: var(--book-slot) 4 fill / 4px / 0 stretch;
@@ -112,12 +112,12 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   background: transparent;
   box-shadow: none;
 }
-.spelldle-theme .option-sigil { color: #ffdfa8; }
+.spelldle-theme .option-sigil { color: #b8cbff; }
 .spelldle-theme .spell-option strong { color: #ffe7c6; }
 .spelldle-theme .spell-option.selected {
   border-image-source: var(--book-slot-selected);
   background: transparent;
-  outline: 2px solid #b87b2d;
+  outline: 2px solid #5170ff;
   outline-offset: 1px;
   box-shadow: none;
 }
@@ -141,19 +141,19 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 .spelldle-theme .name-toggle,
 .spelldle-theme .attempts {
   border: 6px solid transparent;
-  border-image: var(--book-button) 6 fill / 6px / 0 stretch;
+  border-image: var(--book-button) 4 fill / 6px / 0 stretch;
   border-radius: 0;
   background: transparent;
   box-shadow: none;
-  color: #ffe5c2;
+  color: #252c40;
 }
 .spelldle-theme .primary,
 .spelldle-theme .stats-button { min-height: 48px; padding: 6px 16px; }
 .spelldle-theme .submit-guess { min-width: 100px; }
 .spelldle-theme .name-toggle { min-width: 76px; height: 40px; padding: 0 6px; }
-.spelldle-theme .name-toggle strong { color: #c4e7af; }
-.spelldle-theme .name-toggle[aria-pressed="false"] strong { color: #d3bda8; }
-.spelldle-theme .attempts span { color: #d3bda8; }
+.spelldle-theme .name-toggle strong { color: #263bb7; }
+.spelldle-theme .name-toggle[aria-pressed="false"] strong { color: #484b68; }
+.spelldle-theme .attempts span { color: #484b68; }
 .spelldle-theme .primary:hover:not(:disabled),
 .spelldle-theme .stats-button:hover,
 .spelldle-theme .icon-button:hover,
@@ -162,7 +162,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   border-image-source: var(--book-button-pressed);
   transform: none;
 }
-.spelldle-theme .primary:disabled { background: transparent; color: #c3b2a5; opacity: .65; }
+.spelldle-theme .primary:disabled { background: transparent; color: #484b68; opacity: .65; }
 .spelldle-theme button:focus-visible,
 .spelldle-theme a:focus-visible,
 .spelldle-theme .spell-cell:focus-visible { outline: 3px solid #216586; outline-offset: 2px; }
@@ -183,7 +183,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   border-image: var(--book-left) 8 fill / 16px / 0 stretch;
   padding: 30px 24px 24px;
   background: transparent;
-  box-shadow: 0 0 0 8px #9c4351, 0 24px 60px #20151566;
+  box-shadow: 0 0 0 8px #484b68, 0 24px 60px #20151566;
 }
 .spelldle-theme .modal-close,
 .spelldle-theme .popup-close { top: 6px; right: 6px; }
@@ -243,4 +243,47 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   .spelldle-theme .brand::after { font-size: 20px; }
   .spelldle-theme .attempts { min-width: 48px; }
   .spelldle-theme .results-button { font-size: 10px; }
+}
+
+/* Keep the archive within reach of the cast controls on a small screen. */
+@media (max-width: 900px) {
+  .spelldle-theme .archive-panel { overflow: visible; }
+  .spelldle-theme .spell-grid {
+    flex: none;
+    height: clamp(210px, 38svh, 350px);
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scrollbar-gutter: stable;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: none;
+    grid-auto-rows: 76px;
+    padding: 10px 4px 18px;
+    scroll-padding-block: 10px;
+  }
+  .spelldle-theme .spell-option { min-height: 76px; }
+  .spelldle-theme .spell-option strong { font-size: 11px; height: 24px; line-height: 12px; }
+  .spelldle-theme .selection-stage { padding: 8px 4px 12px; }
+  .spelldle-theme .section-head { min-height: 52px; padding-block: 4px 8px; }
+  .spelldle-theme .game-console { gap: 4px; }
+}
+@media (max-width: 480px) {
+  .spelldle-theme .brand { gap: 6px; }
+  .spelldle-theme .brand-rune { width: 27px; height: 36px; }
+  .spelldle-theme .brand::after { font-size: 22px; }
+  .spelldle-theme .topbar { height: 64px; padding-inline: 10px; gap: 6px; flex-wrap: wrap; }
+  .spelldle-theme .header-actions { gap: 3px; }
+  .spelldle-theme .attempts { min-width: 46px; }
+  .spelldle-theme .spell-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .spelldle-theme .play-shell { border-width: 9px; border-image-width: 9px; }
+  .spelldle-theme .archive-panel, .spelldle-theme .game-console { border-width: 8px; border-image-width: 8px; }
+  .spelldle-theme .selected-copy h1 { font-size: 20px; }
+}
+@media (max-width: 380px) {
+  .spelldle-theme .brand::after { font-size: 18px; }
+  .spelldle-theme .brand-rune { width: 23px; }
+}
+
+@media (max-width: 720px) {
+  .spelldle-theme .empty-row > span:first-child { width: 100%; aspect-ratio: auto; height: 36px; }
+  .spelldle-theme .empty-row { height: 36px; }
 }
