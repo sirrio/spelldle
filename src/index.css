@@ -1,5 +1,6 @@
 @import "@sirrio/dndle-core/styles.css";
 @import "./book-layout.css";
+@import "./spell-icons.css";
 
 .spelldle-theme {
   --header-bg: #252c40;

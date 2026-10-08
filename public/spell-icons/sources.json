@@ -1,0 +1,1380 @@
+{
+  "schema_version": 1,
+  "creator": "Caio / Clockwork Raven Studios",
+  "source_root": "User's local Assets&Stock/itch.io library",
+  "scope": "Local preview of 65 audited Raven spell icons; 7 spells retain their existing Game-icons.net fallback.",
+  "license_status": "The inspected local pack notes identify the creator but contain no explicit license grant. No MIT, CC0, or CC BY license is assigned to these Raven images by this project. Publication rights have not been verified in this local-only integration.",
+  "palette_credit": "Resurrect 64 by Kerrie Lake, as credited in the included pack palette notes.",
+  "mapping_notes": "Visually checked Clockwork Raven skill packs 05,07,08,09,22,29,36, plus specific utility crops supplied and visually verified by root from pack12,27 and Pets/Animals. Conservative semantic proposal, not official spell names. Missing means no sufficiently clear verified candidate in inspected packs, not proof of absence in entire assets library. Color variants do not count as new motifs.",
+  "counts": {
+    "direct": 22,
+    "metaphor": 43,
+    "existing_svg_fallback": 7
+  },
+  "assets": [
+    {
+      "spell": "Acid Arrow",
+      "file": "acid-arrow.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile025.png",
+      "crop_xywh": null,
+      "source_sha256": "30b0e82ebe3d3326649d8e50cebb3d048c8f7917d62dc0ff17269abd59d59ccc",
+      "sha256": "30b0e82ebe3d3326649d8e50cebb3d048c8f7917d62dc0ff17269abd59d59ccc",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Green arrow-shaped magical projectile",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Aid",
+      "file": "aid.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S19.png",
+      "crop_xywh": null,
+      "source_sha256": "ab7c81b7d4cfc998dad4fd28fc5a0b9e37b8f8553e8b0d78e0ac6844640fc1c5",
+      "sha256": "ab7c81b7d4cfc998dad4fd28fc5a0b9e37b8f8553e8b0d78e0ac6844640fc1c5",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Heart with upward arrow; generic vitality increase",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Sleep",
+      "file": "sleep.png",
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/15.png",
+      "crop_xywh": null,
+      "source_sha256": "2c44baf2e21ae69b8540fb7c1ce861a462b5fe6323a1e80fec949ed1e94fbc15",
+      "sha256": "2c44baf2e21ae69b8540fb7c1ce861a462b5fe6323a1e80fec949ed1e94fbc15",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Floating Z sleep sign",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Bless",
+      "file": "bless.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S30.png",
+      "crop_xywh": null,
+      "source_sha256": "0a89f6ee2c8aed069ccbe454bab911bf29c3a2f27a4cc8d1d0bbb36d7ca30b74",
+      "sha256": "0a89f6ee2c8aed069ccbe454bab911bf29c3a2f27a4cc8d1d0bbb36d7ca30b74",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Holy cross with increase arrow",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Burning Hands",
+      "file": "burning-hands.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S359.png",
+      "crop_xywh": null,
+      "source_sha256": "439ae34cf27476c5eba1a2a49c080a864ed7335b7488ff1a20f0eb258ad1eb92",
+      "sha256": "439ae34cf27476c5eba1a2a49c080a864ed7335b7488ff1a20f0eb258ad1eb92",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Golden energy around a humanoid; does not specifically show flaming hands",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Charm Person",
+      "file": "charm-person.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S412.png",
+      "crop_xywh": null,
+      "source_sha256": "31c67d7077dbd95c24c3acd389395a0fdcfdf000b8e684325049337d70759728",
+      "sha256": "31c67d7077dbd95c24c3acd389395a0fdcfdf000b8e684325049337d70759728",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Pink heart; charm or affection symbol",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Comprehend Languages",
+      "file": "comprehend-languages.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        288,
+        128,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "b40e1d59aef230ebf4a2d7ee359d3f8d17d29d5bc929e59d39df1adff858c968",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Written scroll; language and reading rather than comprehension",
+      "transformation": "exact pixel crop; no resizing or recoloring"
+    },
+    {
+      "spell": "Cure Wounds",
+      "file": "cure-wounds.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S103.png",
+      "crop_xywh": null,
+      "source_sha256": "114418bd099d4a64c0622289623ae4a2b70a93f35a438215dca63d4ef3752f94",
+      "sha256": "114418bd099d4a64c0622289623ae4a2b70a93f35a438215dca63d4ef3752f94",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Green healing cross",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Detect Magic",
+      "file": "detect-magic.png",
+      "source_relative_to_itch_io": "Clockwork Raven/05 - Raven Fantasy - Pixel Art RPG Icons - Wizard Skills/Files/Original/16/26.png",
+      "crop_xywh": null,
+      "source_sha256": "87500f278d206072ed8bf4a639c0ca464ee3f2b231039aee4764e3ab7fa88c69",
+      "sha256": "87500f278d206072ed8bf4a639c0ca464ee3f2b231039aee4764e3ab7fa88c69",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Arcane sight or reticle symbol",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Disguise Self",
+      "file": "disguise-self.png",
+      "source_relative_to_itch_io": "Clockwork Raven/27 - RPG Icon Pack - 110+ Fantasy Masks/Files/Without/64x64.png",
+      "crop_xywh": [
+        128,
+        0,
+        64,
+        64
+      ],
+      "source_sha256": "d1bb60db0838c0ef41ecdc066763746f37ac4f544b1fe48084812da074c815fe",
+      "sha256": "5871f45413e2816e42e8212ee512602b5f150e6f7a4b5abf6c00a3273da5a295",
+      "source_dimensions": [
+        1024,
+        448
+      ],
+      "dimensions": [
+        64,
+        64
+      ],
+      "confidence": "metaphor",
+      "note": "Mask; disguise by association",
+      "transformation": "exact pixel crop; no resizing or recoloring"
+    },
+    {
+      "spell": "Feather Fall",
+      "file": "feather-fall.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        224,
+        256,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "c2ee826003761747c0b8680467eee82ece6a9168c5abdc37115784235a1f2e1a",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Writing quill; feather association, falling not shown",
+      "transformation": "exact pixel crop; no resizing or recoloring"
+    },
+    {
+      "spell": "Find Familiar",
+      "file": "find-familiar.png",
+      "source_relative_to_itch_io": "Clockwork Raven/Raven Fantasy - Pixel Art RPG Icons - Pets and Animals/Files/Original/32/spritesheet32.png",
+      "crop_xywh": [
+        224,
+        32,
+        32,
+        32
+      ],
+      "source_sha256": "69fa491a5de33df81f3fbdf7e43d7a73cb75c2fd51922ca8a0fdb779dfaff1f9",
+      "sha256": "14665ef1437bb8494fdedcc7fc37d0c16de293aefff7925bc700e1c0940a1359",
+      "source_dimensions": [
+        512,
+        192
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Cat; one possible familiar animal, no summoning effect",
+      "transformation": "exact pixel crop; no resizing or recoloring"
+    },
+    {
+      "spell": "Fireball",
+      "file": "fireball.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S283.png",
+      "crop_xywh": null,
+      "source_sha256": "15c9fa09197ca224cac31728dd21b85d3971bc220e1968b933ce30ab4c7bb1bf",
+      "sha256": "15c9fa09197ca224cac31728dd21b85d3971bc220e1968b933ce30ab4c7bb1bf",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Orange fireball with trail",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Fly",
+      "file": "fly.png",
+      "source_relative_to_itch_io": "Clockwork Raven/08 - Raven Fantasy - Pixel Art RPG Icons - Rogue Skills/Files/Original/16/143.png",
+      "crop_xywh": null,
+      "source_sha256": "f763ab4101e2a61a8e3cc1291cc864f9a63f34bd9cdd5448e103900a29c8bc56",
+      "sha256": "f763ab4101e2a61a8e3cc1291cc864f9a63f34bd9cdd5448e103900a29c8bc56",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Pair of wings",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Fog Cloud",
+      "file": "fog-cloud.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S261.png",
+      "crop_xywh": null,
+      "source_sha256": "49ae1e15ac5ab21b1c7acdff8d78e9bd8c3bdbc4b69a8a82f67df74015a2a83e",
+      "sha256": "49ae1e15ac5ab21b1c7acdff8d78e9bd8c3bdbc4b69a8a82f67df74015a2a83e",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Purple swirling cloud; could read as smoke or storm",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Guidance",
+      "file": "guidance.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S439.png",
+      "crop_xywh": null,
+      "source_sha256": "c81732820ccb40d8df1e34c8c50f7d7c06b8aa36116c7b89d30ee70a99a9dc08",
+      "sha256": "c81732820ccb40d8df1e34c8c50f7d7c06b8aa36116c7b89d30ee70a99a9dc08",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Bright directional beam; generic divine guidance",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Healing Word",
+      "file": "healing-word.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S418.png",
+      "crop_xywh": null,
+      "source_sha256": "a66dde35f262eb4b4bc222dac8804ceb47fba4c37a4fe36e5ef9d894ad3b7dba",
+      "sha256": "a66dde35f262eb4b4bc222dac8804ceb47fba4c37a4fe36e5ef9d894ad3b7dba",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Green linked or circling heart motif; healing without speech",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Identify",
+      "file": "identify.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S296.png",
+      "crop_xywh": null,
+      "source_sha256": "79341499039976f784a2d408250ecb39483008770c26efc0607df4b2fbe37ef1",
+      "sha256": "79341499039976f784a2d408250ecb39483008770c26efc0607df4b2fbe37ef1",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Arcane diamond with central eye or focus",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Invisibility",
+      "file": "invisibility.png",
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/623.png",
+      "crop_xywh": null,
+      "source_sha256": "0c55a01beccd84a883c40897e6c0f9327c3d128a5e03b12f5ac6602a99570264",
+      "sha256": "0c55a01beccd84a883c40897e6c0f9327c3d128a5e03b12f5ac6602a99570264",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Dark figure within pale beam; ambiguous phasing silhouette",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Knock",
+      "file": "knock.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        256,
+        64,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "35c013ab2a4a7fcafc4f3d3368ff35efbeadbe3d303305efcac04359a3b3631d",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Key; magical unlocking by association",
+      "transformation": "exact pixel crop; no resizing or recoloring"
+    },
+    {
+      "spell": "Light",
+      "file": "light.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S287.png",
+      "crop_xywh": null,
+      "source_sha256": "0d4bf6b1b52a6b5543e66e89807e31e7d191ab4fb7a35b93676166ebc262bbd6",
+      "sha256": "0d4bf6b1b52a6b5543e66e89807e31e7d191ab4fb7a35b93676166ebc262bbd6",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Bright radiating sun or light burst",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Mage Armor",
+      "file": "mage-armor.png",
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/130.png",
+      "crop_xywh": null,
+      "source_sha256": "16015171af160f4ab40a2ae00426d6831c453855192dcefa02b8d16558a1c29e",
+      "sha256": "16015171af160f4ab40a2ae00426d6831c453855192dcefa02b8d16558a1c29e",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Blue luminous torso armor",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Mage Hand",
+      "file": "mage-hand.png",
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/741.png",
+      "crop_xywh": null,
+      "source_sha256": "5bcd269e34abb0e29cb78f8ff50a1a0aa24c4a6ac2ae0f4d5ef85af02d1ed041",
+      "sha256": "5bcd269e34abb0e29cb78f8ff50a1a0aa24c4a6ac2ae0f4d5ef85af02d1ed041",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Blue pointing hand; physical cursor-like hand rather than a spectral hand",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Magic Missile",
+      "file": "magic-missile.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S258.png",
+      "crop_xywh": null,
+      "source_sha256": "442730d094dde02032ad10bb675dff8f3d7cb8dee15aadf637c1e66e8168adef",
+      "sha256": "442730d094dde02032ad10bb675dff8f3d7cb8dee15aadf637c1e66e8168adef",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Three purple magical projectiles",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Mending",
+      "file": "mending.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        416,
+        288,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "d96f19bc333b7ffb99412a91c7a683a4547e017b056c26194154e498c79d105a",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Hammer; repair by association",
+      "transformation": "exact pixel crop; no resizing or recoloring"
+    },
+    {
+      "spell": "Misty Step",
+      "file": "misty-step.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S425.png",
+      "crop_xywh": null,
+      "source_sha256": "4628020fb10ae1f96994973763faea68fc426bc8d9cd9b5e156c6683f75d1ebd",
+      "sha256": "4628020fb10ae1f96994973763faea68fc426bc8d9cd9b5e156c6683f75d1ebd",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Blue motion swirl; teleport by association",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Prestidigitation",
+      "file": "prestidigitation.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile325.png",
+      "crop_xywh": null,
+      "source_sha256": "886bd31ceaf90bd7eb549556e652ba09b8ab8efb00cc752b92f708364219dec1",
+      "sha256": "886bd31ceaf90bd7eb549556e652ba09b8ab8efb00cc752b92f708364219dec1",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Small golden sparks; generic minor magical effect",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Revivify",
+      "file": "revivify.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S530.png",
+      "crop_xywh": null,
+      "source_sha256": "bd387022f5bc6479614434503629b7e02dee84388baaeefcdf387b5ceff40bdf",
+      "sha256": "bd387022f5bc6479614434503629b7e02dee84388baaeefcdf387b5ceff40bdf",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Green person with upward arrow; restoration of life by association",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Shield",
+      "file": "shield.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S521.png",
+      "crop_xywh": null,
+      "source_sha256": "54ebf632973d11d11ddca153a3f7f93a171f4f3d1347180d8a9da167d79aedf1",
+      "sha256": "54ebf632973d11d11ddca153a3f7f93a171f4f3d1347180d8a9da167d79aedf1",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Purple magical shield",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Animate Dead",
+      "file": "animate-dead.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S496.png",
+      "crop_xywh": null,
+      "source_sha256": "e78e17951dc100b908d917b320f147b0ac3133ac8a134c500918e7aae9d9b22d",
+      "sha256": "e78e17951dc100b908d917b320f147b0ac3133ac8a134c500918e7aae9d9b22d",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Green skull; undeath without explicit animation",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Arcane Eye",
+      "file": "arcane-eye.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S381.png",
+      "crop_xywh": null,
+      "source_sha256": "307d428a8ca199e6c0973592c03a916cc125e81482302f0facc86428724d83f1",
+      "sha256": "307d428a8ca199e6c0973592c03a916cc125e81482302f0facc86428724d83f1",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Purple floating eye",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Arcane Lock",
+      "file": "arcane-lock.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S447.png",
+      "crop_xywh": null,
+      "source_sha256": "1855cbc92067f2765b3c360239252b5533e26512bea1ccbb68295df50cfc51a7",
+      "sha256": "1855cbc92067f2765b3c360239252b5533e26512bea1ccbb68295df50cfc51a7",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Fiery padlock; magical lock but orange flame emphasis",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Augury",
+      "file": "augury.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S12.png",
+      "crop_xywh": null,
+      "source_sha256": "2801ae60913644fa2d09a716e309e949f11e9e40c74c49a4a5da5b0e82217b79",
+      "sha256": "2801ae60913644fa2d09a716e309e949f11e9e40c74c49a4a5da5b0e82217b79",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Four-leaf clover; luck or omen association",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Web",
+      "file": "web.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S341.png",
+      "crop_xywh": null,
+      "source_sha256": "a83754eaa4a26a76059d853b856f4a2a0c06e732e5b542aa54fa8b01fc63c1e9",
+      "sha256": "a83754eaa4a26a76059d853b856f4a2a0c06e732e5b542aa54fa8b01fc63c1e9",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Pale blue spiderweb",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Beacon of Hope",
+      "file": "beacon-of-hope.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S441.png",
+      "crop_xywh": null,
+      "source_sha256": "73eba667583f9abd6517288ae7588ba4408b3b64861df06d71a8adcfdb0004bc",
+      "sha256": "73eba667583f9abd6517288ae7588ba4408b3b64861df06d71a8adcfdb0004bc",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Golden vertical light beacon; hope not explicit",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Blur",
+      "file": "blur.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S386.png",
+      "crop_xywh": null,
+      "source_sha256": "80f1c9bab17570818bb051bb28247fd7719780b1a5114d1e8d796d1769def3d4",
+      "sha256": "80f1c9bab17570818bb051bb28247fd7719780b1a5114d1e8d796d1769def3d4",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Red streaked motion; visual blur metaphor, no humanoid shown",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Clairvoyance",
+      "file": "clairvoyance.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S309.png",
+      "crop_xywh": null,
+      "source_sha256": "420d5d2a9ab402d30e4be39ae6ab18345443c48ff1ab7e322a8440092a9059a9",
+      "sha256": "420d5d2a9ab402d30e4be39ae6ab18345443c48ff1ab7e322a8440092a9059a9",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Blue arcane eye in geometric border",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Continual Flame",
+      "file": "continual-flame.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile000.png",
+      "crop_xywh": null,
+      "source_sha256": "a5cdfc2a7d61de8532158546830e8531b33f677edf30279e42b3518e8d67a6b9",
+      "sha256": "a5cdfc2a7d61de8532158546830e8531b33f677edf30279e42b3518e8d67a6b9",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Persistent-looking single orange flame; duration itself not pictured",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Counterspell",
+      "file": "counterspell.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S8.png",
+      "crop_xywh": null,
+      "source_sha256": "377221b55dae66c72891e647ce042a8406e6aff179867e5d84567fdaefe18c59",
+      "sha256": "377221b55dae66c72891e647ce042a8406e6aff179867e5d84567fdaefe18c59",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Shield; generic magical negation is not explicit",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Darkness",
+      "file": "darkness.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S271.png",
+      "crop_xywh": null,
+      "source_sha256": "b94f31dc5592382ddeb906507d727e57fffa613387564a45bfd37f9e0203961a",
+      "sha256": "b94f31dc5592382ddeb906507d727e57fffa613387564a45bfd37f9e0203961a",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Nearly black swirling disk; low contrast on dark slots",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Darkvision",
+      "file": "darkvision.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S387.png",
+      "crop_xywh": null,
+      "source_sha256": "c7260e88ec49171221be1457b04db1888d6774b82005f490ac9f601912f76372",
+      "sha256": "c7260e88ec49171221be1457b04db1888d6774b82005f490ac9f601912f76372",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Red eye; supernatural vision but not necessarily darkvision",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Daylight",
+      "file": "daylight.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile143.png",
+      "crop_xywh": null,
+      "source_sha256": "529c0d329e6484521cd69018cc05b8378e9950291d872fa05eff63b03b33890c",
+      "sha256": "529c0d329e6484521cd69018cc05b8378e9950291d872fa05eff63b03b33890c",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Bright golden sun disk",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Enhance Ability",
+      "file": "enhance-ability.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S17.png",
+      "crop_xywh": null,
+      "source_sha256": "29f5157f1f5beefe90407f140b0b81f2c2379af7cb876e59d26bc15749a634a6",
+      "sha256": "29f5157f1f5beefe90407f140b0b81f2c2379af7cb876e59d26bc15749a634a6",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Arm muscle with increase arrow",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Enlarge/Reduce",
+      "file": "enlarge-reduce.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S529.png",
+      "crop_xywh": null,
+      "source_sha256": "a9799553c8bbf71ab13f30f45be612db370012f5d848178dd7b801df8118972a",
+      "sha256": "a9799553c8bbf71ab13f30f45be612db370012f5d848178dd7b801df8118972a",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Small person with large up arrow; enlargement only, not reduction",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Entangle",
+      "file": "entangle.png",
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/38.png",
+      "crop_xywh": null,
+      "source_sha256": "7409081877993a1bef7a6e84518426d57013006cba77a450979059a6ac3f6d6a",
+      "sha256": "7409081877993a1bef7a6e84518426d57013006cba77a450979059a6ac3f6d6a",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Green vines covering a figure",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Expeditious Retreat",
+      "file": "expeditious-retreat.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S546.png",
+      "crop_xywh": null,
+      "source_sha256": "8cfc8280f3ceb5fa52a13c636d1ebf00b9756d97d07861d718f7a56cfeec7c1f",
+      "sha256": "8cfc8280f3ceb5fa52a13c636d1ebf00b9756d97d07861d718f7a56cfeec7c1f",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Green running person; quick movement without retreat nuance",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Faerie Fire",
+      "file": "faerie-fire.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S440.png",
+      "crop_xywh": null,
+      "source_sha256": "cd66c792270f0d9f36ac6871a9d84ebd3c06248016fad6ce61c8e1b744ead4b5",
+      "sha256": "cd66c792270f0d9f36ac6871a9d84ebd3c06248016fad6ce61c8e1b744ead4b5",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Golden four-part magical burst; revealing outlined targets not explicit",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "False Life",
+      "file": "false-life.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S407.png",
+      "crop_xywh": null,
+      "source_sha256": "418639256956854a426ab7a391344e7bebc40cf40c3db1e6a87461a6b4ffc114",
+      "sha256": "418639256956854a426ab7a391344e7bebc40cf40c3db1e6a87461a6b4ffc114",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Two red hearts; temporary health association",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Flaming Sphere",
+      "file": "flaming-sphere.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S403.png",
+      "crop_xywh": null,
+      "source_sha256": "e2eefd5ae93e0dba65c5f1337e9a439ac88f4bc39160715195c13c37587a5fc0",
+      "sha256": "e2eefd5ae93e0dba65c5f1337e9a439ac88f4bc39160715195c13c37587a5fc0",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Round orange flaming orb",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Gentle Repose",
+      "file": "gentle-repose.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        32,
+        320,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "1e85bda73d1cacb2413bcf4226e153dc518f8ee6784fed208ea1174c6bcccbf0",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Stone tomb; burial/rest association",
+      "transformation": "exact pixel crop; no resizing or recoloring"
+    },
+    {
+      "spell": "Grease",
+      "file": "grease.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        256,
+        288,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "89cabf393064d0af276fe4095e6ebe79c53fe87067a30bd98208e2a89d2601d8",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Bottle; weak oil association, contents unidentified",
+      "transformation": "exact pixel crop; no resizing or recoloring"
+    },
+    {
+      "spell": "Hold Person",
+      "file": "hold-person.png",
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/9.png",
+      "crop_xywh": null,
+      "source_sha256": "aedaeae9a6f3b2636b861c7cff4a957ad4ac802b52f670683a7110118c122082",
+      "sha256": "aedaeae9a6f3b2636b861c7cff4a957ad4ac802b52f670683a7110118c122082",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Humanoid enclosed by golden vertical bars",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Jump",
+      "file": "jump.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S2.png",
+      "crop_xywh": null,
+      "source_sha256": "05ac113a67bd7758a3b64bb1caadc7e7dc9a1223c3704ae45089a6318d7b2509",
+      "sha256": "05ac113a67bd7758a3b64bb1caadc7e7dc9a1223c3704ae45089a6318d7b2509",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Leg/foot attribute; jumping only by association",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Lesser Restoration",
+      "file": "lesser-restoration.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S104.png",
+      "crop_xywh": null,
+      "source_sha256": "475e20c412e94c1c3b431db210e17916182a9b682892bf3fa98f6647dbac21ca",
+      "sha256": "475e20c412e94c1c3b431db210e17916182a9b682892bf3fa98f6647dbac21ca",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Radiant healing cross; condition removal not explicit",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Levitate",
+      "file": "levitate.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S538.png",
+      "crop_xywh": null,
+      "source_sha256": "8b23833e1774ad9b6b3d4925729c0ff2598760c5a7c4e7f17b83c4251608760d",
+      "sha256": "8b23833e1774ad9b6b3d4925729c0ff2598760c5a7c4e7f17b83c4251608760d",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Blue person below an upward arrow",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Locate Object",
+      "file": "locate-object.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S140.png",
+      "crop_xywh": null,
+      "source_sha256": "f437835dbcfbdd11ad672e2cc8a46ecd54eb695928dd6393b9f59107ae5eb26b",
+      "sha256": "f437835dbcfbdd11ad672e2cc8a46ecd54eb695928dd6393b9f59107ae5eb26b",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Purple target reticle; search without explicit object",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Magic Weapon",
+      "file": "magic-weapon.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S16.png",
+      "crop_xywh": null,
+      "source_sha256": "385a8806e10000c7c3ba87e19b8eb982b85e1fb99a30a7a76fdb059b75ba4f6a",
+      "sha256": "385a8806e10000c7c3ba87e19b8eb982b85e1fb99a30a7a76fdb059b75ba4f6a",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Sword with magical golden sparkle",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Mirror Image",
+      "file": "mirror-image.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        0,
+        352,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "84031eff43ec2929e560317fc9a6c2242b3363f9916ebad28b184da44def2079",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Hand mirror; reflection rather than magical duplicates",
+      "transformation": "exact pixel crop; no resizing or recoloring"
+    },
+    {
+      "spell": "Pass without Trace",
+      "file": "pass-without-trace.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S555.png",
+      "crop_xywh": null,
+      "source_sha256": "f0a9aa085dfe77d16ee97df2022a72c4a89bee643cd567ae213fa0e72fe35660",
+      "sha256": "f0a9aa085dfe77d16ee97df2022a72c4a89bee643cd567ae213fa0e72fe35660",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Blue running figure; stealth or absent tracks not explicit",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Prayer of Healing",
+      "file": "prayer-of-healing.png",
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/Original/16/32.png",
+      "crop_xywh": null,
+      "source_sha256": "e75c2870d2d74bdb17b24e626412fb1ad3b72549bf4da06879c664691fad0436",
+      "sha256": "e75c2870d2d74bdb17b24e626412fb1ad3b72549bf4da06879c664691fad0436",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Praying hands; healing context must come from label",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Protection from Poison",
+      "file": "protection-from-poison.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S519.png",
+      "crop_xywh": null,
+      "source_sha256": "e94767091613a5577566a7b94d626bd1642a802ff9ffe01d1ac166dd5606e068",
+      "sha256": "e94767091613a5577566a7b94d626bd1642a802ff9ffe01d1ac166dd5606e068",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Green shield; poison protection through color association",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Ray of Enfeeblement",
+      "file": "ray-of-enfeeblement.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile232.png",
+      "crop_xywh": null,
+      "source_sha256": "15ccd6e60d1cc6221aa2948170e971a876313235d662a5412be68ef075d6f848",
+      "sha256": "15ccd6e60d1cc6221aa2948170e971a876313235d662a5412be68ef075d6f848",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Dark purple magical projectile; weakness not explicit",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Scorching Ray",
+      "file": "scorching-ray.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile008.png",
+      "crop_xywh": null,
+      "source_sha256": "1d043590d0a712e717dc2c9cd90c0b63b4879291c3c66e92ba5ebed711dc9721",
+      "sha256": "1d043590d0a712e717dc2c9cd90c0b63b4879291c3c66e92ba5ebed711dc9721",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Elongated orange fire ray",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "See Invisibility",
+      "file": "see-invisibility.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S405.png",
+      "crop_xywh": null,
+      "source_sha256": "b802f9ebe2f329170865e10c73f7a3fdc33648069137e31aeafe58eebc762387",
+      "sha256": "b802f9ebe2f329170865e10c73f7a3fdc33648069137e31aeafe58eebc762387",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Golden eye; perception without explicit invisible target",
+      "transformation": "original file copied byte for byte"
+    },
+    {
+      "spell": "Shatter",
+      "file": "shatter.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S187.png",
+      "crop_xywh": null,
+      "source_sha256": "0c2414fca6c2a5a947c6232067f95a45619c76189bd9f96d69a1b76c54db2ca7",
+      "sha256": "0c2414fca6c2a5a947c6232067f95a45619c76189bd9f96d69a1b76c54db2ca7",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Scattered golden fragments",
+      "transformation": "original file copied byte for byte"
+    }
+  ],
+  "fallbacks": [
+    {
+      "spell": "Alarm",
+      "note": "No sufficiently clear bell or alarm motif verified in inspected skill packs"
+    },
+    {
+      "spell": "Blindness/Deafness",
+      "note": "No clear blinded eye or deafness motif verified; ordinary eye is not adequate"
+    },
+    {
+      "spell": "Command",
+      "note": "No sufficiently clear command or spoken-order symbol verified"
+    },
+    {
+      "spell": "Create Food and Water",
+      "note": "No food plus water candidate in inspected skill packs; item packs require separate review"
+    },
+    {
+      "spell": "Dispel Magic",
+      "note": "No clear removal or cancellation of magic candidate verified"
+    },
+    {
+      "spell": "Magic Mouth",
+      "note": "No literal mouth motif verified"
+    },
+    {
+      "spell": "Alter Self",
+      "note": "No convincing transformation or changed-body motif verified"
+    }
+  ],
+  "source_notes": [
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/05 - Raven Fantasy - Pixel Art RPG Icons - Wizard Skills/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/05 - Raven Fantasy - Pixel Art RPG Icons - Wizard Skills/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/08 - Raven Fantasy - Pixel Art RPG Icons - Rogue Skills/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/08 - Raven Fantasy - Pixel Art RPG Icons - Rogue Skills/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/Read me, please!.txt",
+      "sha256": "f5711cab6bb52e3c6bfccbc21fe64971e9a9b83b2c4271b16b2e524e904b5836"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/27 - RPG Icon Pack - 110+ Fantasy Masks/Files/A Note to the Dev.txt",
+      "sha256": "223deee13d5bcd10379edbbd793c86159c9f4c53494c29648fb766c729ff042f"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/Raven Fantasy - Pixel Art RPG Icons - Pets and Animals/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    }
+  ]
+}
