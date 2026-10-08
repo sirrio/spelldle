@@ -83,11 +83,11 @@ export const SPELLDLE_CONFIG: DndleConfig<Spell> = {
   failureKicker: "THE ARCANE ARCHIVE CLOSES",
   nextLabel: "NEXT SPELL IN",
   shareQuestion: "Which spell is hidden in the Arcane Archive today?",
-  shareUrl: "https://sirrio.github.io/spelldle/?share=1",
+  shareUrl: "https://spelldle.com/?share=1",
   shareAction: "Find out here!",
   relatedGame: {
     prompt: "Or hunt monsters instead?",
-    url: "https://sirrio.github.io/critterdle/",
+    url: "https://critterdle.com/",
   },
   resultSummary: (spell) => `${levelLabel(spell.level)} · ${spell.school} · ${spell.range} · ${displayDuration(spell.duration)}`,
   renderIcon: (spell) => <SpellIcon spell={spell} />,

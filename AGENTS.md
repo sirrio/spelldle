@@ -54,7 +54,17 @@ shared-core upgrade still requires the full regression coverage specified above.
 
 ## Deployment and release
 
-- GitHub Pages serves production at `https://sirrio.github.io/spelldle/`.
+- The intended GitHub Pages production URL is `https://spelldle.com/`, with
+  `www.spelldle.com` redirecting there. Domain support is prepared locally;
+  the existing deployment remains at `https://sirrio.github.io/spelldle/`
+  until the coordinated domain cutover. Check live DNS and Pages settings
+  before treating the custom domain as active.
+- Keep Vite's relative `base: "./"` so the same build works at the domain root
+  and the legacy repository path. This Actions deployment does not need a
+  `CNAME` file; configure the custom domain in the repository's Pages settings.
+- Keep share links, sibling-game links, canonical URL and social image URLs
+  aligned with the production domains. Preserve the storage namespace: changing
+  origins does not delete old localStorage, but cannot automatically transfer it.
 - `.github/workflows/deploy.yml` builds, tests, and deploys every push to `main`.
   Approving a pull-request merge therefore also approves the production
   deployment and must state both actions explicitly.
