@@ -69,7 +69,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 :is(.spelldle-theme, .critterdle-theme) .results-panel { height: 100%; min-height: 0; }
 :is(.spelldle-theme, .critterdle-theme) .results-head { min-height: 40px; padding-bottom: 8px; }
 :is(.spelldle-theme, .critterdle-theme) .results-empty { max-width: 36ch; margin: 14px 4px; padding: 0; color: var(--ink-soft); font-size: 15px; line-height: 1.45; }
-:is(.spelldle-theme, .critterdle-theme) .guesses-remaining { margin: 0; padding: 8px 4px 2px; align-self: end; color: var(--ink-soft); font-size: 14px; line-height: 1.4; text-align: center; }
+:is(.spelldle-theme, .critterdle-theme) .guesses-remaining { margin: 0; padding: 8px 4px 2px; align-self: end; color: var(--ink-soft); font-size: 20px; font-weight: 600; line-height: 1.4; text-align: center; }
 :is(.spelldle-theme, .critterdle-theme) .table-scroll { padding: 12px 0 0; overflow-y: auto; }
 :is(.spelldle-theme, .critterdle-theme) :is(.table-head, .result-row) { grid-template-columns: var(--trait-columns); }
 :is(.spelldle-theme, .critterdle-theme) .table-head { color: var(--ink-soft); }
