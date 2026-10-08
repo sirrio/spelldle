@@ -96,14 +96,8 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 :is(.spelldle-theme, .critterdle-theme) .reveal-sigil { background: var(--panel-tint); border-color: var(--line); }
 :is(.spelldle-theme, .critterdle-theme) .result-actions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 :is(.spelldle-theme, .critterdle-theme) .result-actions button { min-width: 0; padding-inline: 4px; }
-@media (max-width: 1100px) and (min-width: 901px) {
-  :is(.spelldle-theme, .critterdle-theme) .play-shell { width: calc(100% - 20px); grid-template-columns: minmax(400px, 1fr) minmax(0, 1fr); }
-  :is(.spelldle-theme, .critterdle-theme) .selection-stage { grid-template-columns: 54px minmax(0, 1fr); }
-  :is(.spelldle-theme, .critterdle-theme) .selected-sigil { width: 50px; height: 50px; }
-  :is(.spelldle-theme, .critterdle-theme) .submit-guess { grid-column: 1 / -1; }
-  :is(.spelldle-theme, .critterdle-theme) .spell-option strong { font-size: 9px; }
-}
-@media (max-width: 900px) {
+
+@media (max-width: 1100px) {
   :is(.spelldle-theme, .critterdle-theme) .topbar { height: 76px; padding: 10px 18px; gap: 12px; }
   :is(.spelldle-theme, .critterdle-theme) .game-tagline { display: none; }
   :is(.spelldle-theme, .critterdle-theme) .play-shell { width: calc(100% - 12px); height: auto; grid-template-columns: 1fr; border-width: 20px; gap: 12px; }
@@ -122,6 +116,9 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   :is(.spelldle-theme, .critterdle-theme) .game-console { grid-template-rows: auto auto auto; gap: 4px; }
   :is(.spelldle-theme, .critterdle-theme) .table-scroll { overflow: visible; }
   :is(.spelldle-theme, .critterdle-theme) .site-footer { height: auto; padding: 14px 8px 18px; }
+}
+@media (min-width: 721px) and (max-width: 1100px) {
+  :is(.spelldle-theme, .critterdle-theme) .spell-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 }
 @media (max-width: 720px) {
   :is(.spelldle-theme, .critterdle-theme) .topbar { padding-inline: 12px; }

@@ -111,7 +111,7 @@ Until a coordinated core release, keep the two local copies in sync. The
 project-specific `src/index.css` contains only palette and original sprite
 metrics and stylesheet imports; `src/spell-icons.css` handles Spelldle's pixel
 icon sizing. Both games use the same page sizes, content insets, controls,
-84px mobile cards and 4/3/2-column mobile breakpoints. Sprite pixels render at
+84px mobile cards and 6/4/3/2-column narrow-screen breakpoints. Sprite pixels render at
 2x; corner painting is independent of layout spacing. Modal padding is explicit.
 Used entries remain legible and the found entry retains full opacity.
 Button labels move with the original pressed artwork without shifting hit areas.
