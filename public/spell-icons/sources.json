@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "creator": "Caio / Clockwork Raven Studios (64 icons); Franuka (8 icons)",
+  "creator": "Caio / Clockwork Raven Studios (63 icons); Franuka (9 icons)",
   "source_root": "User's local Assets&Stock/itch.io library",
-  "scope": "Local preview of all 72 spells: 64 Clockwork Raven icons and 8 Franuka icons, including twelve individually selected replacement motifs. Existing Game-icons.net SVGs remain available only as image-load error fallbacks.",
-  "license_status": "Franuka's 8 icons are CC BY 4.0 according to the bundled original License and index.txt. The inspected Raven pack notes contain no explicit license grant; publication rights for the 64 Raven images remain unverified. These third-party images are not covered by the repository's MIT license.",
+  "scope": "Local preview of all 72 spells: 63 Clockwork Raven icons and 9 Franuka icons, including thirteen individually selected replacement motifs. Existing Game-icons.net SVGs remain available only as image-load error fallbacks.",
+  "license_status": "Franuka's 9 icons are CC BY 4.0 according to the bundled original License and index.txt. The inspected Raven pack notes contain no explicit license grant; publication rights for the 63 Raven images remain unverified. These third-party images are not covered by the repository's MIT license.",
   "palette_credit": "The inspected Raven palette notes credit Resurrect 64 by Kerrie Lake. This credit is not asserted for the Franuka icons.",
   "mapping_notes": "Visual associations individually selected from the existing local asset library. Direct and metaphor describe semantic correspondence, not official pack spell names. Fog Cloud retains its earlier motif pending a new selection.",
   "counts": {
-    "direct": 25,
-    "metaphor": 47,
+    "direct": 26,
+    "metaphor": 46,
     "existing_svg_fallback": 0
   },
   "assets": [
@@ -506,10 +506,10 @@
     {
       "spell": "Mage Hand",
       "file": "mage-hand.png",
-      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/741.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/107.png",
       "crop_xywh": null,
-      "source_sha256": "5bcd269e34abb0e29cb78f8ff50a1a0aa24c4a6ac2ae0f4d5ef85af02d1ed041",
-      "sha256": "5bcd269e34abb0e29cb78f8ff50a1a0aa24c4a6ac2ae0f4d5ef85af02d1ed041",
+      "source_sha256": "3eace937d68f6d2e7a8d18cc593111a426958203cfeb1d72071c80f7951ffb0e",
+      "sha256": "3eace937d68f6d2e7a8d18cc593111a426958203cfeb1d72071c80f7951ffb0e",
       "source_dimensions": [
         16,
         16
@@ -518,11 +518,14 @@
         16,
         16
       ],
-      "confidence": "metaphor",
-      "note": "Blue pointing hand; physical cursor-like hand rather than a spectral hand",
+      "confidence": "direct",
+      "note": "Floating magical hand. Original Franuka index name: Mage hand.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
     },
     {
       "spell": "Magic Missile",
@@ -850,10 +853,10 @@
     {
       "spell": "Counterspell",
       "file": "counterspell.png",
-      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/107.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/103.png",
       "crop_xywh": null,
-      "source_sha256": "3eace937d68f6d2e7a8d18cc593111a426958203cfeb1d72071c80f7951ffb0e",
-      "sha256": "3eace937d68f6d2e7a8d18cc593111a426958203cfeb1d72071c80f7951ffb0e",
+      "source_sha256": "d6cb30cc6bc6517d03d98090bb6ddaeb4c1d79ad57940b71c55268a3b581d1e2",
+      "sha256": "d6cb30cc6bc6517d03d98090bb6ddaeb4c1d79ad57940b71c55268a3b581d1e2",
       "source_dimensions": [
         16,
         16
@@ -863,7 +866,7 @@
         16
       ],
       "confidence": "metaphor",
-      "note": "Open magical hand interpreted as a stop gesture. Original Franuka index name: Mage hand.",
+      "note": "Pink energy bursting apart, selected as an interrupted spell. Original Franuka index name: Mana explosion; this is a visual association, not an original Counterspell label.",
       "transformation": "original file copied byte for byte",
       "creator": "Franuka",
       "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
@@ -1700,7 +1703,8 @@
         "feather-fall.png",
         "fly.png",
         "hold-person.png",
-        "invisibility.png"
+        "invisibility.png",
+        "mage-hand.png"
       ]
     }
   ]

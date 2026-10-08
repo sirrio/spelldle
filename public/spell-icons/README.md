@@ -1,12 +1,12 @@
 # Pixel spell icons (local preview)
 
-Artwork: **Caio / Clockwork Raven Studios** (64 icons) and
-**[Franuka](https://franuka.itch.io/)** (8 icons). The inspected Raven
+Artwork: **Caio / Clockwork Raven Studios** (63 icons) and
+**[Franuka](https://franuka.itch.io/)** (9 icons). The inspected Raven
 palette notes credit **Resurrect 64 by Kerrie Lake**.
 
-This directory contains icons for all 72 spells, including the user's twelve
+This directory contains icons for all 72 spells, including the user's thirteen
 selected replacements. They come exclusively from the user's existing
-`Assets&Stock/itch.io` library. The selection includes 25 direct motifs and 47
+`Assets&Stock/itch.io` library. The selection includes 26 direct motifs and 46
 symbolic approximations; these are Spelldle's mappings, not official names from
 the packs.
 
@@ -23,7 +23,7 @@ The selected replacements are:
 | --- | --- |
 | Arcane Lock | Golden padlock |
 | Burning Hands | Broad cone of fire |
-| Counterspell | Magical hand, interpreted as a stopping gesture |
+| Counterspell | Pink magical burst, interpreted as disrupted magic |
 | Entangle | Grasping roots |
 | False Life | Violet heart |
 | Feather Fall | Golden magical feather |
@@ -31,13 +31,15 @@ The selected replacements are:
 | Hold Person | Person held in a magical bind |
 | Invisibility | Disappearing figure |
 | Guidance | Hand with light |
+| Mage Hand | Magical hand |
 | Revivify | Glowing heart |
 | Shatter | Broken stone |
 
 Fog Cloud retains its previous icon; its replacement choice remains open.
-All twelve replacements are unmodified original 16 x 16 PNGs. Counterspell's
-source is named "Mage hand" in Franuka's index, and Feather Fall's source is
-named "Fly"; their use here is an intentional visual association.
+All thirteen replacements are unmodified original 16 x 16 PNGs. Counterspell's
+source is named "Mana explosion" in Franuka's index, and Feather Fall's source
+is named "Fly"; their use here is an intentional visual association. Mage
+Hand's source is named "Mage hand" and directly matches that spell.
 
 `sources.json` records each source path relative to the local `itch.io` folder,
 the source and output SHA-256 hashes, source and output dimensions, exact crop
@@ -57,12 +59,12 @@ Farming/Food/Beverages (10), General Itens and Tools (12),
 Skills and Spells (22), Attributes/Menu/States (25), Fantasy Masks (27), Raven
 Fantasy Icons (29), Attributes/Skills/Spells (36), and Pets and Animals. Their
 available notes identify the artist and/or palette but contain no explicit
-license grant. Publication rights for these 64 Raven icons remain unverified.
+license grant. Publication rights for these 63 Raven icons remain unverified.
 The exact inspected note paths and hashes are in `sources.json`.
 
-Franuka's eight icons come from `48 - RPG Icon pack`: Alarm from expansion 04,
+Franuka's nine icons come from `48 - RPG Icon pack`: Alarm from expansion 04,
 Arcane Lock from the base set, and Counterspell, Entangle, Feather Fall, Fly,
-Hold Person and Invisibility from expansion 03 (Spells). The original
+Hold Person, Invisibility and Mage Hand from expansion 03 (Spells). The original
 pack's `License and index.txt` explicitly states **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**
 and requests a link to the artist's itch.io page and/or X. Its complete original
 notice is bundled byte for byte as
@@ -70,7 +72,7 @@ notice is bundled byte for byte as
 are unchanged; only the filenames and display sizes differ.
 
 These third-party images are **not covered by this repository's MIT license**.
-Franuka's license applies to those eight icons, not to the Raven images. The
+Franuka's license applies to those nine icons, not to the Raven images. The
 current integration remains a local preview.
 
 The existing Game-icons.net SVG artwork has separate CC BY 3.0 attribution in

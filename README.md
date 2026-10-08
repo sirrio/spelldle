@@ -47,7 +47,7 @@ without a subsequent user instruction. Its skin is scoped to Spelldle and does
 not alter `dndle-core`, the daily sequence or storage.
 
 The local icon preview covers all 72 spells with original pixel artwork from
-the existing asset library: 64 Clockwork Raven icons and 8 Franuka icons.
+the existing asset library: 63 Clockwork Raven icons and 9 Franuka icons.
 All 72 original Game-icons.net SVGs remain available if an image cannot
 load. The same icon is used in the archive, selection, guess rows and result dialog.
 
@@ -71,11 +71,11 @@ GitHub Actions builds the site and deploys `dist/` to **GitHub Pages** after eve
 
 This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at [dndbeyond.com/srd](https://www.dndbeyond.com/srd). The SRD 5.2.1 is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode).
 
-64 pixel spell icons by Caio / Clockwork Raven Studios. Eight icons by
+63 pixel spell icons by Caio / Clockwork Raven Studios. Nine icons by
 [Franuka](https://franuka.itch.io/) from the RPG Icon pack, used under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Franuka's artwork is
 used for Alarm, Arcane Lock, Counterspell, Entangle, Feather Fall, Fly, Hold
-Person and Invisibility. Resurrect 64 palette by Kerrie Lake, as credited
+Person, Invisibility and Mage Hand. Resurrect 64 palette by Kerrie Lake, as credited
 in the Raven pack notes. These images are not covered by this repository's MIT
 license. See [icon source notes](public/spell-icons/README.md) for the local
 source licenses and publication status.
