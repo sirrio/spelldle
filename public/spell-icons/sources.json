@@ -2,10 +2,10 @@
   "schema_version": 1,
   "creator": "Caio / Clockwork Raven Studios (63 icons); Franuka (9 icons)",
   "source_root": "User's local Assets&Stock/itch.io library",
-  "scope": "Local preview of all 72 spells: 63 Clockwork Raven icons and 9 Franuka icons, including thirteen individually selected replacement motifs. Existing Game-icons.net SVGs remain available only as image-load error fallbacks.",
+  "scope": "Local preview of all 72 spells: 63 Clockwork Raven icons and 9 Franuka icons, including fourteen individually selected replacement motifs. Existing Game-icons.net SVGs remain available only as image-load error fallbacks.",
   "license_status": "Franuka's 9 icons are CC BY 4.0 according to the bundled original License and index.txt. The inspected Raven pack notes contain no explicit license grant; publication rights for the 63 Raven images remain unverified. These third-party images are not covered by the repository's MIT license.",
   "palette_credit": "The inspected Raven palette notes credit Resurrect 64 by Kerrie Lake. This credit is not asserted for the Franuka icons.",
-  "mapping_notes": "Visual associations individually selected from the existing local asset library. Direct and metaphor describe semantic correspondence, not official pack spell names. Fog Cloud retains its earlier motif pending a new selection.",
+  "mapping_notes": "Visual associations individually selected from the existing local asset library. Direct and metaphor describe semantic correspondence, not official pack spell names. Fog Cloud uses the same silhouette as Darkness in a user-approved light gray display palette; the original PNG is unchanged.",
   "counts": {
     "direct": 26,
     "metaphor": 46,
@@ -330,10 +330,10 @@
     {
       "spell": "Fog Cloud",
       "file": "fog-cloud.png",
-      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S261.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S250.png",
       "crop_xywh": null,
-      "source_sha256": "49ae1e15ac5ab21b1c7acdff8d78e9bd8c3bdbc4b69a8a82f67df74015a2a83e",
-      "sha256": "49ae1e15ac5ab21b1c7acdff8d78e9bd8c3bdbc4b69a8a82f67df74015a2a83e",
+      "source_sha256": "009f218cd0f269c7c121911013aecbf0ad2d0f91232ea6b9226a4e8648631f56",
+      "sha256": "009f218cd0f269c7c121911013aecbf0ad2d0f91232ea6b9226a4e8648631f56",
       "source_dimensions": [
         16,
         16
@@ -343,10 +343,11 @@
         16
       ],
       "confidence": "metaphor",
-      "note": "Purple swirling cloud; could read as smoke or storm",
+      "note": "Swirling cloud with the same silhouette as Darkness (Raven S271). The original blue S250 palette is displayed in light gray using the CSS filter recorded below; source pixels and alpha are unchanged.",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "display_filter": "grayscale(1) brightness(1.35)"
     },
     {
       "spell": "Guidance",

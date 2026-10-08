@@ -1,4 +1,4 @@
-/* Original Raven colors stay intact; only the existing used-entry state dims them. */
+/* Original source PNGs stay intact. Fog Cloud has a display-only gray palette. */
 .spelldle-theme .spell-pixel-icon {
   display: block;
   width: 32px;
@@ -7,6 +7,10 @@
   max-height: 100%;
   object-fit: contain;
   image-rendering: pixelated;
+}
+
+.spelldle-theme .spell-pixel-icon[src$="/fog-cloud.png"] {
+  filter: grayscale(1) brightness(1.35);
 }
 
 .spelldle-theme .selected .option-sigil:has(.spell-pixel-icon) {

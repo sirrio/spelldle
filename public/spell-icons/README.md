@@ -4,7 +4,7 @@ Artwork: **Caio / Clockwork Raven Studios** (63 icons) and
 **[Franuka](https://franuka.itch.io/)** (9 icons). The inspected Raven
 palette notes credit **Resurrect 64 by Kerrie Lake**.
 
-This directory contains icons for all 72 spells, including the user's thirteen
+This directory contains icons for all 72 spells, including the user's fourteen
 selected replacements. They come exclusively from the user's existing
 `Assets&Stock/itch.io` library. The selection includes 26 direct motifs and 46
 symbolic approximations; these are Spelldle's mappings, not official names from
@@ -28,6 +28,7 @@ The selected replacements are:
 | False Life | Violet heart |
 | Feather Fall | Golden magical feather |
 | Fly | Spread pale wings |
+| Fog Cloud | Darkness-shaped cloud displayed in light gray |
 | Hold Person | Person held in a magical bind |
 | Invisibility | Disappearing figure |
 | Guidance | Hand with light |
@@ -35,11 +36,16 @@ The selected replacements are:
 | Revivify | Glowing heart |
 | Shatter | Broken stone |
 
-Fog Cloud retains its previous icon; its replacement choice remains open.
-All thirteen replacements are unmodified original 16 x 16 PNGs. Counterspell's
+All fourteen replacements are unmodified original 16 x 16 PNGs. Counterspell's
 source is named "Mana explosion" in Franuka's index, and Feather Fall's source
 is named "Fly"; their use here is an intentional visual association. Mage
 Hand's source is named "Mage hand" and directly matches that spell.
+
+Fog Cloud uses the original blue `S250.png` from Raven pack 36, which has the
+same silhouette and alpha channel as Darkness's `S271.png`. A scoped filter in
+`src/spell-icons.css` displays Fog Cloud in light gray. This is the only
+spell-specific color adjustment; the bundled source pixels remain unchanged,
+with no new or edited bitmap.
 
 `sources.json` records each source path relative to the local `itch.io` folder,
 the source and output SHA-256 hashes, source and output dimensions, exact crop
