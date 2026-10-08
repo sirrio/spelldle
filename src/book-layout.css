@@ -19,17 +19,18 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   min-height: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; padding: 20px;
   border-image: var(--book-left) var(--page-left-slice) fill / var(--page-left-width) / 0 stretch;
 }
-:is(.spelldle-theme, .critterdle-theme) .game-console { border-image: var(--book-right) var(--page-right-slice) fill / var(--page-right-width) / 0 stretch; grid-template-rows: auto minmax(0, 1fr); gap: 18px; align-content: stretch; }
+:is(.spelldle-theme, .critterdle-theme) .game-console { border-image: var(--book-right) var(--page-right-slice) fill / var(--page-right-width) / 0 stretch; grid-template-rows: auto minmax(0, 1fr); gap: 12px; align-content: stretch; }
 :is(.spelldle-theme, .critterdle-theme) .selection-stage, :is(.spelldle-theme, .critterdle-theme) .results-panel { background: transparent; border: 0; border-radius: 0; box-shadow: none; }
-:is(.spelldle-theme, .critterdle-theme) .selection-stage { grid-template-columns: 66px minmax(0, 1fr) auto; gap: 12px; padding: 12px 4px 18px; border-bottom: 1px solid var(--line); }
+:is(.spelldle-theme, .critterdle-theme) .selection-stage { grid-template-columns: 66px minmax(0, 1fr) auto; gap: 12px; padding: 4px 4px 14px; border-bottom: 1px solid var(--line); }
 :is(.spelldle-theme, .critterdle-theme) .selected-sigil { width: 62px; height: 62px; color: #ffe7c6; border: 8px solid transparent; border-image: var(--book-slot) var(--slot-slice) fill / var(--slot-width) / 0 stretch; background: transparent; border-radius: 0; }
 :is(.spelldle-theme, .critterdle-theme) .has-selection .selected-sigil { color: #ffe7c6; }
 :is(.spelldle-theme, .critterdle-theme) .selected-copy h1 { font-size: clamp(22px, 2vw, 32px); }
 :is(.spelldle-theme, .critterdle-theme) .selected-copy p { color: var(--ink-soft); font-size: 13px; }
-:is(.spelldle-theme, .critterdle-theme) .section-head { padding: 8px 4px 14px; border-color: var(--line); }
-:is(.spelldle-theme, .critterdle-theme) .section-head h2 { color: var(--ink); }
+:is(.spelldle-theme, .critterdle-theme) .section-head { min-height: 48px; padding: 0 4px 4px; gap: 12px; border-color: var(--line); }
+:is(.spelldle-theme, .critterdle-theme) .section-head h2 { color: var(--ink); font-size: 25px; }
+:is(.spelldle-theme, .critterdle-theme) .round-label { color: var(--ink-soft); font-size: 12px; white-space: nowrap; }
 :is(.spelldle-theme, .critterdle-theme) .tiny-label, :is(.spelldle-theme, .critterdle-theme) .panel-kicker, :is(.spelldle-theme, .critterdle-theme) .result-kicker { color: var(--ink-soft); }
-:is(.spelldle-theme, .critterdle-theme) .spell-grid { padding: 14px 4px 18px; gap: 5px; grid-template-rows: repeat(9, minmax(0, 1fr)); }
+:is(.spelldle-theme, .critterdle-theme) .spell-grid { padding: 10px 4px 18px; gap: 5px; grid-template-rows: repeat(9, minmax(0, 1fr)); }
 :is(.spelldle-theme, .critterdle-theme) .spell-option { border: 8px solid transparent; border-image: var(--book-slot) var(--slot-slice) fill / var(--slot-width) / 0 stretch; border-radius: 0; padding: 2px 0; background: transparent; box-shadow: none; grid-template-rows: minmax(0, min(32px, calc(100% - 26px))) auto; row-gap: 2px; align-content: center; }
 /* Leave room for two 12px lines plus the gap when sizing icons, but center
    each icon/name group using the label's actual one- or two-line height. */
@@ -44,7 +45,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 :is(.spelldle-theme, .critterdle-theme) .spell-option.found { outline: 2px solid var(--green); background: transparent; opacity: 1; }
 :is(.spelldle-theme, .critterdle-theme) .spell-option.found .option-sigil, :is(.spelldle-theme, .critterdle-theme) .spell-option.found strong { color: #bce3ba; }
 /* Equal hit areas and content boxes, with independent artwork dimensions. */
-:is(.spelldle-theme, .critterdle-theme) :is(.primary, .stats-button, .icon-button, .modal-close, .popup-close, .name-toggle, .attempts) {
+:is(.spelldle-theme, .critterdle-theme) :is(.primary, .stats-button, .icon-button, .modal-close, .popup-close, .attempts) {
   border: 8px solid transparent;
   border-image: var(--book-button) var(--button-slice) fill / var(--button-width) / 0 stretch;
   border-radius: 0; background: transparent; box-shadow: none; color: var(--button-ink);
@@ -52,26 +53,33 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 }
 :is(.spelldle-theme, .critterdle-theme) :is(.primary, .stats-button) { min-height: 52px; }
 :is(.spelldle-theme, .critterdle-theme) .submit-guess { min-width: 100px; }
-:is(.spelldle-theme, .critterdle-theme) .name-toggle { min-width: 84px; height: 48px; padding-inline: 4px; }
-:is(.spelldle-theme, .critterdle-theme) .name-toggle strong { color: var(--button-ink); }
-:is(.spelldle-theme, .critterdle-theme) .name-toggle[aria-pressed="false"] strong, :is(.spelldle-theme, .critterdle-theme) .attempts span { color: var(--button-muted); }
+/* Keep the switch visually small without shrinking its touch target. */
+:is(.spelldle-theme, .critterdle-theme) .name-toggle { min-width: 0; min-height: 44px; height: 44px; padding: 0 2px; gap: 6px; border: 0; border-image: none; background: transparent; color: var(--ink-soft); font-size: 12px; }
+/* Both original checkbox sprites are 15px wide; render at exactly 2x. */
+:is(.spelldle-theme, .critterdle-theme) .name-toggle::before { content: ""; width: 30px; height: 30px; flex-shrink: 0; background: var(--book-checkbox) center / 30px auto no-repeat; image-rendering: pixelated; }
+:is(.spelldle-theme, .critterdle-theme) .name-toggle[aria-pressed="true"]::before { background-image: var(--book-checkbox-checked); }
+:is(.spelldle-theme, .critterdle-theme) .attempts span { color: var(--button-muted); }
 :is(.spelldle-theme, .critterdle-theme) .attempts { height: 48px; min-width: 72px; align-items: center; padding-block: 0; }
 :is(.spelldle-theme, .critterdle-theme) :is(.icon-button, .modal-close, .popup-close) { width: 48px; height: 48px; padding: 0; }
 :is(.spelldle-theme, .critterdle-theme) .results-button { width: auto; padding-inline: 6px; }
 :is(.spelldle-theme, .critterdle-theme) :is(.primary, .stats-button, .icon-button, .name-toggle, .modal-close, .popup-close):hover:not(:disabled) { background: transparent; filter: brightness(1.08); }
-:is(.spelldle-theme, .critterdle-theme) button:not(.spell-option):active:not(:disabled) { border-image-source: var(--book-button-pressed); border-top-width: calc(8px + var(--press-shift)); border-bottom-width: calc(8px - var(--press-shift)); transform: none; }
+:is(.spelldle-theme, .critterdle-theme) button:not(.spell-option):not(.name-toggle):active:not(:disabled) { border-image-source: var(--book-button-pressed); border-top-width: calc(8px + var(--press-shift)); border-bottom-width: calc(8px - var(--press-shift)); transform: none; }
 :is(.spelldle-theme, .critterdle-theme) .primary:disabled { background: transparent; color: var(--button-muted); opacity: .65; }
 :is(.spelldle-theme, .critterdle-theme) button:focus-visible, :is(.spelldle-theme, .critterdle-theme) a:focus-visible, :is(.spelldle-theme, .critterdle-theme) .spell-cell:focus-visible { outline: 3px solid var(--red); outline-offset: 2px; }
 :is(.spelldle-theme, .critterdle-theme) .results-panel { height: 100%; min-height: 0; }
+:is(.spelldle-theme, .critterdle-theme) .results-head { min-height: 40px; padding-bottom: 8px; }
+:is(.spelldle-theme, .critterdle-theme) .results-empty { max-width: 36ch; margin: 14px 4px; padding: 0; color: var(--ink-soft); font-size: 15px; line-height: 1.45; }
 :is(.spelldle-theme, .critterdle-theme) .table-scroll { padding: 12px 0 0; overflow-y: auto; }
-:is(.spelldle-theme, .critterdle-theme) :is(.table-head, .result-row, .empty-row) { grid-template-columns: var(--trait-columns); }
+:is(.spelldle-theme, .critterdle-theme) :is(.table-head, .result-row) { grid-template-columns: var(--trait-columns); }
 :is(.spelldle-theme, .critterdle-theme) .table-head { color: var(--ink-soft); }
-:is(.spelldle-theme, .critterdle-theme) .rows { grid-template-rows: repeat(6, minmax(48px, 1fr)); }
-:is(.spelldle-theme, .critterdle-theme) .spell-cell { background: var(--panel-tint); border-color: var(--line); }
+:is(.spelldle-theme, .critterdle-theme) .rows { grid-template-rows: none; grid-auto-rows: minmax(52px, auto); align-content: start; }
+:is(.spelldle-theme, .critterdle-theme) .result-row { min-height: 52px; animation: none; }
+:is(.spelldle-theme, .critterdle-theme) .result-row.is-new { animation: guess-arrive .28s ease-out both; }
+@keyframes guess-arrive { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+:is(.spelldle-theme, .critterdle-theme) .spell-cell { width: 100%; height: auto; aspect-ratio: auto; align-self: stretch; justify-self: stretch; background: var(--panel-tint); border-color: var(--line); border-top-width: 1px; }
 :is(.spelldle-theme, .critterdle-theme) .spell-cell.exact { background: var(--green); border-color: var(--green); }
 :is(.spelldle-theme, .critterdle-theme) .row-sigil, :is(.spelldle-theme, .critterdle-theme) .reveal-sigil { color: var(--ink); }
 :is(.spelldle-theme, .critterdle-theme) .spell-cell.exact .row-sigil { color: #fff; }
-:is(.spelldle-theme, .critterdle-theme) .empty-row span, :is(.spelldle-theme, .critterdle-theme) .empty-row i { background: var(--empty-tint); border-color: var(--line); color: var(--ink-soft); }
 :is(.spelldle-theme, .critterdle-theme) .spell-tooltip { background: var(--tooltip-bg); border-color: var(--accent-border); color: #ffe6c6; }
 :is(.spelldle-theme, .critterdle-theme) .spell-tooltip::after { background: var(--tooltip-bg); border-color: var(--accent-border); }
 :is(.spelldle-theme, .critterdle-theme) .site-footer { height: 42px; color: var(--ink-soft); }
@@ -108,7 +116,8 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   }
   :is(.spelldle-theme, .critterdle-theme) .spell-option { min-height: 84px; }
   :is(.spelldle-theme, .critterdle-theme) .selection-stage { padding: 8px 4px 12px; }
-  :is(.spelldle-theme, .critterdle-theme) .section-head { min-height: 56px; padding-block: 4px 8px; }
+  :is(.spelldle-theme, .critterdle-theme) .section-head { min-height: 48px; padding-block: 0 4px; }
+  :is(.spelldle-theme, .critterdle-theme) .results-head { min-height: 40px; }
   :is(.spelldle-theme, .critterdle-theme) .game-console { grid-template-rows: auto auto; gap: 4px; }
   :is(.spelldle-theme, .critterdle-theme) .table-scroll { overflow: visible; }
   :is(.spelldle-theme, .critterdle-theme) .site-footer { height: auto; padding: 14px 8px 18px; }
@@ -124,10 +133,12 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
   :is(.spelldle-theme, .critterdle-theme) .submit-guess { grid-column: 1 / -1; }
   :is(.spelldle-theme, .critterdle-theme) .rows { display: block; }
   :is(.spelldle-theme, .critterdle-theme) .result-row { grid-template-columns: repeat(2, minmax(0, 1fr)); background: var(--panel-tint); border-color: var(--line); }
-  :is(.spelldle-theme, .critterdle-theme) .empty-row > span:first-child { width: 100%; aspect-ratio: auto; height: 36px; }
-  :is(.spelldle-theme, .critterdle-theme) .empty-row { height: 36px; }
+  :is(.spelldle-theme, .critterdle-theme) .spell-cell { min-height: 44px; }
   :is(.spelldle-theme, .critterdle-theme) .modal, :is(.spelldle-theme, .critterdle-theme) .result-popup { padding: 56px 20px 24px; }
   :is(.spelldle-theme, .critterdle-theme) .result-actions button { font-size: 11px; letter-spacing: .06em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :is(.spelldle-theme, .critterdle-theme) .result-row.is-new { animation: none; }
 }
 @media (max-width: 480px) {
   :is(.spelldle-theme, .critterdle-theme) .brand { gap: 6px; }

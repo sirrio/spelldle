@@ -10,6 +10,16 @@
     "source": "02_WizardBook/Sprites Animated/UI_WizardBook_Button01a_04.png"
   },
   {
+    "file": "checkbox.png",
+    "sha256": "C2B0D1AF8470F744867DE9F55D3521E38F288A705DA0321C2902F265410FB7FD",
+    "source": "02_WizardBook/Sprites/UI_WizardBook_Toggle08a.png"
+  },
+  {
+    "file": "checkbox-checked.png",
+    "sha256": "627D6D512735EEA536CA08780B896428C0DA80296B9EF497EB8BBC2A3D6A623F",
+    "source": "02_WizardBook/Sprites/UI_WizardBook_Toggle08b.png"
+  },
+  {
     "file": "cover.png",
     "sha256": "7AFC0E95821F136FE4B62E5CE3969B46977042B28E6C5065352B748711647327",
     "source": "02_WizardBook/Sprites/UI_WizardBook_BookCover01a.png"

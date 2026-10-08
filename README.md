@@ -1,6 +1,6 @@
 # Spelldle
 
-A daily Wordle-style guessing game for spells from the 2024 D&D rules in SRD 5.2.1. Compare seven spell properties and uncover the entry hidden in the Arcane Archive in six guesses.
+A daily Wordle-style guessing game for spells from the 2024 D&D rules in SRD 5.2.1. Compare seven spell properties and uncover the entry hidden in the Arcane Archive in seven guesses.
 
 ✨ **Live:** https://sirrio.github.io/spelldle/
 
@@ -43,8 +43,14 @@ does not forward the flags after `--` correctly.
 ### Local book UI prototype
 
 The `release/1.1.0` book-style prototype is local only; do not push or deploy it
-without a subsequent user instruction. Its skin is scoped to Spelldle and does
-not alter `dndle-core`, the daily sequence or storage.
+without a subsequent user instruction. Its skin is scoped to Spelldle. The local
+`dndle-core` candidate adds seven guesses, compact selection controls and a
+results list that grows as guesses are submitted. The daily sequence and storage
+namespace are unchanged; completed six-guess rounds retain their original limit,
+and existing statistics are preserved when adding the seventh distribution slot.
+The pinned dependency remains unchanged until a coordinated core release.
+Catalog tests retain the stronger guarantee that every spell can be found within
+six guesses.
 
 The local icon preview covers all 72 spells with original pixel artwork from
 the existing asset library: 62 Clockwork Raven icons and 10 Franuka icons.

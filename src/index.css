@@ -23,6 +23,8 @@
   --book-right: url("/book-ui/page-right.png");
   --book-button: url("/book-ui/button.png");
   --book-button-pressed: url("/book-ui/button-pressed.png");
+  --book-checkbox: url("/book-ui/checkbox.png");
+  --book-checkbox-checked: url("/book-ui/checkbox-checked.png");
   --book-slot: url("/book-ui/slot.png");
   --book-slot-selected: url("/book-ui/slot-selected.png");
   --slot-slice: 6 4; --slot-width: 12px 8px; --press-shift: 4px;

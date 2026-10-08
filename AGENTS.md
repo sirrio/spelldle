@@ -13,8 +13,8 @@ requirements.
 - Do not add homebrew, proprietary non-SRD spells, free-form spell creation,
   live-service progression, or unrelated game modes without explicit product
   approval.
-- Preserve one shared worldwide puzzle that changes at midnight UTC and can be
-  solved in at most six guesses.
+- Preserve one shared worldwide puzzle that changes at midnight UTC and allows
+  at most seven guesses.
 - Player progress, statistics, streaks, and guess distribution remain local to
   the browser. This project has no backend or production database.
 
@@ -23,7 +23,8 @@ requirements.
 - `src/spells.generated.json` contains the SRD-derived spell values;
   `src/spells.tsx` supplies the typed catalog and icon mapping.
 - Every spell must have a unique seven-trait signature, a usable icon, and a
-  deterministic feedback path within six guesses. Preserve the 8 x 9 archive.
+  deterministic feedback path within six guesses. Keep this stronger catalog
+  guarantee despite the seven-guess allowance. Preserve the 8 x 9 archive.
 - Treat the `startUtc`, `multiplier`, and `offset` values in `src/App.tsx` as a
   published continuity contract. Changing them alters the daily answer sequence
   and requires explicit product approval and release-note disclosure.
