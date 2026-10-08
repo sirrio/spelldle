@@ -10,7 +10,7 @@
 }
 
 .spelldle-theme .spell-pixel-icon[src$="/fog-cloud.png"] {
-  filter: grayscale(1) brightness(1.35);
+  filter: grayscale(1);
 }
 
 .spelldle-theme .selected .option-sigil:has(.spell-pixel-icon) {

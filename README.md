@@ -54,9 +54,9 @@ load. The same icon is used in the archive, selection, guess rows and result dia
 `src/spell-icons.generated.json` maps spell names to bundled PNGs.
 `public/spell-icons/sources.json` records original paths, crop coordinates,
 dimensions, hashes and the rationale for each visual association. The source
-PNG pixels and colors are unchanged. Fog Cloud alone is displayed in light
-gray through CSS, using Raven's original S250 cloud with the same silhouette
-as Darkness (S271). See [asset notes](public/spell-icons/README.md)
+PNG pixels and colors are unchanged. Fog Cloud deliberately reuses Blur's
+original Raven S386 artwork and is displayed in grayscale through CSS; Blur
+keeps its original colors. See [asset notes](public/spell-icons/README.md)
 for provenance, Franuka's bundled license and the still-unverified Raven
 publication license. These images are part of the local prototype only.
 

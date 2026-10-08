@@ -30,11 +30,18 @@ test("a spell without a pixel path still renders the original SVG", () => {
   assert.doesNotMatch(markup, /<img /);
 });
 
-test("every mapped icon is a distinct, intact bundled PNG with recorded provenance", () => {
+test("every mapped icon is intact, with only Fog Cloud reusing Blur's source artwork", () => {
   const names = new Set(SPELLS.map((spell) => spell.name));
   assert.equal(sources.assets.length, 72);
   assert.equal(new Set(Object.values(pixelIcons)).size, 72);
-  assert.equal(new Set(sources.assets.map((asset) => asset.sha256)).size, 72);
+  const spellsByArtwork = new Map<string, string[]>();
+  for (const asset of sources.assets) {
+    const names = spellsByArtwork.get(asset.sha256) ?? [];
+    names.push(asset.spell);
+    spellsByArtwork.set(asset.sha256, names);
+  }
+  const sharedArtwork = [...spellsByArtwork.values()].filter((names) => names.length > 1);
+  assert.deepEqual(sharedArtwork.map((names) => names.sort()), [["Blur", "Fog Cloud"]]);
   for (const [name, path] of Object.entries(pixelIcons)) {
     assert.ok(names.has(name), `Unknown spell ${name}`);
     assert.match(path, /^spell-icons\/[a-z-]+\.png$/);
