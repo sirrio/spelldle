@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "creator": "Caio / Clockwork Raven Studios (71 icons); Franuka (Alarm)",
+  "creator": "Caio / Clockwork Raven Studios (64 icons); Franuka (8 icons)",
   "source_root": "User's local Assets&Stock/itch.io library",
-  "scope": "Local preview of all 72 spells: 71 Clockwork Raven icons and one Franuka bell, including the user's approved first choice for each of the seven formerly missing motifs. Existing Game-icons.net SVGs remain available only as image-load error fallbacks.",
-  "license_status": "Franuka's Alarm bell is CC BY 4.0 according to the bundled original License and index.txt. The inspected Raven pack notes contain no explicit license grant; publication rights for the 71 Raven images remain unverified. These third-party images are not covered by the repository's MIT license.",
-  "palette_credit": "The inspected Raven palette notes credit Resurrect 64 by Kerrie Lake. This credit is not asserted for Franuka's bell.",
-  "mapping_notes": "Visual associations selected from the existing local asset library: the original 65-icon Raven mockup, followed by the user's approved first candidate for each of the seven missing spells. Direct and metaphor describe semantic correspondence, not official pack spell names.",
+  "scope": "Local preview of all 72 spells: 64 Clockwork Raven icons and 8 Franuka icons, including twelve individually selected replacement motifs. Existing Game-icons.net SVGs remain available only as image-load error fallbacks.",
+  "license_status": "Franuka's 8 icons are CC BY 4.0 according to the bundled original License and index.txt. The inspected Raven pack notes contain no explicit license grant; publication rights for the 64 Raven images remain unverified. These third-party images are not covered by the repository's MIT license.",
+  "palette_credit": "The inspected Raven palette notes credit Resurrect 64 by Kerrie Lake. This credit is not asserted for the Franuka icons.",
+  "mapping_notes": "Visual associations individually selected from the existing local asset library. Direct and metaphor describe semantic correspondence, not official pack spell names. Fog Cloud retains its earlier motif pending a new selection.",
   "counts": {
-    "direct": 24,
-    "metaphor": 48,
+    "direct": 25,
+    "metaphor": 47,
     "existing_svg_fallback": 0
   },
   "assets": [
@@ -99,10 +99,10 @@
     {
       "spell": "Burning Hands",
       "file": "burning-hands.png",
-      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S359.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile007.png",
       "crop_xywh": null,
-      "source_sha256": "439ae34cf27476c5eba1a2a49c080a864ed7335b7488ff1a20f0eb258ad1eb92",
-      "sha256": "439ae34cf27476c5eba1a2a49c080a864ed7335b7488ff1a20f0eb258ad1eb92",
+      "source_sha256": "d0d9906b29dd8662ba364867541da82d2d949e588510de8563aa96802568afbc",
+      "sha256": "d0d9906b29dd8662ba364867541da82d2d949e588510de8563aa96802568afbc",
       "source_dimensions": [
         16,
         16
@@ -112,7 +112,7 @@
         16
       ],
       "confidence": "metaphor",
-      "note": "Golden energy around a humanoid; does not specifically show flaming hands",
+      "note": "Broad cone of fire; conveys the effect but does not depict hands.",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
       "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
@@ -235,28 +235,26 @@
     {
       "spell": "Feather Fall",
       "file": "feather-fall.png",
-      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
-      "crop_xywh": [
-        224,
-        256,
-        32,
-        32
-      ],
-      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
-      "sha256": "c2ee826003761747c0b8680467eee82ece6a9168c5abdc37115784235a1f2e1a",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/59.png",
+      "crop_xywh": null,
+      "source_sha256": "5055623ddc514879c1074bff799b0ef320ca4b425be5f25eb92ac1f36cab603b",
+      "sha256": "5055623ddc514879c1074bff799b0ef320ca4b425be5f25eb92ac1f36cab603b",
       "source_dimensions": [
-        512,
-        384
+        16,
+        16
       ],
       "dimensions": [
-        32,
-        32
+        16,
+        16
       ],
       "confidence": "metaphor",
-      "note": "Writing quill; feather association, falling not shown",
-      "transformation": "exact pixel crop; no resizing or recoloring",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "note": "Golden magical feather; falling is not depicted. Original Franuka index name: Fly.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
     },
     {
       "spell": "Find Familiar",
@@ -308,10 +306,10 @@
     {
       "spell": "Fly",
       "file": "fly.png",
-      "source_relative_to_itch_io": "Clockwork Raven/08 - Raven Fantasy - Pixel Art RPG Icons - Rogue Skills/Files/Original/16/143.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/128.png",
       "crop_xywh": null,
-      "source_sha256": "f763ab4101e2a61a8e3cc1291cc864f9a63f34bd9cdd5448e103900a29c8bc56",
-      "sha256": "f763ab4101e2a61a8e3cc1291cc864f9a63f34bd9cdd5448e103900a29c8bc56",
+      "source_sha256": "b67a1a61df54d385b055fbd8d1750a19f85b338b25ad4576630ca35fbcc8eed6",
+      "sha256": "b67a1a61df54d385b055fbd8d1750a19f85b338b25ad4576630ca35fbcc8eed6",
       "source_dimensions": [
         16,
         16
@@ -321,10 +319,13 @@
         16
       ],
       "confidence": "direct",
-      "note": "Pair of wings",
+      "note": "Spread bright wings. Original Franuka index name: Angelic wings.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
     },
     {
       "spell": "Fog Cloud",
@@ -350,10 +351,10 @@
     {
       "spell": "Guidance",
       "file": "guidance.png",
-      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S439.png",
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/Original/16/17.png",
       "crop_xywh": null,
-      "source_sha256": "c81732820ccb40d8df1e34c8c50f7d7c06b8aa36116c7b89d30ee70a99a9dc08",
-      "sha256": "c81732820ccb40d8df1e34c8c50f7d7c06b8aa36116c7b89d30ee70a99a9dc08",
+      "source_sha256": "6cd9269628d295c31cb3098367c98907fef3e3cd11afa8580c376d05a8b7eaea",
+      "sha256": "6cd9269628d295c31cb3098367c98907fef3e3cd11afa8580c376d05a8b7eaea",
       "source_dimensions": [
         16,
         16
@@ -363,7 +364,7 @@
         16
       ],
       "confidence": "metaphor",
-      "note": "Bright directional beam; generic divine guidance",
+      "note": "Raised hand with golden light; symbolic divine guidance.",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
       "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
@@ -413,10 +414,10 @@
     {
       "spell": "Invisibility",
       "file": "invisibility.png",
-      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/623.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/105.png",
       "crop_xywh": null,
-      "source_sha256": "0c55a01beccd84a883c40897e6c0f9327c3d128a5e03b12f5ac6602a99570264",
-      "sha256": "0c55a01beccd84a883c40897e6c0f9327c3d128a5e03b12f5ac6602a99570264",
+      "source_sha256": "5346d37ca8b5c081644826111145942b2e91aa60d3e39cf939a668e272416ed4",
+      "sha256": "5346d37ca8b5c081644826111145942b2e91aa60d3e39cf939a668e272416ed4",
       "source_dimensions": [
         16,
         16
@@ -425,11 +426,14 @@
         16,
         16
       ],
-      "confidence": "metaphor",
-      "note": "Dark figure within pale beam; ambiguous phasing silhouette",
+      "confidence": "direct",
+      "note": "Fading humanoid silhouette. Original Franuka index name: Invisibility.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
     },
     {
       "spell": "Knock",
@@ -612,10 +616,10 @@
     {
       "spell": "Revivify",
       "file": "revivify.png",
-      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S530.png",
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/Original/16/1.png",
       "crop_xywh": null,
-      "source_sha256": "bd387022f5bc6479614434503629b7e02dee84388baaeefcdf387b5ceff40bdf",
-      "sha256": "bd387022f5bc6479614434503629b7e02dee84388baaeefcdf387b5ceff40bdf",
+      "source_sha256": "4a3e62ae342061046ce9a1911729808183d2d87d0cb7f21f6856fb726b8ff5ef",
+      "sha256": "4a3e62ae342061046ce9a1911729808183d2d87d0cb7f21f6856fb726b8ff5ef",
       "source_dimensions": [
         16,
         16
@@ -625,7 +629,7 @@
         16
       ],
       "confidence": "metaphor",
-      "note": "Green person with upward arrow; restoration of life by association",
+      "note": "Glowing heart with smaller hearts; conveys life but could also suggest ordinary healing.",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
       "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
@@ -696,10 +700,10 @@
     {
       "spell": "Arcane Lock",
       "file": "arcane-lock.png",
-      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S447.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Base set/Individual icons (16x16)/274.png",
       "crop_xywh": null,
-      "source_sha256": "1855cbc92067f2765b3c360239252b5533e26512bea1ccbb68295df50cfc51a7",
-      "sha256": "1855cbc92067f2765b3c360239252b5533e26512bea1ccbb68295df50cfc51a7",
+      "source_sha256": "25119c280a17c6428f25519f8855bd0d1e01ec995f4de5e3210fc5b27365325f",
+      "sha256": "25119c280a17c6428f25519f8855bd0d1e01ec995f4de5e3210fc5b27365325f",
       "source_dimensions": [
         16,
         16
@@ -709,10 +713,13 @@
         16
       ],
       "confidence": "metaphor",
-      "note": "Fiery padlock; magical lock but orange flame emphasis",
+      "note": "Golden padlock; clearly conveys locking, without an explicit magical effect. Original Franuka index name: Lock.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
     },
     {
       "spell": "Augury",
@@ -843,10 +850,10 @@
     {
       "spell": "Counterspell",
       "file": "counterspell.png",
-      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S8.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/107.png",
       "crop_xywh": null,
-      "source_sha256": "377221b55dae66c72891e647ce042a8406e6aff179867e5d84567fdaefe18c59",
-      "sha256": "377221b55dae66c72891e647ce042a8406e6aff179867e5d84567fdaefe18c59",
+      "source_sha256": "3eace937d68f6d2e7a8d18cc593111a426958203cfeb1d72071c80f7951ffb0e",
+      "sha256": "3eace937d68f6d2e7a8d18cc593111a426958203cfeb1d72071c80f7951ffb0e",
       "source_dimensions": [
         16,
         16
@@ -856,10 +863,13 @@
         16
       ],
       "confidence": "metaphor",
-      "note": "Shield; generic magical negation is not explicit",
+      "note": "Open magical hand interpreted as a stop gesture. Original Franuka index name: Mage hand.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
     },
     {
       "spell": "Darkness",
@@ -969,10 +979,10 @@
     {
       "spell": "Entangle",
       "file": "entangle.png",
-      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/38.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/85.png",
       "crop_xywh": null,
-      "source_sha256": "7409081877993a1bef7a6e84518426d57013006cba77a450979059a6ac3f6d6a",
-      "sha256": "7409081877993a1bef7a6e84518426d57013006cba77a450979059a6ac3f6d6a",
+      "source_sha256": "f28046a731fb2e3a36c726bb8fb342504dd12a27a266144349d76a667c8b0a83",
+      "sha256": "f28046a731fb2e3a36c726bb8fb342504dd12a27a266144349d76a667c8b0a83",
       "source_dimensions": [
         16,
         16
@@ -982,10 +992,13 @@
         16
       ],
       "confidence": "direct",
-      "note": "Green vines covering a figure",
+      "note": "Grasping roots. Original Franuka index name: Root grasp.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
     },
     {
       "spell": "Expeditious Retreat",
@@ -1032,10 +1045,10 @@
     {
       "spell": "False Life",
       "file": "false-life.png",
-      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S407.png",
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/Original/16/195.png",
       "crop_xywh": null,
-      "source_sha256": "418639256956854a426ab7a391344e7bebc40cf40c3db1e6a87461a6b4ffc114",
-      "sha256": "418639256956854a426ab7a391344e7bebc40cf40c3db1e6a87461a6b4ffc114",
+      "source_sha256": "e01f9ec0f09d2b2767017c69030099bf0ac05ddf1f3690fb1a4ba161f7e31bff",
+      "sha256": "e01f9ec0f09d2b2767017c69030099bf0ac05ddf1f3690fb1a4ba161f7e31bff",
       "source_dimensions": [
         16,
         16
@@ -1045,7 +1058,7 @@
         16
       ],
       "confidence": "metaphor",
-      "note": "Two red hearts; temporary health association",
+      "note": "Single violet heart; symbolic vitality, without depicting temporary hit points.",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
       "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
@@ -1126,10 +1139,10 @@
     {
       "spell": "Hold Person",
       "file": "hold-person.png",
-      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/9.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/172.png",
       "crop_xywh": null,
-      "source_sha256": "aedaeae9a6f3b2636b861c7cff4a957ad4ac802b52f670683a7110118c122082",
-      "sha256": "aedaeae9a6f3b2636b861c7cff4a957ad4ac802b52f670683a7110118c122082",
+      "source_sha256": "58ada7346497c68b56c709566420efe6ce684f12a98ed8764543e90b8afe8daa",
+      "sha256": "58ada7346497c68b56c709566420efe6ce684f12a98ed8764543e90b8afe8daa",
       "source_dimensions": [
         16,
         16
@@ -1139,10 +1152,13 @@
         16
       ],
       "confidence": "direct",
-      "note": "Humanoid enclosed by golden vertical bars",
+      "note": "Humanoid held inside a magical field. Original Franuka index name: Paralyze.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
     },
     {
       "spell": "Jump",
@@ -1404,10 +1420,10 @@
     {
       "spell": "Shatter",
       "file": "shatter.png",
-      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S187.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S164.png",
       "crop_xywh": null,
-      "source_sha256": "0c2414fca6c2a5a947c6232067f95a45619c76189bd9f96d69a1b76c54db2ca7",
-      "sha256": "0c2414fca6c2a5a947c6232067f95a45619c76189bd9f96d69a1b76c54db2ca7",
+      "source_sha256": "09fb08ddc10e21e130988fc396f05080ca9d613ff9cd0af9b4056b554ffb3d80",
+      "sha256": "09fb08ddc10e21e130988fc396f05080ca9d613ff9cd0af9b4056b554ffb3d80",
       "source_dimensions": [
         16,
         16
@@ -1417,7 +1433,7 @@
         16
       ],
       "confidence": "direct",
-      "note": "Scattered golden fragments",
+      "note": "Fractured blue-gray stone; depicts destruction, without explicitly showing sound.",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
       "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
@@ -1677,7 +1693,14 @@
       "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/License and index.txt",
       "sha256": "254f411b7b0ecc2d74da687a6aa77b648b10e67d027b6fe626e4ba2807db1faf",
       "applies_to": [
-        "alarm.png"
+        "alarm.png",
+        "arcane-lock.png",
+        "counterspell.png",
+        "entangle.png",
+        "feather-fall.png",
+        "fly.png",
+        "hold-person.png",
+        "invisibility.png"
       ]
     }
   ]
