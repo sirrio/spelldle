@@ -63,7 +63,7 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 :is(.spelldle-theme, .critterdle-theme) :is(.icon-button, .modal-close, .popup-close) { width: 48px; height: 48px; padding: 0; }
 :is(.spelldle-theme, .critterdle-theme) .results-button { width: auto; padding-inline: 6px; }
 :is(.spelldle-theme, .critterdle-theme) :is(.primary, .stats-button, .icon-button, .name-toggle, .modal-close, .popup-close):hover:not(:disabled) { background: transparent; filter: brightness(1.08); }
-:is(.spelldle-theme, .critterdle-theme) button:not(.spell-option):not(.name-toggle):active:not(:disabled) { border-image-source: var(--book-button-pressed); border-top-width: calc(8px + var(--press-shift)); border-bottom-width: calc(8px - var(--press-shift)); transform: none; }
+:is(.spelldle-theme, .critterdle-theme) button:not(.spell-option):not(.name-toggle):not(.guess-summary):active:not(:disabled) { border-image-source: var(--book-button-pressed); border-top-width: calc(8px + var(--press-shift)); border-bottom-width: calc(8px - var(--press-shift)); transform: none; }
 :is(.spelldle-theme, .critterdle-theme) .primary:disabled { background: transparent; color: var(--button-muted); opacity: .65; }
 :is(.spelldle-theme, .critterdle-theme) button:focus-visible, :is(.spelldle-theme, .critterdle-theme) a:focus-visible, :is(.spelldle-theme, .critterdle-theme) .spell-cell:focus-visible { outline: 3px solid var(--red); outline-offset: 2px; }
 :is(.spelldle-theme, .critterdle-theme) .results-panel { height: 100%; min-height: 0; }
