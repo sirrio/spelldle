@@ -30,10 +30,12 @@ body { min-width: 0; overflow: auto; background: #e8dfcf; }
 :is(.spelldle-theme, .critterdle-theme) .section-head h2 { color: var(--ink); }
 :is(.spelldle-theme, .critterdle-theme) .tiny-label, :is(.spelldle-theme, .critterdle-theme) .panel-kicker, :is(.spelldle-theme, .critterdle-theme) .result-kicker { color: var(--ink-soft); }
 :is(.spelldle-theme, .critterdle-theme) .spell-grid { padding: 14px 4px 18px; gap: 5px; grid-template-rows: repeat(9, minmax(0, 1fr)); }
-:is(.spelldle-theme, .critterdle-theme) .spell-option { border: 8px solid transparent; border-image: var(--book-slot) var(--slot-slice) fill / var(--slot-width) / 0 stretch; border-radius: 0; padding: 2px 0; background: transparent; box-shadow: none; grid-template-rows: minmax(0, 1fr) 24px; }
+:is(.spelldle-theme, .critterdle-theme) .spell-option { border: 8px solid transparent; border-image: var(--book-slot) var(--slot-slice) fill / var(--slot-width) / 0 stretch; border-radius: 0; padding: 2px 0; background: transparent; box-shadow: none; grid-template-rows: minmax(0, min(32px, calc(100% - 26px))) auto; row-gap: 2px; align-content: center; }
+/* Leave room for two 12px lines plus the gap when sizing icons, but center
+   each icon/name group using the label's actual one- or two-line height. */
 :is(.spelldle-theme, .critterdle-theme) .option-sigil { color: #ffe7c6; }
 :is(.spelldle-theme, .critterdle-theme) .option-sigil svg { width: 78%; height: 78%; }
-:is(.spelldle-theme, .critterdle-theme) .spell-option strong { color: #ffe7c6; height: 24px; font-size: 11px; line-height: 12px; }
+:is(.spelldle-theme, .critterdle-theme) .spell-option strong { color: #ffe7c6; height: auto; max-height: 24px; min-height: 0; font-size: 11px; line-height: 12px; }
 :is(.spelldle-theme, .critterdle-theme) .names-hidden .spell-option { grid-template-rows: minmax(0, 1fr); }
 :is(.spelldle-theme, .critterdle-theme) .spell-option.selected { border-image-source: var(--book-slot-selected); background: transparent; outline: 2px solid var(--red); outline-offset: 1px; box-shadow: none; }
 :is(.spelldle-theme, .critterdle-theme) .spell-option:hover:not(:disabled):not(.locked) { transform: none; box-shadow: none; outline: 2px solid var(--red); outline-offset: 1px; }
