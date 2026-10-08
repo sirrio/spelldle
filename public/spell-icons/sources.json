@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "creator": "Caio / Clockwork Raven Studios",
+  "creator": "Caio / Clockwork Raven Studios (71 icons); Franuka (Alarm)",
   "source_root": "User's local Assets&Stock/itch.io library",
-  "scope": "Local preview of 65 audited Raven spell icons; 7 spells retain their existing Game-icons.net fallback.",
-  "license_status": "The inspected local pack notes identify the creator but contain no explicit license grant. No MIT, CC0, or CC BY license is assigned to these Raven images by this project. Publication rights have not been verified in this local-only integration.",
-  "palette_credit": "Resurrect 64 by Kerrie Lake, as credited in the included pack palette notes.",
-  "mapping_notes": "Visually checked Clockwork Raven skill packs 05,07,08,09,22,29,36, plus specific utility crops supplied and visually verified by root from pack12,27 and Pets/Animals. Conservative semantic proposal, not official spell names. Missing means no sufficiently clear verified candidate in inspected packs, not proof of absence in entire assets library. Color variants do not count as new motifs.",
+  "scope": "Local preview of all 72 spells: 71 Clockwork Raven icons and one Franuka bell, including the user's approved first choice for each of the seven formerly missing motifs. Existing Game-icons.net SVGs remain available only as image-load error fallbacks.",
+  "license_status": "Franuka's Alarm bell is CC BY 4.0 according to the bundled original License and index.txt. The inspected Raven pack notes contain no explicit license grant; publication rights for the 71 Raven images remain unverified. These third-party images are not covered by the repository's MIT license.",
+  "palette_credit": "The inspected Raven palette notes credit Resurrect 64 by Kerrie Lake. This credit is not asserted for Franuka's bell.",
+  "mapping_notes": "Visual associations selected from the existing local asset library: the original 65-icon Raven mockup, followed by the user's approved first candidate for each of the seven missing spells. Direct and metaphor describe semantic correspondence, not official pack spell names.",
   "counts": {
-    "direct": 22,
-    "metaphor": 43,
-    "existing_svg_fallback": 7
+    "direct": 24,
+    "metaphor": 48,
+    "existing_svg_fallback": 0
   },
   "assets": [
     {
@@ -29,7 +29,9 @@
       ],
       "confidence": "direct",
       "note": "Green arrow-shaped magical projectile",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Aid",
@@ -48,7 +50,9 @@
       ],
       "confidence": "metaphor",
       "note": "Heart with upward arrow; generic vitality increase",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Sleep",
@@ -67,7 +71,9 @@
       ],
       "confidence": "direct",
       "note": "Floating Z sleep sign",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Bless",
@@ -86,7 +92,9 @@
       ],
       "confidence": "metaphor",
       "note": "Holy cross with increase arrow",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Burning Hands",
@@ -105,7 +113,9 @@
       ],
       "confidence": "metaphor",
       "note": "Golden energy around a humanoid; does not specifically show flaming hands",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Charm Person",
@@ -124,7 +134,9 @@
       ],
       "confidence": "metaphor",
       "note": "Pink heart; charm or affection symbol",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Comprehend Languages",
@@ -148,7 +160,9 @@
       ],
       "confidence": "metaphor",
       "note": "Written scroll; language and reading rather than comprehension",
-      "transformation": "exact pixel crop; no resizing or recoloring"
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Cure Wounds",
@@ -167,7 +181,9 @@
       ],
       "confidence": "direct",
       "note": "Green healing cross",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Detect Magic",
@@ -186,7 +202,9 @@
       ],
       "confidence": "metaphor",
       "note": "Arcane sight or reticle symbol",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Disguise Self",
@@ -210,7 +228,9 @@
       ],
       "confidence": "metaphor",
       "note": "Mask; disguise by association",
-      "transformation": "exact pixel crop; no resizing or recoloring"
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Feather Fall",
@@ -234,7 +254,9 @@
       ],
       "confidence": "metaphor",
       "note": "Writing quill; feather association, falling not shown",
-      "transformation": "exact pixel crop; no resizing or recoloring"
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Find Familiar",
@@ -258,7 +280,9 @@
       ],
       "confidence": "metaphor",
       "note": "Cat; one possible familiar animal, no summoning effect",
-      "transformation": "exact pixel crop; no resizing or recoloring"
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Fireball",
@@ -277,7 +301,9 @@
       ],
       "confidence": "direct",
       "note": "Orange fireball with trail",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Fly",
@@ -296,7 +322,9 @@
       ],
       "confidence": "direct",
       "note": "Pair of wings",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Fog Cloud",
@@ -315,7 +343,9 @@
       ],
       "confidence": "metaphor",
       "note": "Purple swirling cloud; could read as smoke or storm",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Guidance",
@@ -334,7 +364,9 @@
       ],
       "confidence": "metaphor",
       "note": "Bright directional beam; generic divine guidance",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Healing Word",
@@ -353,7 +385,9 @@
       ],
       "confidence": "metaphor",
       "note": "Green linked or circling heart motif; healing without speech",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Identify",
@@ -372,7 +406,9 @@
       ],
       "confidence": "metaphor",
       "note": "Arcane diamond with central eye or focus",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Invisibility",
@@ -391,7 +427,9 @@
       ],
       "confidence": "metaphor",
       "note": "Dark figure within pale beam; ambiguous phasing silhouette",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Knock",
@@ -415,7 +453,9 @@
       ],
       "confidence": "metaphor",
       "note": "Key; magical unlocking by association",
-      "transformation": "exact pixel crop; no resizing or recoloring"
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Light",
@@ -434,7 +474,9 @@
       ],
       "confidence": "direct",
       "note": "Bright radiating sun or light burst",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Mage Armor",
@@ -453,7 +495,9 @@
       ],
       "confidence": "direct",
       "note": "Blue luminous torso armor",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Mage Hand",
@@ -472,7 +516,9 @@
       ],
       "confidence": "metaphor",
       "note": "Blue pointing hand; physical cursor-like hand rather than a spectral hand",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Magic Missile",
@@ -491,7 +537,9 @@
       ],
       "confidence": "direct",
       "note": "Three purple magical projectiles",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Mending",
@@ -515,7 +563,9 @@
       ],
       "confidence": "metaphor",
       "note": "Hammer; repair by association",
-      "transformation": "exact pixel crop; no resizing or recoloring"
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Misty Step",
@@ -534,7 +584,9 @@
       ],
       "confidence": "metaphor",
       "note": "Blue motion swirl; teleport by association",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Prestidigitation",
@@ -553,7 +605,9 @@
       ],
       "confidence": "metaphor",
       "note": "Small golden sparks; generic minor magical effect",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Revivify",
@@ -572,7 +626,9 @@
       ],
       "confidence": "metaphor",
       "note": "Green person with upward arrow; restoration of life by association",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Shield",
@@ -591,7 +647,9 @@
       ],
       "confidence": "direct",
       "note": "Purple magical shield",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Animate Dead",
@@ -610,7 +668,9 @@
       ],
       "confidence": "metaphor",
       "note": "Green skull; undeath without explicit animation",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Arcane Eye",
@@ -629,7 +689,9 @@
       ],
       "confidence": "direct",
       "note": "Purple floating eye",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Arcane Lock",
@@ -648,7 +710,9 @@
       ],
       "confidence": "metaphor",
       "note": "Fiery padlock; magical lock but orange flame emphasis",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Augury",
@@ -667,7 +731,9 @@
       ],
       "confidence": "metaphor",
       "note": "Four-leaf clover; luck or omen association",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Web",
@@ -686,7 +752,9 @@
       ],
       "confidence": "direct",
       "note": "Pale blue spiderweb",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Beacon of Hope",
@@ -705,7 +773,9 @@
       ],
       "confidence": "metaphor",
       "note": "Golden vertical light beacon; hope not explicit",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Blur",
@@ -724,7 +794,9 @@
       ],
       "confidence": "metaphor",
       "note": "Red streaked motion; visual blur metaphor, no humanoid shown",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Clairvoyance",
@@ -743,7 +815,9 @@
       ],
       "confidence": "metaphor",
       "note": "Blue arcane eye in geometric border",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Continual Flame",
@@ -762,7 +836,9 @@
       ],
       "confidence": "direct",
       "note": "Persistent-looking single orange flame; duration itself not pictured",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Counterspell",
@@ -781,7 +857,9 @@
       ],
       "confidence": "metaphor",
       "note": "Shield; generic magical negation is not explicit",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Darkness",
@@ -800,7 +878,9 @@
       ],
       "confidence": "metaphor",
       "note": "Nearly black swirling disk; low contrast on dark slots",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Darkvision",
@@ -819,7 +899,9 @@
       ],
       "confidence": "metaphor",
       "note": "Red eye; supernatural vision but not necessarily darkvision",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Daylight",
@@ -838,7 +920,9 @@
       ],
       "confidence": "direct",
       "note": "Bright golden sun disk",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Enhance Ability",
@@ -857,7 +941,9 @@
       ],
       "confidence": "direct",
       "note": "Arm muscle with increase arrow",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Enlarge/Reduce",
@@ -876,7 +962,9 @@
       ],
       "confidence": "metaphor",
       "note": "Small person with large up arrow; enlargement only, not reduction",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Entangle",
@@ -895,7 +983,9 @@
       ],
       "confidence": "direct",
       "note": "Green vines covering a figure",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Expeditious Retreat",
@@ -914,7 +1004,9 @@
       ],
       "confidence": "metaphor",
       "note": "Green running person; quick movement without retreat nuance",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Faerie Fire",
@@ -933,7 +1025,9 @@
       ],
       "confidence": "metaphor",
       "note": "Golden four-part magical burst; revealing outlined targets not explicit",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "False Life",
@@ -952,7 +1046,9 @@
       ],
       "confidence": "metaphor",
       "note": "Two red hearts; temporary health association",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Flaming Sphere",
@@ -971,7 +1067,9 @@
       ],
       "confidence": "direct",
       "note": "Round orange flaming orb",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Gentle Repose",
@@ -995,7 +1093,9 @@
       ],
       "confidence": "metaphor",
       "note": "Stone tomb; burial/rest association",
-      "transformation": "exact pixel crop; no resizing or recoloring"
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Grease",
@@ -1019,7 +1119,9 @@
       ],
       "confidence": "metaphor",
       "note": "Bottle; weak oil association, contents unidentified",
-      "transformation": "exact pixel crop; no resizing or recoloring"
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Hold Person",
@@ -1038,7 +1140,9 @@
       ],
       "confidence": "direct",
       "note": "Humanoid enclosed by golden vertical bars",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Jump",
@@ -1057,7 +1161,9 @@
       ],
       "confidence": "metaphor",
       "note": "Leg/foot attribute; jumping only by association",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Lesser Restoration",
@@ -1076,7 +1182,9 @@
       ],
       "confidence": "metaphor",
       "note": "Radiant healing cross; condition removal not explicit",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Levitate",
@@ -1095,7 +1203,9 @@
       ],
       "confidence": "direct",
       "note": "Blue person below an upward arrow",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Locate Object",
@@ -1114,7 +1224,9 @@
       ],
       "confidence": "metaphor",
       "note": "Purple target reticle; search without explicit object",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Magic Weapon",
@@ -1133,7 +1245,9 @@
       ],
       "confidence": "direct",
       "note": "Sword with magical golden sparkle",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Mirror Image",
@@ -1157,7 +1271,9 @@
       ],
       "confidence": "metaphor",
       "note": "Hand mirror; reflection rather than magical duplicates",
-      "transformation": "exact pixel crop; no resizing or recoloring"
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Pass without Trace",
@@ -1176,7 +1292,9 @@
       ],
       "confidence": "metaphor",
       "note": "Blue running figure; stealth or absent tracks not explicit",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Prayer of Healing",
@@ -1195,7 +1313,9 @@
       ],
       "confidence": "direct",
       "note": "Praying hands; healing context must come from label",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Protection from Poison",
@@ -1214,7 +1334,9 @@
       ],
       "confidence": "metaphor",
       "note": "Green shield; poison protection through color association",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Ray of Enfeeblement",
@@ -1233,7 +1355,9 @@
       ],
       "confidence": "metaphor",
       "note": "Dark purple magical projectile; weakness not explicit",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Scorching Ray",
@@ -1252,7 +1376,9 @@
       ],
       "confidence": "direct",
       "note": "Elongated orange fire ray",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "See Invisibility",
@@ -1271,7 +1397,9 @@
       ],
       "confidence": "metaphor",
       "note": "Golden eye; perception without explicit invisible target",
-      "transformation": "original file copied byte for byte"
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
     },
     {
       "spell": "Shatter",
@@ -1290,39 +1418,181 @@
       ],
       "confidence": "direct",
       "note": "Scattered golden fragments",
-      "transformation": "original file copied byte for byte"
-    }
-  ],
-  "fallbacks": [
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+    },
     {
       "spell": "Alarm",
-      "note": "No sufficiently clear bell or alarm motif verified in inspected skill packs"
-    },
-    {
-      "spell": "Blindness/Deafness",
-      "note": "No clear blinded eye or deafness motif verified; ordinary eye is not adequate"
-    },
-    {
-      "spell": "Command",
-      "note": "No sufficiently clear command or spoken-order symbol verified"
-    },
-    {
-      "spell": "Create Food and Water",
-      "note": "No food plus water candidate in inspected skill packs; item packs require separate review"
-    },
-    {
-      "spell": "Dispel Magic",
-      "note": "No clear removal or cancellation of magic candidate verified"
-    },
-    {
-      "spell": "Magic Mouth",
-      "note": "No literal mouth motif verified"
+      "file": "alarm.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/04 - Minecraft set/Individual icons (16x16)/bell.png",
+      "crop_xywh": null,
+      "source_sha256": "d637aba4934ebeea209ce985882574d9193069bebe89e6c6a0f4d7dee0dc627c",
+      "sha256": "d637aba4934ebeea209ce985882574d9193069bebe89e6c6a0f4d7dee0dc627c",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Bell; audible alarm motif, using the approved Franuka alternative",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "approved_candidate_key": "ALARM_BELL",
+      "approved_preview_sha256": "d637aba4934ebeea209ce985882574d9193069bebe89e6c6a0f4d7dee0dc627c",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
     },
     {
       "spell": "Alter Self",
-      "note": "No convincing transformation or changed-body motif verified"
+      "file": "alter-self.png",
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/5.png",
+      "crop_xywh": null,
+      "source_sha256": "c4a659aeaa495700e4d748cbe461f511bb391dab5cb42ed45422c4411b88fe3d",
+      "sha256": "c4a659aeaa495700e4d748cbe461f511bb391dab5cb42ed45422c4411b88fe3d",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Two humanoid figures with exchange arrows; appearance change by association, could also imply swapping people",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "approved_candidate_key": "ALTER",
+      "approved_preview_sha256": "c4a659aeaa495700e4d748cbe461f511bb391dab5cb42ed45422c4411b88fe3d"
+    },
+    {
+      "spell": "Blindness/Deafness",
+      "file": "blindness-deafness.png",
+      "source_relative_to_itch_io": "Clockwork Raven/25 - RPG Icon Pack - 240 Attributes, Menu and States/Files/Without/64x64/tile116.png",
+      "crop_xywh": null,
+      "source_sha256": "82c0becfdcf020b5674362cda408d28349daf69f0cb391a97f5122b4be9502f9",
+      "sha256": "82c0becfdcf020b5674362cda408d28349daf69f0cb391a97f5122b4be9502f9",
+      "source_dimensions": [
+        64,
+        64
+      ],
+      "dimensions": [
+        64,
+        64
+      ],
+      "confidence": "direct",
+      "note": "Crossed-out red eye; clear blindness motif, deafness is not depicted",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "approved_candidate_key": "BLIND",
+      "approved_preview_sha256": "82c0becfdcf020b5674362cda408d28349daf69f0cb391a97f5122b4be9502f9"
+    },
+    {
+      "spell": "Command",
+      "file": "command.png",
+      "source_relative_to_itch_io": "Clockwork Raven/09 - Raven Fantasy - Pixel Art RPG Icons - Warrior Skills/Files/Original/16/182.png",
+      "crop_xywh": null,
+      "source_sha256": "f8b6f365ca407c184d95e48e3ea6bbc0bca47d04a9d90744ca181e153d872939",
+      "sha256": "f8b6f365ca407c184d95e48e3ea6bbc0bca47d04a9d90744ca181e153d872939",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Shouting head with sound waves; spoken command by association, could also read as a battle cry",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "approved_candidate_key": "COMMAND_VOICE",
+      "approved_preview_sha256": "f8b6f365ca407c184d95e48e3ea6bbc0bca47d04a9d90744ca181e153d872939"
+    },
+    {
+      "spell": "Create Food and Water",
+      "file": "create-food-and-water.png",
+      "source_relative_to_itch_io": "Clockwork Raven/10 - RPG Icon Pack - 300+ Farming, Food and Beverages/Files/No Outline/16x16.png",
+      "crop_xywh": [
+        144,
+        272,
+        16,
+        16
+      ],
+      "source_sha256": "1b16c28d1a8f4bb7103dc0933f48df3d8902ab6032399a6266b23efad84f19a6",
+      "sha256": "fccea3dd362b02b17b79412885cd722c01436452166d44e3420173ab0e3db250",
+      "source_dimensions": [
+        256,
+        304
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Bread; food is represented but water and magical creation are not depicted",
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "approved_candidate_key": "FOOD_BREAD",
+      "approved_preview_sha256": "fccea3dd362b02b17b79412885cd722c01436452166d44e3420173ab0e3db250"
+    },
+    {
+      "spell": "Dispel Magic",
+      "file": "dispel-magic.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S42.png",
+      "crop_xywh": null,
+      "source_sha256": "8f18b46c076f7787fb667d38d29104b869da7892c135b127310ad78f4180c1c6",
+      "sha256": "8f18b46c076f7787fb667d38d29104b869da7892c135b127310ad78f4180c1c6",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Purple magic swirl with red down arrow; weakened or removed magic by association, could also read as a magic-stat debuff",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "approved_candidate_key": "DISPEL",
+      "approved_preview_sha256": "8f18b46c076f7787fb667d38d29104b869da7892c135b127310ad78f4180c1c6"
+    },
+    {
+      "spell": "Magic Mouth",
+      "file": "magic-mouth.png",
+      "source_relative_to_itch_io": "Clockwork Raven/25 - RPG Icon Pack - 240 Attributes, Menu and States/Files/Without/16x16/tile007.png",
+      "crop_xywh": null,
+      "source_sha256": "5b276ed76a7c32ec3ce25014cb9e2ba6047b7d6b4197986bd464a4fdb62ad2ff",
+      "sha256": "5b276ed76a7c32ec3ce25014cb9e2ba6047b7d6b4197986bd464a4fdb62ad2ff",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Speech bubble with three dots; speech or a message by association, could also read as a dialogue icon",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "approved_candidate_key": "MOUTH_BUBBLE",
+      "approved_preview_sha256": "5b276ed76a7c32ec3ce25014cb9e2ba6047b7d6b4197986bd464a4fdb62ad2ff"
     }
   ],
+  "fallbacks": [],
   "source_notes": [
     {
       "source_relative_to_itch_io": "Clockwork Raven/05 - Raven Fantasy - Pixel Art RPG Icons - Wizard Skills/Files/A Note to the Dev.txt",
@@ -1375,6 +1645,40 @@
     {
       "source_relative_to_itch_io": "Clockwork Raven/Raven Fantasy - Pixel Art RPG Icons - Pets and Animals/Files/Palette/Pallete.txt",
       "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/09 - Raven Fantasy - Pixel Art RPG Icons - Warrior Skills/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/09 - Raven Fantasy - Pixel Art RPG Icons - Warrior Skills/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/10 - RPG Icon Pack - 300+ Farming, Food and Beverages/Files/Read me, please!.txt",
+      "sha256": "f5711cab6bb52e3c6bfccbc21fe64971e9a9b83b2c4271b16b2e524e904b5836"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/25 - RPG Icon Pack - 240 Attributes, Menu and States/Files/Please, dont read this!.txt",
+      "sha256": "2c857e5c2520f3e86bb5eff8c279fc65a6c9de180dd5b3993927420db5e35313"
+    },
+    {
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/04 - Minecraft set/How to use.txt",
+      "sha256": "f7f721fa2cfd4770557956f5fc5ef46a3060a12964def7e6467bc164e0f2c965"
+    },
+    {
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/License and index.txt",
+      "sha256": "254f411b7b0ecc2d74da687a6aa77b648b10e67d027b6fe626e4ba2807db1faf"
+    }
+  ],
+  "bundled_license_notices": [
+    {
+      "file": "FRANUKA-LICENSE-AND-INDEX.txt",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/License and index.txt",
+      "sha256": "254f411b7b0ecc2d74da687a6aa77b648b10e67d027b6fe626e4ba2807db1faf",
+      "applies_to": [
+        "alarm.png"
+      ]
     }
   ]
 }

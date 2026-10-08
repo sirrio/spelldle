@@ -46,18 +46,17 @@ The `release/1.1.0` book-style prototype is local only; do not push or deploy it
 without a subsequent user instruction. Its skin is scoped to Spelldle and does
 not alter `dndle-core`, the daily sequence or storage.
 
-The local icon preview uses 65 Clockwork Raven pixel icons from the existing
-asset library. Alarm, Alter Self, Blindness/Deafness, Command, Create Food and
-Water, Dispel Magic and Magic Mouth retain their Game-icons.net artwork. All
-72 original SVGs also remain available if an image cannot load. The same icon
-is used in the archive, selection, guess rows and result dialog.
+The local icon preview covers all 72 spells with original pixel artwork from
+the existing asset library: 71 Clockwork Raven icons and Franuka's bell for
+Alarm. All 72 original Game-icons.net SVGs remain available if an image cannot
+load. The same icon is used in the archive, selection, guess rows and result dialog.
 
 `src/spell-icons.generated.json` maps spell names to bundled PNGs.
 `public/spell-icons/sources.json` records original paths, crop coordinates,
 dimensions, hashes and the rationale for each visual association. The source
 pixels and colors are unchanged. See [asset notes](public/spell-icons/README.md)
-for provenance and the still-unverified publication license; these images are
-part of the local prototype only.
+for provenance, Franuka's bundled license and the still-unverified Raven
+publication license. These images are part of the local prototype only.
 
 Original WizardBook PNGs in `public/book-ui` are drawn with CSS nine-slice
 borders: cover 32px; left page 3/1/3/8px, right page 3/8/3/1px; buttons 6/3/5/3px; slots 6/4/6/4px (top/right/bottom/left source pixels). Desktop
@@ -72,11 +71,12 @@ GitHub Actions builds the site and deploys `dist/` to **GitHub Pages** after eve
 
 This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at [dndbeyond.com/srd](https://www.dndbeyond.com/srd). The SRD 5.2.1 is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode).
 
-Pixel spell icons by Caio / Clockwork Raven Studios, from the user's local
-Raven asset packs. Resurrect 64 palette by Kerrie Lake, as credited in the pack
-notes. These images are not covered by this repository's MIT license. Local
-pack notes do not contain an explicit license grant; publication rights remain
-unverified. See [icon source notes](public/spell-icons/README.md).
+Pixel spell icons by Caio / Clockwork Raven Studios, with the Alarm bell by
+[Franuka](https://franuka.itch.io/) from the RPG Icon pack, used under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Resurrect 64 palette by Kerrie Lake, as credited
+in the Raven pack notes. These images are not covered by this repository's MIT
+license. See [icon source notes](public/spell-icons/README.md) for the local
+source licenses and publication status.
 
 Fallback spell icons by Lorc, Delapouite, and the contributors of [Game-icons.net](https://game-icons.net/), used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 

@@ -63,5 +63,12 @@
   "Ray of Enfeeblement": "spell-icons/ray-of-enfeeblement.png",
   "Scorching Ray": "spell-icons/scorching-ray.png",
   "See Invisibility": "spell-icons/see-invisibility.png",
-  "Shatter": "spell-icons/shatter.png"
+  "Shatter": "spell-icons/shatter.png",
+  "Alarm": "spell-icons/alarm.png",
+  "Alter Self": "spell-icons/alter-self.png",
+  "Blindness/Deafness": "spell-icons/blindness-deafness.png",
+  "Command": "spell-icons/command.png",
+  "Create Food and Water": "spell-icons/create-food-and-water.png",
+  "Dispel Magic": "spell-icons/dispel-magic.png",
+  "Magic Mouth": "spell-icons/magic-mouth.png"
 }
