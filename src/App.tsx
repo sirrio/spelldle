@@ -69,7 +69,7 @@ export const SPELLDLE_CONFIG: DndleConfig<Spell> = {
   ],
   daily: { startUtc: [2026, 0, 1], multiplier: 17, offset: 5 },
   itemLabel: "Spell",
-  collectionTitle: "Spells",
+  collectionTitle: "Spell Archive",
   archiveName: "ARCANE ARCHIVE",
   resultsTitle: "Your guesses",
   selectPrompt: "Pick a spell, then cast your guess.",
