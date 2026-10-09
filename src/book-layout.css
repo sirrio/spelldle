@@ -1,4 +1,4 @@
-/* Mirrored in Spelldle and Critterdle while the shared core stays pinned.
+/* Game-owned book theme mirrored in Spelldle and Critterdle.
    Keep layout/interaction rules identical; asset slices and palette live in index.css. */
 body { min-width: 0; overflow: auto; background: #e8dfcf; }
 :is(.spelldle-theme, .critterdle-theme) { height: auto; min-height: 100svh; overflow: visible; background: #e8dfcf; color: var(--ink); }

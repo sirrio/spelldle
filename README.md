@@ -2,9 +2,9 @@
 
 A daily Wordle-style guessing game for spells from the 2024 D&D rules in SRD 5.2.1. Compare seven spell properties and uncover the entry hidden in the Arcane Archive in seven guesses.
 
-✨ **Current deployment:** https://sirrio.github.io/spelldle/
+✨ **Legacy address:** https://sirrio.github.io/spelldle/
 
-**Custom domain prepared locally:** https://spelldle.com/ — see the cutover notes below.
+**Production domain:** https://spelldle.com/ — see the domain configuration below.
 
 ## Features
 
@@ -42,15 +42,14 @@ tests and builds do not. The user normally manages the local server.
 On Windows PowerShell, use `npm.cmd` instead of `npm` if the PowerShell wrapper
 does not forward the flags after `--` correctly.
 
-### Book UI release candidate
+### Book UI
 
-The `release/1.1.0` book theme is in the authorized PR phase; deployment remains
-pending the coordinated release. Its skin is scoped to Spelldle. The local
-`dndle-core` candidate adds seven guesses, compact selection controls and a
-results list that grows as guesses are submitted. The daily sequence and storage
+The WizardBook skin is scoped to Spelldle. The published `@sirrio/dndle-core`
+version `1.0.7` provides seven guesses, compact selection controls and a results
+list that grows as guesses are submitted. The daily sequence and storage
 namespace are unchanged; completed six-guess rounds retain their original limit,
 and existing statistics are preserved when adding the seventh distribution slot.
-The pinned dependency remains unchanged until a coordinated core release.
+The shared core is pinned to its exact `v1.0.7` GitHub tag archive.
 Catalog tests retain the stronger guarantee that every spell can be found within
 six guesses.
 
@@ -79,21 +78,15 @@ shows a two-page spread with the 8 × 9 archive; narrow screens stack the pages.
 
 GitHub Actions builds the site and deploys `dist/` to **GitHub Pages** after every push to `main`.
 
-### Custom domain cutover
+### Custom domain configuration
 
-The local release prepares `https://spelldle.com/` as the canonical address.
-Share links, social images and the sibling-game link use the new domains.
-This does not itself change the deployed site or DNS. Keep this status current
-when the coordinated cutover is completed.
+The canonical address is `https://spelldle.com/`. Share links, social images
+and the sibling-game link use the production domains.
 
-Domain ownership was verified in the GitHub account on 2026-10-09. The
-`_github-pages-challenge-sirrio` TXT record is installed in ALL-INKL and must
-remain in place. The web DNS and repository custom-domain switch are pending
-the coordinated release; verification alone does not redirect visitors.
-
-Verify the domain in GitHub first, retain its verification TXT record, then set
-`spelldle.com` as the repository's Pages custom domain before changing web DNS.
-The intended ALL-INKL records are:
+Domain ownership was verified in GitHub on 2026-10-09. The
+`_github-pages-challenge-sirrio` TXT record remains installed in ALL-INKL.
+The repository's Pages custom domain and the following ALL-INKL web DNS
+records were configured on that date. Keep the verification and mail records.
 
 | Name | Type | Value |
 | --- | --- | --- |
@@ -103,8 +96,8 @@ The intended ALL-INKL records are:
 | `@` | A | `185.199.111.153` |
 | `www` | CNAME | `sirrio.github.io.` |
 
-Replace conflicting web records; preserve mail records. The `www` alias redirects
-to the apex domain. Enable Enforce HTTPS once GitHub's certificate is ready.
+The `www` alias and the legacy GitHub Pages address redirect to the apex domain.
+Verify HTTPS and enable Enforce HTTPS when GitHub's certificate is ready.
 This repository deploys through Actions, so no `CNAME` file is required.
 See [GitHub's domain setup guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
@@ -155,7 +148,7 @@ layout inset, matching the original layered book construction.
 ## Book theme implementation
 
 `src/book-layout.css` is intentionally identical in Spelldle and Critterdle.
-Until a coordinated core release, keep the two local copies in sync. The
+Keep the two game-owned copies in sync. The
 project-specific `src/index.css` contains only palette and original sprite
 metrics and stylesheet imports; `src/spell-icons.css` handles Spelldle's pixel
 icon sizing. Both games use the same page sizes, content insets, controls,
