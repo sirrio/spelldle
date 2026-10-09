@@ -77,4 +77,3 @@ h2{font:400 28px/1.2 Bree,serif;margin:0 0 14px;padding-bottom:12px;border-botto
 mkdirSync(join(root, "dist"), { recursive: true });
 writeFileSync(join(root, "dist/social-preview.html"), html);
 console.log(`Created ${game}/dist/social-preview.html (1200 x 630).`);
-

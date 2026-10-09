@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "creator": "Caio / Clockwork Raven Studios (62 icons); Franuka (10 icons)",
+  "creator": "Clockwork Raven (62 licensed icons, including Skull Jelly and Manowell artwork); Franuka (10 icons)",
   "source_root": "User's local Assets&Stock/itch.io library",
-  "scope": "Local preview of all 72 spells: 62 Clockwork Raven icons and 10 Franuka icons, including sixteen individually selected replacement motifs. Existing Game-icons.net SVGs remain available only as image-load error fallbacks.",
-  "license_status": "Franuka's 10 icons are CC BY 4.0 according to the bundled original License and index.txt. The inspected Raven pack notes contain no explicit license grant; publication rights for the 62 Raven images remain unverified. These third-party images are not covered by the repository's MIT license.",
+  "scope": "All 72 spells: 62 Clockwork Raven icons and 10 Franuka icons, including sixteen individually selected replacement motifs. Existing Game-icons.net SVGs remain available as image-load error fallbacks.",
+  "license_status": "Raven: custom User Asset License Agreement v1.2, with the author's open-source-game clarification requiring a no-extraction/no-reuse notice. Franuka: CC BY 4.0. These images are excluded from the repository's MIT license.",
   "palette_credit": "The inspected Raven palette notes credit Resurrect 64 by Kerrie Lake. This credit is not asserted for the Franuka icons.",
   "mapping_notes": "Visual associations individually selected from the existing local asset library. Direct and metaphor describe semantic correspondence, not official pack spell names. Fog Cloud uses Raven S386 in a user-approved grayscale display palette; the original PNG is unchanged. All 72 spells use distinct source artwork.",
   "counts": {
@@ -31,7 +31,9 @@
       "note": "Green arrow-shaped magical projectile",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Aid",
@@ -51,8 +53,12 @@
       "confidence": "metaphor",
       "note": "Heart with upward arrow; generic vitality increase",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Sleep",
@@ -73,7 +79,9 @@
       "note": "Floating Z sleep sign",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Bless",
@@ -93,8 +101,12 @@
       "confidence": "metaphor",
       "note": "Holy cross with increase arrow",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Burning Hands",
@@ -115,7 +127,9 @@
       "note": "Broad cone of fire; conveys the effect but does not depict hands.",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Charm Person",
@@ -135,8 +149,12 @@
       "confidence": "metaphor",
       "note": "Pink heart; charm or affection symbol",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Comprehend Languages",
@@ -162,7 +180,9 @@
       "note": "Written scroll; language and reading rather than comprehension",
       "transformation": "exact pixel crop; no resizing or recoloring",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Cure Wounds",
@@ -182,8 +202,12 @@
       "confidence": "direct",
       "note": "Green healing cross",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Detect Magic",
@@ -203,8 +227,12 @@
       "confidence": "metaphor",
       "note": "Arcane sight or reticle symbol",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-wizard-skills"
     },
     {
       "spell": "Disguise Self",
@@ -230,7 +258,9 @@
       "note": "Mask; disguise by association",
       "transformation": "exact pixel crop; no resizing or recoloring",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Feather Fall",
@@ -280,7 +310,9 @@
       "note": "Cat; one possible familiar animal, no summoning effect",
       "transformation": "exact pixel crop; no resizing or recoloring",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Fireball",
@@ -300,8 +332,12 @@
       "confidence": "direct",
       "note": "Orange fireball with trail",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Fly",
@@ -345,9 +381,13 @@
       "confidence": "metaphor",
       "note": "Diagonal streak motif (Raven S386), displayed in grayscale for Fog Cloud. The original PNG pixels and alpha are unchanged.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
-      "display_filter": "grayscale(1)"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "display_filter": "grayscale(1)",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Guidance",
@@ -367,8 +407,12 @@
       "confidence": "metaphor",
       "note": "Raised hand with golden light; symbolic divine guidance.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-acolyte-skills"
     },
     {
       "spell": "Healing Word",
@@ -388,8 +432,12 @@
       "confidence": "metaphor",
       "note": "Green linked or circling heart motif; healing without speech",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Identify",
@@ -409,8 +457,12 @@
       "confidence": "metaphor",
       "note": "Arcane diamond with central eye or focus",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Invisibility",
@@ -460,7 +512,9 @@
       "note": "Key; magical unlocking by association",
       "transformation": "exact pixel crop; no resizing or recoloring",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Light",
@@ -480,8 +534,12 @@
       "confidence": "direct",
       "note": "Bright radiating sun or light burst",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Mage Armor",
@@ -502,7 +560,9 @@
       "note": "Blue luminous torso armor",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Mage Hand",
@@ -546,8 +606,12 @@
       "confidence": "direct",
       "note": "Three purple magical projectiles",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Mending",
@@ -573,7 +637,9 @@
       "note": "Hammer; repair by association",
       "transformation": "exact pixel crop; no resizing or recoloring",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Misty Step",
@@ -593,8 +659,12 @@
       "confidence": "metaphor",
       "note": "Blue motion swirl; teleport by association",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Prestidigitation",
@@ -615,7 +685,9 @@
       "note": "Small golden sparks; generic minor magical effect",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Revivify",
@@ -635,8 +707,12 @@
       "confidence": "metaphor",
       "note": "Glowing heart with smaller hearts; conveys life but could also suggest ordinary healing.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-acolyte-skills"
     },
     {
       "spell": "Shield",
@@ -656,8 +732,12 @@
       "confidence": "direct",
       "note": "Purple magical shield",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Animate Dead",
@@ -677,8 +757,12 @@
       "confidence": "metaphor",
       "note": "Green skull; undeath without explicit animation",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Arcane Eye",
@@ -698,8 +782,12 @@
       "confidence": "direct",
       "note": "Purple floating eye",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Arcane Lock",
@@ -743,8 +831,12 @@
       "confidence": "metaphor",
       "note": "Four-leaf clover; luck or omen association",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Web",
@@ -764,8 +856,12 @@
       "confidence": "direct",
       "note": "Pale blue spiderweb",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Beacon of Hope",
@@ -785,8 +881,12 @@
       "confidence": "metaphor",
       "note": "Golden vertical light beacon; hope not explicit",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Blur",
@@ -830,8 +930,12 @@
       "confidence": "metaphor",
       "note": "Blue arcane eye in geometric border",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Continual Flame",
@@ -852,7 +956,9 @@
       "note": "Persistent-looking single orange flame; duration itself not pictured",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Counterspell",
@@ -896,8 +1002,12 @@
       "confidence": "metaphor",
       "note": "Nearly black swirling disk; low contrast on dark slots",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Darkvision",
@@ -917,8 +1027,12 @@
       "confidence": "metaphor",
       "note": "Red eye; supernatural vision but not necessarily darkvision",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Daylight",
@@ -939,7 +1053,9 @@
       "note": "Bright golden sun disk",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Enhance Ability",
@@ -959,8 +1075,12 @@
       "confidence": "direct",
       "note": "Arm muscle with increase arrow",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Enlarge/Reduce",
@@ -980,8 +1100,12 @@
       "confidence": "metaphor",
       "note": "Small person with large up arrow; enlargement only, not reduction",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Entangle",
@@ -1025,8 +1149,12 @@
       "confidence": "metaphor",
       "note": "Green running person; quick movement without retreat nuance",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Faerie Fire",
@@ -1046,8 +1174,12 @@
       "confidence": "metaphor",
       "note": "Golden four-part magical burst; revealing outlined targets not explicit",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "False Life",
@@ -1067,8 +1199,12 @@
       "confidence": "metaphor",
       "note": "Single violet heart; symbolic vitality, without depicting temporary hit points.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-acolyte-skills"
     },
     {
       "spell": "Flaming Sphere",
@@ -1088,8 +1224,12 @@
       "confidence": "direct",
       "note": "Round orange flaming orb",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Gentle Repose",
@@ -1115,7 +1255,9 @@
       "note": "Stone tomb; burial/rest association",
       "transformation": "exact pixel crop; no resizing or recoloring",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Grease",
@@ -1141,7 +1283,9 @@
       "note": "Bottle; weak oil association, contents unidentified",
       "transformation": "exact pixel crop; no resizing or recoloring",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Hold Person",
@@ -1185,8 +1329,12 @@
       "confidence": "metaphor",
       "note": "Leg/foot attribute; jumping only by association",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Lesser Restoration",
@@ -1206,8 +1354,12 @@
       "confidence": "metaphor",
       "note": "Radiant healing cross; condition removal not explicit",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Levitate",
@@ -1227,8 +1379,12 @@
       "confidence": "direct",
       "note": "Blue person below an upward arrow",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Locate Object",
@@ -1248,8 +1404,12 @@
       "confidence": "metaphor",
       "note": "Purple target reticle; search without explicit object",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Magic Weapon",
@@ -1269,8 +1429,12 @@
       "confidence": "direct",
       "note": "Sword with magical golden sparkle",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Mirror Image",
@@ -1290,8 +1454,12 @@
       "confidence": "metaphor",
       "note": "Purple hooded figure with two dark offset figures; selected as magical duplicates. No supplied source spell name.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-rogue-skills"
     },
     {
       "spell": "Pass without Trace",
@@ -1311,8 +1479,12 @@
       "confidence": "metaphor",
       "note": "Blue running figure; stealth or absent tracks not explicit",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Prayer of Healing",
@@ -1332,8 +1504,12 @@
       "confidence": "direct",
       "note": "Praying hands; healing context must come from label",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-acolyte-skills"
     },
     {
       "spell": "Protection from Poison",
@@ -1353,8 +1529,12 @@
       "confidence": "metaphor",
       "note": "Green shield; poison protection through color association",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Ray of Enfeeblement",
@@ -1375,7 +1555,9 @@
       "note": "Dark purple magical projectile; weakness not explicit",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Scorching Ray",
@@ -1396,7 +1578,9 @@
       "note": "Elongated orange fire ray",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "See Invisibility",
@@ -1416,8 +1600,12 @@
       "confidence": "metaphor",
       "note": "Golden eye; perception without explicit invisible target",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Shatter",
@@ -1437,8 +1625,12 @@
       "confidence": "direct",
       "note": "Fractured blue-gray stone; depicts destruction, without explicitly showing sound.",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified"
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Alarm",
@@ -1485,9 +1677,11 @@
       "note": "Two humanoid figures with exchange arrows; appearance change by association, could also imply swapping people",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
       "approved_candidate_key": "ALTER",
-      "approved_preview_sha256": "c4a659aeaa495700e4d748cbe461f511bb391dab5cb42ed45422c4411b88fe3d"
+      "approved_preview_sha256": "c4a659aeaa495700e4d748cbe461f511bb391dab5cb42ed45422c4411b88fe3d",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Blindness/Deafness",
@@ -1508,9 +1702,11 @@
       "note": "Crossed-out red eye; clear blindness motif, deafness is not depicted",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
       "approved_candidate_key": "BLIND",
-      "approved_preview_sha256": "82c0becfdcf020b5674362cda408d28349daf69f0cb391a97f5122b4be9502f9"
+      "approved_preview_sha256": "82c0becfdcf020b5674362cda408d28349daf69f0cb391a97f5122b4be9502f9",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Command",
@@ -1530,10 +1726,14 @@
       "confidence": "metaphor",
       "note": "Shouting head with sound waves; spoken command by association, could also read as a battle cry",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
       "approved_candidate_key": "COMMAND_VOICE",
-      "approved_preview_sha256": "f8b6f365ca407c184d95e48e3ea6bbc0bca47d04a9d90744ca181e153d872939"
+      "approved_preview_sha256": "f8b6f365ca407c184d95e48e3ea6bbc0bca47d04a9d90744ca181e153d872939",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-fighter-skills"
     },
     {
       "spell": "Create Food and Water",
@@ -1559,9 +1759,11 @@
       "note": "Bread; food is represented but water and magical creation are not depicted",
       "transformation": "exact pixel crop; no resizing or recoloring",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
       "approved_candidate_key": "FOOD_BREAD",
-      "approved_preview_sha256": "fccea3dd362b02b17b79412885cd722c01436452166d44e3420173ab0e3db250"
+      "approved_preview_sha256": "fccea3dd362b02b17b79412885cd722c01436452166d44e3420173ab0e3db250",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     },
     {
       "spell": "Dispel Magic",
@@ -1581,10 +1783,14 @@
       "confidence": "metaphor",
       "note": "Purple magic swirl with red down arrow; weakened or removed magic by association, could also read as a magic-stat debuff",
       "transformation": "original file copied byte for byte",
-      "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
       "approved_candidate_key": "DISPEL",
-      "approved_preview_sha256": "8f18b46c076f7787fb667d38d29104b869da7892c135b127310ad78f4180c1c6"
+      "approved_preview_sha256": "8f18b46c076f7787fb667d38d29104b869da7892c135b127310ad78f4180c1c6",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
     },
     {
       "spell": "Magic Mouth",
@@ -1605,9 +1811,11 @@
       "note": "Speech bubble with three dots; speech or a message by association, could also read as a dialogue icon",
       "transformation": "original file copied byte for byte",
       "creator": "Caio / Clockwork Raven Studios",
-      "license_status": "No explicit license grant found in the inspected local Raven pack notes; publication rights unverified",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
       "approved_candidate_key": "MOUTH_BUBBLE",
-      "approved_preview_sha256": "5b276ed76a7c32ec3ce25014cb9e2ba6047b7d6b4197986bd464a4fdb62ad2ff"
+      "approved_preview_sha256": "5b276ed76a7c32ec3ce25014cb9e2ba6047b7d6b4197986bd464a4fdb62ad2ff",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
     }
   ],
   "fallbacks": [],
@@ -1707,5 +1915,15 @@
         "mage-hand.png"
       ]
     }
-  ]
+  ],
+  "publication_evidence": {
+    "verified_on": "2026-10-09",
+    "raven_license_url": "https://drive.google.com/drive/folders/121s8vaEk2h2Y-3cHDlfkKcwojsySYh3q",
+    "raven_license_file": "RAVEN-LICENSE-v1.2.pdf",
+    "raven_license_sha256": "eb4a41c8c16bf9cc06d8bab4cc4ea232914e5a2c929d8d983167995be7633120",
+    "raven_product_and_open_source_context": "https://clockworkraven.itch.io/rpg-icon-pack-400-skills-and-spells-clockwork-raven-studios",
+    "raven_open_source_clarification": "https://itch.io/post/9029721",
+    "raven_shared_license_confirmation": "https://itch.io/post/6044392",
+    "reuse_notice": "Raven artwork is included only as part of Spelldle. It may not be extracted, redistributed as assets, or reused in other projects under this repository's license; obtain your own permission or license from Clockwork Raven."
+  }
 }

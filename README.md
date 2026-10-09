@@ -42,10 +42,10 @@ tests and builds do not. The user normally manages the local server.
 On Windows PowerShell, use `npm.cmd` instead of `npm` if the PowerShell wrapper
 does not forward the flags after `--` correctly.
 
-### Local book UI prototype
+### Book UI release candidate
 
-The `release/1.1.0` book-style prototype is local only; do not push or deploy it
-without a subsequent user instruction. Its skin is scoped to Spelldle. The local
+The `release/1.1.0` book theme is in the authorized PR phase; deployment remains
+pending the coordinated release. Its skin is scoped to Spelldle. The local
 `dndle-core` candidate adds seven guesses, compact selection controls and a
 results list that grows as guesses are submitted. The daily sequence and storage
 namespace are unchanged; completed six-guess rounds retain their original limit,
@@ -54,7 +54,7 @@ The pinned dependency remains unchanged until a coordinated core release.
 Catalog tests retain the stronger guarantee that every spell can be found within
 six guesses.
 
-The local icon preview covers all 72 spells with original pixel artwork from
+The icon set covers all 72 spells with original pixel artwork from
 the existing asset library: 62 Clockwork Raven icons and 10 Franuka icons.
 All 72 original Game-icons.net SVGs remain available if an image cannot
 load. The same icon is used in the archive, selection, guess rows and result dialog.
@@ -64,9 +64,11 @@ load. The same icon is used in the archive, selection, guess rows and result dia
 dimensions, hashes and the rationale for each visual association. The source
 PNG pixels and colors are unchanged. Fog Cloud uses the original Raven S386
 artwork and is displayed in grayscale through CSS.
-See [asset notes](public/spell-icons/README.md)
-for provenance, Franuka's bundled license and the still-unverified Raven
-publication license. These images are part of the local prototype only.
+See [asset notes](public/spell-icons/README.md) for provenance, the bundled
+licenses and the creators' publication terms. Raven artwork is included only as
+part of Spelldle: it may not be extracted, redistributed as assets or reused in
+other projects under this repository's license. Obtain your own permission or
+license from Clockwork Raven for other uses.
 
 Original WizardBook PNGs in `public/book-ui` are drawn with CSS nine-slice
 borders: cover 32px; left page 3/1/3/8px, right page 3/8/3/1px; buttons 6/3/5/3px; slots 6/4/6/4px (top/right/bottom/left source pixels). Desktop
@@ -118,14 +120,17 @@ statistics and streaks are not automatically transferred to `spelldle.com`.
 
 This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at [dndbeyond.com/srd](https://www.dndbeyond.com/srd). The SRD 5.2.1 is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode).
 
-62 pixel spell icons by Caio / Clockwork Raven Studios. Ten icons by
+62 pixel spell icons licensed by [Clockwork Raven](https://clockworkraven.itch.io/),
+including commissioned artwork by [Skull Jelly](https://x.com/Skull_inaJelly)
+and the Attributes, Skills, Spells and Scores pack made with
+[Manowell](https://www.instagram.com/manowellplayed/). Ten icons by
 [Franuka](https://franuka.itch.io/) from the RPG Icon pack, used under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Franuka's artwork is
 used for Alarm, Arcane Lock, Blur, Counterspell, Entangle, Feather Fall, Fly, Hold
 Person, Invisibility and Mage Hand. Resurrect 64 palette by Kerrie Lake, as credited
 in the Raven pack notes. These images are not covered by this repository's MIT
 license. See [icon source notes](public/spell-icons/README.md) for the local
-source licenses and publication status.
+source licenses, artist mapping and the author's open-source-project clarification.
 
 Fallback spell icons by Lorc, Delapouite, and the contributors of [Game-icons.net](https://game-icons.net/), used under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 
@@ -136,6 +141,10 @@ from the Complete UI Book Styles Pack (WizardBook). Original PNGs are unmodified
 their layout and nine-slice display are adapted for Spelldle. This artwork uses
 the creator's custom license in [public/book-ui/LICENSE.txt](public/book-ui/LICENSE.txt),
 not this repository's MIT license. The full purchased pack is not included.
+Crusenho [confirms use in an online game with disclosed sources](https://itch.io/post/13320970).
+Only the nine sprites needed by this game are included. Their presence does not
+grant permission to extract or republish the pack as a separate asset collection;
+obtain the artwork and its license from the creator for your own projects.
 
 The original source code is available under the [MIT License](LICENSE). SRD material and icons remain subject to their respective licenses above.
 
