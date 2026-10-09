@@ -1,0 +1,1929 @@
+{
+  "schema_version": 1,
+  "creator": "Clockwork Raven (62 licensed icons, including Skull Jelly and Manowell artwork); Franuka (10 icons)",
+  "source_root": "User's local Assets&Stock/itch.io library",
+  "scope": "All 72 spells: 62 Clockwork Raven icons and 10 Franuka icons, including sixteen individually selected replacement motifs. Existing Game-icons.net SVGs remain available as image-load error fallbacks.",
+  "license_status": "Raven: custom User Asset License Agreement v1.2, with the author's open-source-game clarification requiring a no-extraction/no-reuse notice. Franuka: CC BY 4.0. These images are excluded from the repository's MIT license.",
+  "palette_credit": "The inspected Raven palette notes credit Resurrect 64 by Kerrie Lake. This credit is not asserted for the Franuka icons.",
+  "mapping_notes": "Visual associations individually selected from the existing local asset library. Direct and metaphor describe semantic correspondence, not official pack spell names. Fog Cloud uses Raven S386 in a user-approved grayscale display palette; the original PNG is unchanged. All 72 spells use distinct source artwork.",
+  "counts": {
+    "direct": 26,
+    "metaphor": 46,
+    "existing_svg_fallback": 0
+  },
+  "assets": [
+    {
+      "spell": "Acid Arrow",
+      "file": "acid-arrow.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile025.png",
+      "crop_xywh": null,
+      "source_sha256": "30b0e82ebe3d3326649d8e50cebb3d048c8f7917d62dc0ff17269abd59d59ccc",
+      "sha256": "30b0e82ebe3d3326649d8e50cebb3d048c8f7917d62dc0ff17269abd59d59ccc",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Green arrow-shaped magical projectile",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Aid",
+      "file": "aid.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S19.png",
+      "crop_xywh": null,
+      "source_sha256": "ab7c81b7d4cfc998dad4fd28fc5a0b9e37b8f8553e8b0d78e0ac6844640fc1c5",
+      "sha256": "ab7c81b7d4cfc998dad4fd28fc5a0b9e37b8f8553e8b0d78e0ac6844640fc1c5",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Heart with upward arrow; generic vitality increase",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Sleep",
+      "file": "sleep.png",
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/15.png",
+      "crop_xywh": null,
+      "source_sha256": "2c44baf2e21ae69b8540fb7c1ce861a462b5fe6323a1e80fec949ed1e94fbc15",
+      "sha256": "2c44baf2e21ae69b8540fb7c1ce861a462b5fe6323a1e80fec949ed1e94fbc15",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Floating Z sleep sign",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Bless",
+      "file": "bless.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S30.png",
+      "crop_xywh": null,
+      "source_sha256": "0a89f6ee2c8aed069ccbe454bab911bf29c3a2f27a4cc8d1d0bbb36d7ca30b74",
+      "sha256": "0a89f6ee2c8aed069ccbe454bab911bf29c3a2f27a4cc8d1d0bbb36d7ca30b74",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Holy cross with increase arrow",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Burning Hands",
+      "file": "burning-hands.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile007.png",
+      "crop_xywh": null,
+      "source_sha256": "d0d9906b29dd8662ba364867541da82d2d949e588510de8563aa96802568afbc",
+      "sha256": "d0d9906b29dd8662ba364867541da82d2d949e588510de8563aa96802568afbc",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Broad cone of fire; conveys the effect but does not depict hands.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Charm Person",
+      "file": "charm-person.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S412.png",
+      "crop_xywh": null,
+      "source_sha256": "31c67d7077dbd95c24c3acd389395a0fdcfdf000b8e684325049337d70759728",
+      "sha256": "31c67d7077dbd95c24c3acd389395a0fdcfdf000b8e684325049337d70759728",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Pink heart; charm or affection symbol",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Comprehend Languages",
+      "file": "comprehend-languages.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        288,
+        128,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "b40e1d59aef230ebf4a2d7ee359d3f8d17d29d5bc929e59d39df1adff858c968",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Written scroll; language and reading rather than comprehension",
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Cure Wounds",
+      "file": "cure-wounds.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S103.png",
+      "crop_xywh": null,
+      "source_sha256": "114418bd099d4a64c0622289623ae4a2b70a93f35a438215dca63d4ef3752f94",
+      "sha256": "114418bd099d4a64c0622289623ae4a2b70a93f35a438215dca63d4ef3752f94",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Green healing cross",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Detect Magic",
+      "file": "detect-magic.png",
+      "source_relative_to_itch_io": "Clockwork Raven/05 - Raven Fantasy - Pixel Art RPG Icons - Wizard Skills/Files/Original/16/26.png",
+      "crop_xywh": null,
+      "source_sha256": "87500f278d206072ed8bf4a639c0ca464ee3f2b231039aee4764e3ab7fa88c69",
+      "sha256": "87500f278d206072ed8bf4a639c0ca464ee3f2b231039aee4764e3ab7fa88c69",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Arcane sight or reticle symbol",
+      "transformation": "original file copied byte for byte",
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-wizard-skills"
+    },
+    {
+      "spell": "Disguise Self",
+      "file": "disguise-self.png",
+      "source_relative_to_itch_io": "Clockwork Raven/27 - RPG Icon Pack - 110+ Fantasy Masks/Files/Without/64x64.png",
+      "crop_xywh": [
+        128,
+        0,
+        64,
+        64
+      ],
+      "source_sha256": "d1bb60db0838c0ef41ecdc066763746f37ac4f544b1fe48084812da074c815fe",
+      "sha256": "5871f45413e2816e42e8212ee512602b5f150e6f7a4b5abf6c00a3273da5a295",
+      "source_dimensions": [
+        1024,
+        448
+      ],
+      "dimensions": [
+        64,
+        64
+      ],
+      "confidence": "metaphor",
+      "note": "Mask; disguise by association",
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Feather Fall",
+      "file": "feather-fall.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/59.png",
+      "crop_xywh": null,
+      "source_sha256": "5055623ddc514879c1074bff799b0ef320ca4b425be5f25eb92ac1f36cab603b",
+      "sha256": "5055623ddc514879c1074bff799b0ef320ca4b425be5f25eb92ac1f36cab603b",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Golden magical feather; falling is not depicted. Original Franuka index name: Fly.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
+    },
+    {
+      "spell": "Find Familiar",
+      "file": "find-familiar.png",
+      "source_relative_to_itch_io": "Clockwork Raven/Raven Fantasy - Pixel Art RPG Icons - Pets and Animals/Files/Original/32/spritesheet32.png",
+      "crop_xywh": [
+        224,
+        32,
+        32,
+        32
+      ],
+      "source_sha256": "69fa491a5de33df81f3fbdf7e43d7a73cb75c2fd51922ca8a0fdb779dfaff1f9",
+      "sha256": "14665ef1437bb8494fdedcc7fc37d0c16de293aefff7925bc700e1c0940a1359",
+      "source_dimensions": [
+        512,
+        192
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Cat; one possible familiar animal, no summoning effect",
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Fireball",
+      "file": "fireball.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S283.png",
+      "crop_xywh": null,
+      "source_sha256": "15c9fa09197ca224cac31728dd21b85d3971bc220e1968b933ce30ab4c7bb1bf",
+      "sha256": "15c9fa09197ca224cac31728dd21b85d3971bc220e1968b933ce30ab4c7bb1bf",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Orange fireball with trail",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Fly",
+      "file": "fly.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/128.png",
+      "crop_xywh": null,
+      "source_sha256": "b67a1a61df54d385b055fbd8d1750a19f85b338b25ad4576630ca35fbcc8eed6",
+      "sha256": "b67a1a61df54d385b055fbd8d1750a19f85b338b25ad4576630ca35fbcc8eed6",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Spread bright wings. Original Franuka index name: Angelic wings.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
+    },
+    {
+      "spell": "Fog Cloud",
+      "file": "fog-cloud.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S386.png",
+      "crop_xywh": null,
+      "source_sha256": "80f1c9bab17570818bb051bb28247fd7719780b1a5114d1e8d796d1769def3d4",
+      "sha256": "80f1c9bab17570818bb051bb28247fd7719780b1a5114d1e8d796d1769def3d4",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Diagonal streak motif (Raven S386), displayed in grayscale for Fog Cloud. The original PNG pixels and alpha are unchanged.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "display_filter": "grayscale(1)",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Guidance",
+      "file": "guidance.png",
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/Original/16/17.png",
+      "crop_xywh": null,
+      "source_sha256": "6cd9269628d295c31cb3098367c98907fef3e3cd11afa8580c376d05a8b7eaea",
+      "sha256": "6cd9269628d295c31cb3098367c98907fef3e3cd11afa8580c376d05a8b7eaea",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Raised hand with golden light; symbolic divine guidance.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-acolyte-skills"
+    },
+    {
+      "spell": "Healing Word",
+      "file": "healing-word.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S418.png",
+      "crop_xywh": null,
+      "source_sha256": "a66dde35f262eb4b4bc222dac8804ceb47fba4c37a4fe36e5ef9d894ad3b7dba",
+      "sha256": "a66dde35f262eb4b4bc222dac8804ceb47fba4c37a4fe36e5ef9d894ad3b7dba",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Green linked or circling heart motif; healing without speech",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Identify",
+      "file": "identify.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S296.png",
+      "crop_xywh": null,
+      "source_sha256": "79341499039976f784a2d408250ecb39483008770c26efc0607df4b2fbe37ef1",
+      "sha256": "79341499039976f784a2d408250ecb39483008770c26efc0607df4b2fbe37ef1",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Arcane diamond with central eye or focus",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Invisibility",
+      "file": "invisibility.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/105.png",
+      "crop_xywh": null,
+      "source_sha256": "5346d37ca8b5c081644826111145942b2e91aa60d3e39cf939a668e272416ed4",
+      "sha256": "5346d37ca8b5c081644826111145942b2e91aa60d3e39cf939a668e272416ed4",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Fading humanoid silhouette. Original Franuka index name: Invisibility.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
+    },
+    {
+      "spell": "Knock",
+      "file": "knock.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        256,
+        64,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "35c013ab2a4a7fcafc4f3d3368ff35efbeadbe3d303305efcac04359a3b3631d",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Key; magical unlocking by association",
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Light",
+      "file": "light.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S287.png",
+      "crop_xywh": null,
+      "source_sha256": "0d4bf6b1b52a6b5543e66e89807e31e7d191ab4fb7a35b93676166ebc262bbd6",
+      "sha256": "0d4bf6b1b52a6b5543e66e89807e31e7d191ab4fb7a35b93676166ebc262bbd6",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Bright radiating sun or light burst",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Mage Armor",
+      "file": "mage-armor.png",
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/130.png",
+      "crop_xywh": null,
+      "source_sha256": "16015171af160f4ab40a2ae00426d6831c453855192dcefa02b8d16558a1c29e",
+      "sha256": "16015171af160f4ab40a2ae00426d6831c453855192dcefa02b8d16558a1c29e",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Blue luminous torso armor",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Mage Hand",
+      "file": "mage-hand.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/107.png",
+      "crop_xywh": null,
+      "source_sha256": "3eace937d68f6d2e7a8d18cc593111a426958203cfeb1d72071c80f7951ffb0e",
+      "sha256": "3eace937d68f6d2e7a8d18cc593111a426958203cfeb1d72071c80f7951ffb0e",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Floating magical hand. Original Franuka index name: Mage hand.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
+    },
+    {
+      "spell": "Magic Missile",
+      "file": "magic-missile.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S258.png",
+      "crop_xywh": null,
+      "source_sha256": "442730d094dde02032ad10bb675dff8f3d7cb8dee15aadf637c1e66e8168adef",
+      "sha256": "442730d094dde02032ad10bb675dff8f3d7cb8dee15aadf637c1e66e8168adef",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Three purple magical projectiles",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Mending",
+      "file": "mending.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        416,
+        288,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "d96f19bc333b7ffb99412a91c7a683a4547e017b056c26194154e498c79d105a",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Hammer; repair by association",
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Misty Step",
+      "file": "misty-step.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S425.png",
+      "crop_xywh": null,
+      "source_sha256": "4628020fb10ae1f96994973763faea68fc426bc8d9cd9b5e156c6683f75d1ebd",
+      "sha256": "4628020fb10ae1f96994973763faea68fc426bc8d9cd9b5e156c6683f75d1ebd",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Blue motion swirl; teleport by association",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Prestidigitation",
+      "file": "prestidigitation.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile325.png",
+      "crop_xywh": null,
+      "source_sha256": "886bd31ceaf90bd7eb549556e652ba09b8ab8efb00cc752b92f708364219dec1",
+      "sha256": "886bd31ceaf90bd7eb549556e652ba09b8ab8efb00cc752b92f708364219dec1",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Small golden sparks; generic minor magical effect",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Revivify",
+      "file": "revivify.png",
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/Original/16/1.png",
+      "crop_xywh": null,
+      "source_sha256": "4a3e62ae342061046ce9a1911729808183d2d87d0cb7f21f6856fb726b8ff5ef",
+      "sha256": "4a3e62ae342061046ce9a1911729808183d2d87d0cb7f21f6856fb726b8ff5ef",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Glowing heart with smaller hearts; conveys life but could also suggest ordinary healing.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-acolyte-skills"
+    },
+    {
+      "spell": "Shield",
+      "file": "shield.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S521.png",
+      "crop_xywh": null,
+      "source_sha256": "54ebf632973d11d11ddca153a3f7f93a171f4f3d1347180d8a9da167d79aedf1",
+      "sha256": "54ebf632973d11d11ddca153a3f7f93a171f4f3d1347180d8a9da167d79aedf1",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Purple magical shield",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Animate Dead",
+      "file": "animate-dead.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S496.png",
+      "crop_xywh": null,
+      "source_sha256": "e78e17951dc100b908d917b320f147b0ac3133ac8a134c500918e7aae9d9b22d",
+      "sha256": "e78e17951dc100b908d917b320f147b0ac3133ac8a134c500918e7aae9d9b22d",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Green skull; undeath without explicit animation",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Arcane Eye",
+      "file": "arcane-eye.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S381.png",
+      "crop_xywh": null,
+      "source_sha256": "307d428a8ca199e6c0973592c03a916cc125e81482302f0facc86428724d83f1",
+      "sha256": "307d428a8ca199e6c0973592c03a916cc125e81482302f0facc86428724d83f1",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Purple floating eye",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Arcane Lock",
+      "file": "arcane-lock.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Base set/Individual icons (16x16)/274.png",
+      "crop_xywh": null,
+      "source_sha256": "25119c280a17c6428f25519f8855bd0d1e01ec995f4de5e3210fc5b27365325f",
+      "sha256": "25119c280a17c6428f25519f8855bd0d1e01ec995f4de5e3210fc5b27365325f",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Golden padlock; clearly conveys locking, without an explicit magical effect. Original Franuka index name: Lock.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
+    },
+    {
+      "spell": "Augury",
+      "file": "augury.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S12.png",
+      "crop_xywh": null,
+      "source_sha256": "2801ae60913644fa2d09a716e309e949f11e9e40c74c49a4a5da5b0e82217b79",
+      "sha256": "2801ae60913644fa2d09a716e309e949f11e9e40c74c49a4a5da5b0e82217b79",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Four-leaf clover; luck or omen association",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Web",
+      "file": "web.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S341.png",
+      "crop_xywh": null,
+      "source_sha256": "a83754eaa4a26a76059d853b856f4a2a0c06e732e5b542aa54fa8b01fc63c1e9",
+      "sha256": "a83754eaa4a26a76059d853b856f4a2a0c06e732e5b542aa54fa8b01fc63c1e9",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Pale blue spiderweb",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Beacon of Hope",
+      "file": "beacon-of-hope.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S441.png",
+      "crop_xywh": null,
+      "source_sha256": "73eba667583f9abd6517288ae7588ba4408b3b64861df06d71a8adcfdb0004bc",
+      "sha256": "73eba667583f9abd6517288ae7588ba4408b3b64861df06d71a8adcfdb0004bc",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Golden vertical light beacon; hope not explicit",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Blur",
+      "file": "blur.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/174.png",
+      "crop_xywh": null,
+      "source_sha256": "171f8c73e34afc9718d985885b50010faa0af7bb158964073830fc040b8b4e1c",
+      "sha256": "171f8c73e34afc9718d985885b50010faa0af7bb158964073830fc040b8b4e1c",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Pale central silhouette with offset gray-blue afterimages, selected as a blurred outline. Original Franuka index name: Blink.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
+    },
+    {
+      "spell": "Clairvoyance",
+      "file": "clairvoyance.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S309.png",
+      "crop_xywh": null,
+      "source_sha256": "420d5d2a9ab402d30e4be39ae6ab18345443c48ff1ab7e322a8440092a9059a9",
+      "sha256": "420d5d2a9ab402d30e4be39ae6ab18345443c48ff1ab7e322a8440092a9059a9",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Blue arcane eye in geometric border",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Continual Flame",
+      "file": "continual-flame.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile000.png",
+      "crop_xywh": null,
+      "source_sha256": "a5cdfc2a7d61de8532158546830e8531b33f677edf30279e42b3518e8d67a6b9",
+      "sha256": "a5cdfc2a7d61de8532158546830e8531b33f677edf30279e42b3518e8d67a6b9",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Persistent-looking single orange flame; duration itself not pictured",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Counterspell",
+      "file": "counterspell.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/103.png",
+      "crop_xywh": null,
+      "source_sha256": "d6cb30cc6bc6517d03d98090bb6ddaeb4c1d79ad57940b71c55268a3b581d1e2",
+      "sha256": "d6cb30cc6bc6517d03d98090bb6ddaeb4c1d79ad57940b71c55268a3b581d1e2",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Pink energy bursting apart, selected as an interrupted spell. Original Franuka index name: Mana explosion; this is a visual association, not an original Counterspell label.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
+    },
+    {
+      "spell": "Darkness",
+      "file": "darkness.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S271.png",
+      "crop_xywh": null,
+      "source_sha256": "b94f31dc5592382ddeb906507d727e57fffa613387564a45bfd37f9e0203961a",
+      "sha256": "b94f31dc5592382ddeb906507d727e57fffa613387564a45bfd37f9e0203961a",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Nearly black swirling disk; low contrast on dark slots",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Darkvision",
+      "file": "darkvision.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S387.png",
+      "crop_xywh": null,
+      "source_sha256": "c7260e88ec49171221be1457b04db1888d6774b82005f490ac9f601912f76372",
+      "sha256": "c7260e88ec49171221be1457b04db1888d6774b82005f490ac9f601912f76372",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Red eye; supernatural vision but not necessarily darkvision",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Daylight",
+      "file": "daylight.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile143.png",
+      "crop_xywh": null,
+      "source_sha256": "529c0d329e6484521cd69018cc05b8378e9950291d872fa05eff63b03b33890c",
+      "sha256": "529c0d329e6484521cd69018cc05b8378e9950291d872fa05eff63b03b33890c",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Bright golden sun disk",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Enhance Ability",
+      "file": "enhance-ability.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S17.png",
+      "crop_xywh": null,
+      "source_sha256": "29f5157f1f5beefe90407f140b0b81f2c2379af7cb876e59d26bc15749a634a6",
+      "sha256": "29f5157f1f5beefe90407f140b0b81f2c2379af7cb876e59d26bc15749a634a6",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Arm muscle with increase arrow",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Enlarge/Reduce",
+      "file": "enlarge-reduce.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S529.png",
+      "crop_xywh": null,
+      "source_sha256": "a9799553c8bbf71ab13f30f45be612db370012f5d848178dd7b801df8118972a",
+      "sha256": "a9799553c8bbf71ab13f30f45be612db370012f5d848178dd7b801df8118972a",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Small person with large up arrow; enlargement only, not reduction",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Entangle",
+      "file": "entangle.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/85.png",
+      "crop_xywh": null,
+      "source_sha256": "f28046a731fb2e3a36c726bb8fb342504dd12a27a266144349d76a667c8b0a83",
+      "sha256": "f28046a731fb2e3a36c726bb8fb342504dd12a27a266144349d76a667c8b0a83",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Grasping roots. Original Franuka index name: Root grasp.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
+    },
+    {
+      "spell": "Expeditious Retreat",
+      "file": "expeditious-retreat.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S546.png",
+      "crop_xywh": null,
+      "source_sha256": "8cfc8280f3ceb5fa52a13c636d1ebf00b9756d97d07861d718f7a56cfeec7c1f",
+      "sha256": "8cfc8280f3ceb5fa52a13c636d1ebf00b9756d97d07861d718f7a56cfeec7c1f",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Green running person; quick movement without retreat nuance",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Faerie Fire",
+      "file": "faerie-fire.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S440.png",
+      "crop_xywh": null,
+      "source_sha256": "cd66c792270f0d9f36ac6871a9d84ebd3c06248016fad6ce61c8e1b744ead4b5",
+      "sha256": "cd66c792270f0d9f36ac6871a9d84ebd3c06248016fad6ce61c8e1b744ead4b5",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Golden four-part magical burst; revealing outlined targets not explicit",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "False Life",
+      "file": "false-life.png",
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/Original/16/195.png",
+      "crop_xywh": null,
+      "source_sha256": "e01f9ec0f09d2b2767017c69030099bf0ac05ddf1f3690fb1a4ba161f7e31bff",
+      "sha256": "e01f9ec0f09d2b2767017c69030099bf0ac05ddf1f3690fb1a4ba161f7e31bff",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Single violet heart; symbolic vitality, without depicting temporary hit points.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-acolyte-skills"
+    },
+    {
+      "spell": "Flaming Sphere",
+      "file": "flaming-sphere.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S403.png",
+      "crop_xywh": null,
+      "source_sha256": "e2eefd5ae93e0dba65c5f1337e9a439ac88f4bc39160715195c13c37587a5fc0",
+      "sha256": "e2eefd5ae93e0dba65c5f1337e9a439ac88f4bc39160715195c13c37587a5fc0",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Round orange flaming orb",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Gentle Repose",
+      "file": "gentle-repose.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        32,
+        320,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "1e85bda73d1cacb2413bcf4226e153dc518f8ee6784fed208ea1174c6bcccbf0",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Stone tomb; burial/rest association",
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Grease",
+      "file": "grease.png",
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/classic/32x32.png",
+      "crop_xywh": [
+        256,
+        288,
+        32,
+        32
+      ],
+      "source_sha256": "d0bff019d00aca4c2f277697e4aaf6b0e88917401ec288d294051e092460620c",
+      "sha256": "89cabf393064d0af276fe4095e6ebe79c53fe87067a30bd98208e2a89d2601d8",
+      "source_dimensions": [
+        512,
+        384
+      ],
+      "dimensions": [
+        32,
+        32
+      ],
+      "confidence": "metaphor",
+      "note": "Bottle; weak oil association, contents unidentified",
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Hold Person",
+      "file": "hold-person.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/03 - Spells/Individual icons (16x16)/172.png",
+      "crop_xywh": null,
+      "source_sha256": "58ada7346497c68b56c709566420efe6ce684f12a98ed8764543e90b8afe8daa",
+      "sha256": "58ada7346497c68b56c709566420efe6ce684f12a98ed8764543e90b8afe8daa",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Humanoid held inside a magical field. Original Franuka index name: Paralyze.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
+    },
+    {
+      "spell": "Jump",
+      "file": "jump.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S2.png",
+      "crop_xywh": null,
+      "source_sha256": "05ac113a67bd7758a3b64bb1caadc7e7dc9a1223c3704ae45089a6318d7b2509",
+      "sha256": "05ac113a67bd7758a3b64bb1caadc7e7dc9a1223c3704ae45089a6318d7b2509",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Leg/foot attribute; jumping only by association",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Lesser Restoration",
+      "file": "lesser-restoration.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S104.png",
+      "crop_xywh": null,
+      "source_sha256": "475e20c412e94c1c3b431db210e17916182a9b682892bf3fa98f6647dbac21ca",
+      "sha256": "475e20c412e94c1c3b431db210e17916182a9b682892bf3fa98f6647dbac21ca",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Radiant healing cross; condition removal not explicit",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Levitate",
+      "file": "levitate.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S538.png",
+      "crop_xywh": null,
+      "source_sha256": "8b23833e1774ad9b6b3d4925729c0ff2598760c5a7c4e7f17b83c4251608760d",
+      "sha256": "8b23833e1774ad9b6b3d4925729c0ff2598760c5a7c4e7f17b83c4251608760d",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Blue person below an upward arrow",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Locate Object",
+      "file": "locate-object.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S140.png",
+      "crop_xywh": null,
+      "source_sha256": "f437835dbcfbdd11ad672e2cc8a46ecd54eb695928dd6393b9f59107ae5eb26b",
+      "sha256": "f437835dbcfbdd11ad672e2cc8a46ecd54eb695928dd6393b9f59107ae5eb26b",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Purple target reticle; search without explicit object",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Magic Weapon",
+      "file": "magic-weapon.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S16.png",
+      "crop_xywh": null,
+      "source_sha256": "385a8806e10000c7c3ba87e19b8eb982b85e1fb99a30a7a76fdb059b75ba4f6a",
+      "sha256": "385a8806e10000c7c3ba87e19b8eb982b85e1fb99a30a7a76fdb059b75ba4f6a",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Sword with magical golden sparkle",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Mirror Image",
+      "file": "mirror-image.png",
+      "source_relative_to_itch_io": "Clockwork Raven/08 - Raven Fantasy - Pixel Art RPG Icons - Rogue Skills/Files/Original/16/20.png",
+      "crop_xywh": null,
+      "source_sha256": "165582ae50e93639b32b7c99a75651670728bee7c7e3307ab250baae79571ea7",
+      "sha256": "165582ae50e93639b32b7c99a75651670728bee7c7e3307ab250baae79571ea7",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Purple hooded figure with two dark offset figures; selected as magical duplicates. No supplied source spell name.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-rogue-skills"
+    },
+    {
+      "spell": "Pass without Trace",
+      "file": "pass-without-trace.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S555.png",
+      "crop_xywh": null,
+      "source_sha256": "f0a9aa085dfe77d16ee97df2022a72c4a89bee643cd567ae213fa0e72fe35660",
+      "sha256": "f0a9aa085dfe77d16ee97df2022a72c4a89bee643cd567ae213fa0e72fe35660",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Blue running figure; stealth or absent tracks not explicit",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Prayer of Healing",
+      "file": "prayer-of-healing.png",
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/Original/16/32.png",
+      "crop_xywh": null,
+      "source_sha256": "e75c2870d2d74bdb17b24e626412fb1ad3b72549bf4da06879c664691fad0436",
+      "sha256": "e75c2870d2d74bdb17b24e626412fb1ad3b72549bf4da06879c664691fad0436",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Praying hands; healing context must come from label",
+      "transformation": "original file copied byte for byte",
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-acolyte-skills"
+    },
+    {
+      "spell": "Protection from Poison",
+      "file": "protection-from-poison.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S519.png",
+      "crop_xywh": null,
+      "source_sha256": "e94767091613a5577566a7b94d626bd1642a802ff9ffe01d1ac166dd5606e068",
+      "sha256": "e94767091613a5577566a7b94d626bd1642a802ff9ffe01d1ac166dd5606e068",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Green shield; poison protection through color association",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Ray of Enfeeblement",
+      "file": "ray-of-enfeeblement.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile232.png",
+      "crop_xywh": null,
+      "source_sha256": "15ccd6e60d1cc6221aa2948170e971a876313235d662a5412be68ef075d6f848",
+      "sha256": "15ccd6e60d1cc6221aa2948170e971a876313235d662a5412be68ef075d6f848",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Dark purple magical projectile; weakness not explicit",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Scorching Ray",
+      "file": "scorching-ray.png",
+      "source_relative_to_itch_io": "Clockwork Raven/22 - RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/Files/01/RPG Icon Pack - 400+ Skills and Spells - Clockwork Raven Studios/16x16/tile008.png",
+      "crop_xywh": null,
+      "source_sha256": "1d043590d0a712e717dc2c9cd90c0b63b4879291c3c66e92ba5ebed711dc9721",
+      "sha256": "1d043590d0a712e717dc2c9cd90c0b63b4879291c3c66e92ba5ebed711dc9721",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Elongated orange fire ray",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "See Invisibility",
+      "file": "see-invisibility.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S405.png",
+      "crop_xywh": null,
+      "source_sha256": "b802f9ebe2f329170865e10c73f7a3fdc33648069137e31aeafe58eebc762387",
+      "sha256": "b802f9ebe2f329170865e10c73f7a3fdc33648069137e31aeafe58eebc762387",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Golden eye; perception without explicit invisible target",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Shatter",
+      "file": "shatter.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S164.png",
+      "crop_xywh": null,
+      "source_sha256": "09fb08ddc10e21e130988fc396f05080ca9d613ff9cd0af9b4056b554ffb3d80",
+      "sha256": "09fb08ddc10e21e130988fc396f05080ca9d613ff9cd0af9b4056b554ffb3d80",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Fractured blue-gray stone; depicts destruction, without explicitly showing sound.",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Alarm",
+      "file": "alarm.png",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/04 - Minecraft set/Individual icons (16x16)/bell.png",
+      "crop_xywh": null,
+      "source_sha256": "d637aba4934ebeea209ce985882574d9193069bebe89e6c6a0f4d7dee0dc627c",
+      "sha256": "d637aba4934ebeea209ce985882574d9193069bebe89e6c6a0f4d7dee0dc627c",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "direct",
+      "note": "Bell; audible alarm motif, using the approved Franuka alternative",
+      "transformation": "original file copied byte for byte",
+      "creator": "Franuka",
+      "license_status": "CC BY 4.0, explicitly stated in the original pack's License and index.txt",
+      "approved_candidate_key": "ALARM_BELL",
+      "approved_preview_sha256": "d637aba4934ebeea209ce985882574d9193069bebe89e6c6a0f4d7dee0dc627c",
+      "creator_url": "https://franuka.itch.io/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_notice": "FRANUKA-LICENSE-AND-INDEX.txt"
+    },
+    {
+      "spell": "Alter Self",
+      "file": "alter-self.png",
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/16x16/5.png",
+      "crop_xywh": null,
+      "source_sha256": "c4a659aeaa495700e4d748cbe461f511bb391dab5cb42ed45422c4411b88fe3d",
+      "sha256": "c4a659aeaa495700e4d748cbe461f511bb391dab5cb42ed45422c4411b88fe3d",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Two humanoid figures with exchange arrows; appearance change by association, could also imply swapping people",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "approved_candidate_key": "ALTER",
+      "approved_preview_sha256": "c4a659aeaa495700e4d748cbe461f511bb391dab5cb42ed45422c4411b88fe3d",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Blindness/Deafness",
+      "file": "blindness-deafness.png",
+      "source_relative_to_itch_io": "Clockwork Raven/25 - RPG Icon Pack - 240 Attributes, Menu and States/Files/Without/64x64/tile116.png",
+      "crop_xywh": null,
+      "source_sha256": "82c0becfdcf020b5674362cda408d28349daf69f0cb391a97f5122b4be9502f9",
+      "sha256": "82c0becfdcf020b5674362cda408d28349daf69f0cb391a97f5122b4be9502f9",
+      "source_dimensions": [
+        64,
+        64
+      ],
+      "dimensions": [
+        64,
+        64
+      ],
+      "confidence": "direct",
+      "note": "Crossed-out red eye; clear blindness motif, deafness is not depicted",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "approved_candidate_key": "BLIND",
+      "approved_preview_sha256": "82c0becfdcf020b5674362cda408d28349daf69f0cb391a97f5122b4be9502f9",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Command",
+      "file": "command.png",
+      "source_relative_to_itch_io": "Clockwork Raven/09 - Raven Fantasy - Pixel Art RPG Icons - Warrior Skills/Files/Original/16/182.png",
+      "crop_xywh": null,
+      "source_sha256": "f8b6f365ca407c184d95e48e3ea6bbc0bca47d04a9d90744ca181e153d872939",
+      "sha256": "f8b6f365ca407c184d95e48e3ea6bbc0bca47d04a9d90744ca181e153d872939",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Shouting head with sound waves; spoken command by association, could also read as a battle cry",
+      "transformation": "original file copied byte for byte",
+      "creator": "Skull Jelly, commissioned by Clockwork Raven",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "approved_candidate_key": "COMMAND_VOICE",
+      "approved_preview_sha256": "f8b6f365ca407c184d95e48e3ea6bbc0bca47d04a9d90744ca181e153d872939",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://x.com/Skull_inaJelly",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-fighter-skills"
+    },
+    {
+      "spell": "Create Food and Water",
+      "file": "create-food-and-water.png",
+      "source_relative_to_itch_io": "Clockwork Raven/10 - RPG Icon Pack - 300+ Farming, Food and Beverages/Files/No Outline/16x16.png",
+      "crop_xywh": [
+        144,
+        272,
+        16,
+        16
+      ],
+      "source_sha256": "1b16c28d1a8f4bb7103dc0933f48df3d8902ab6032399a6266b23efad84f19a6",
+      "sha256": "fccea3dd362b02b17b79412885cd722c01436452166d44e3420173ab0e3db250",
+      "source_dimensions": [
+        256,
+        304
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Bread; food is represented but water and magical creation are not depicted",
+      "transformation": "exact pixel crop; no resizing or recoloring",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "approved_candidate_key": "FOOD_BREAD",
+      "approved_preview_sha256": "fccea3dd362b02b17b79412885cd722c01436452166d44e3420173ab0e3db250",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    },
+    {
+      "spell": "Dispel Magic",
+      "file": "dispel-magic.png",
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/16x16/S42.png",
+      "crop_xywh": null,
+      "source_sha256": "8f18b46c076f7787fb667d38d29104b869da7892c135b127310ad78f4180c1c6",
+      "sha256": "8f18b46c076f7787fb667d38d29104b869da7892c135b127310ad78f4180c1c6",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Purple magic swirl with red down arrow; weakened or removed magic by association, could also read as a magic-stat debuff",
+      "transformation": "original file copied byte for byte",
+      "creator": "Clockwork Raven with Manowell",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "approved_candidate_key": "DISPEL",
+      "approved_preview_sha256": "8f18b46c076f7787fb667d38d29104b869da7892c135b127310ad78f4180c1c6",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf",
+      "creator_url": "https://www.instagram.com/manowellplayed/",
+      "credit_source_url": "https://clockworkraven.itch.io/raven-fantasy-pixel-art-rpg-icons-attributes-skills-spells-and-scores"
+    },
+    {
+      "spell": "Magic Mouth",
+      "file": "magic-mouth.png",
+      "source_relative_to_itch_io": "Clockwork Raven/25 - RPG Icon Pack - 240 Attributes, Menu and States/Files/Without/16x16/tile007.png",
+      "crop_xywh": null,
+      "source_sha256": "5b276ed76a7c32ec3ce25014cb9e2ba6047b7d6b4197986bd464a4fdb62ad2ff",
+      "sha256": "5b276ed76a7c32ec3ce25014cb9e2ba6047b7d6b4197986bd464a4fdb62ad2ff",
+      "source_dimensions": [
+        16,
+        16
+      ],
+      "dimensions": [
+        16,
+        16
+      ],
+      "confidence": "metaphor",
+      "note": "Speech bubble with three dots; speech or a message by association, could also read as a dialogue icon",
+      "transformation": "original file copied byte for byte",
+      "creator": "Caio / Clockwork Raven Studios",
+      "license_status": "Clockwork Raven User Asset License Agreement v1.2; included only as part of Spelldle under the author's open-source-game clarification. No extraction, asset redistribution or reuse in other projects under this repository's license.",
+      "approved_candidate_key": "MOUTH_BUBBLE",
+      "approved_preview_sha256": "5b276ed76a7c32ec3ce25014cb9e2ba6047b7d6b4197986bd464a4fdb62ad2ff",
+      "licensor": "Clockwork Raven",
+      "license_file": "RAVEN-LICENSE-v1.2.pdf"
+    }
+  ],
+  "fallbacks": [],
+  "source_notes": [
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/05 - Raven Fantasy - Pixel Art RPG Icons - Wizard Skills/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/05 - Raven Fantasy - Pixel Art RPG Icons - Wizard Skills/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/07 - Raven Fantasy - Pixel Art RPG Icons - Acolyte Skills/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/08 - Raven Fantasy - Pixel Art RPG Icons - Rogue Skills/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/08 - Raven Fantasy - Pixel Art RPG Icons - Rogue Skills/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/12 - RPG Icon Pack - General Itens and Tools/Files/Pixel Art Icons - General Itens and Tools/Read me, please!.txt",
+      "sha256": "f5711cab6bb52e3c6bfccbc21fe64971e9a9b83b2c4271b16b2e524e904b5836"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/27 - RPG Icon Pack - 110+ Fantasy Masks/Files/A Note to the Dev.txt",
+      "sha256": "223deee13d5bcd10379edbbd793c86159c9f4c53494c29648fb766c729ff042f"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/29 - Raven Fantasy - RPG Icons, Pixel Art Icons, Textures and Sprites -/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/36 - Raven Fantasy - Pixel Art RPG Icons - Attributes, Skills, Spells a/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/Raven Fantasy - Pixel Art RPG Icons - Pets and Animals/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/09 - Raven Fantasy - Pixel Art RPG Icons - Warrior Skills/Files/A Note to the Dev.txt",
+      "sha256": "3c5a5e2813fdc09f3c125d0f9fec229099fdd6918d062883f6b38713384c5327"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/09 - Raven Fantasy - Pixel Art RPG Icons - Warrior Skills/Files/Palette/Pallete.txt",
+      "sha256": "55e781bace343c8ec7ab8e72ef9a025975a175fccc6039a276f672f75b7f672c"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/10 - RPG Icon Pack - 300+ Farming, Food and Beverages/Files/Read me, please!.txt",
+      "sha256": "f5711cab6bb52e3c6bfccbc21fe64971e9a9b83b2c4271b16b2e524e904b5836"
+    },
+    {
+      "source_relative_to_itch_io": "Clockwork Raven/25 - RPG Icon Pack - 240 Attributes, Menu and States/Files/Please, dont read this!.txt",
+      "sha256": "2c857e5c2520f3e86bb5eff8c279fc65a6c9de180dd5b3993927420db5e35313"
+    },
+    {
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/Expansions/04 - Minecraft set/How to use.txt",
+      "sha256": "f7f721fa2cfd4770557956f5fc5ef46a3060a12964def7e6467bc164e0f2c965"
+    },
+    {
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/License and index.txt",
+      "sha256": "254f411b7b0ecc2d74da687a6aa77b648b10e67d027b6fe626e4ba2807db1faf"
+    }
+  ],
+  "bundled_license_notices": [
+    {
+      "file": "FRANUKA-LICENSE-AND-INDEX.txt",
+      "source_relative_to_itch_io": "Franuka/48 - RPG Icon pack/Files/License and index.txt",
+      "sha256": "254f411b7b0ecc2d74da687a6aa77b648b10e67d027b6fe626e4ba2807db1faf",
+      "applies_to": [
+        "alarm.png",
+        "arcane-lock.png",
+        "blur.png",
+        "counterspell.png",
+        "entangle.png",
+        "feather-fall.png",
+        "fly.png",
+        "hold-person.png",
+        "invisibility.png",
+        "mage-hand.png"
+      ]
+    }
+  ],
+  "publication_evidence": {
+    "verified_on": "2026-10-09",
+    "raven_license_url": "https://drive.google.com/drive/folders/121s8vaEk2h2Y-3cHDlfkKcwojsySYh3q",
+    "raven_license_file": "RAVEN-LICENSE-v1.2.pdf",
+    "raven_license_sha256": "eb4a41c8c16bf9cc06d8bab4cc4ea232914e5a2c929d8d983167995be7633120",
+    "raven_product_and_open_source_context": "https://clockworkraven.itch.io/rpg-icon-pack-400-skills-and-spells-clockwork-raven-studios",
+    "raven_open_source_clarification": "https://itch.io/post/9029721",
+    "raven_shared_license_confirmation": "https://itch.io/post/6044392",
+    "reuse_notice": "Raven artwork is included only as part of Spelldle. It may not be extracted, redistributed as assets, or reused in other projects under this repository's license; obtain your own permission or license from Clockwork Raven."
+  }
+}

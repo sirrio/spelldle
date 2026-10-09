@@ -39,7 +39,15 @@ function displayDuration(value: string) {
 
 function SpellIcon({ spell }: { spell?: Spell }) {
   if (!spell) return <>?</>;
+  return <SpellArtwork key={spell.name} spell={spell} />;
+}
+
+function SpellArtwork({ spell }: { spell: Spell }) {
+  const [imageFailed, setImageFailed] = React.useState(false);
   const Icon = spell.icon;
+  if (spell.iconPath && !imageFailed) {
+    return <img className="spell-pixel-icon" src={spell.iconPath} alt="" aria-hidden="true" draggable={false} onError={() => setImageFailed(true)} />;
+  }
   return <Icon aria-hidden="true" />;
 }
 
@@ -47,7 +55,7 @@ export const SPELLDLE_CONFIG: DndleConfig<Spell> = {
   id: "spelldle",
   storageKey: "zauberdle",
   brand: "SPELLDLE",
-  brandIconUrl: "brand-header.svg",
+  brandIconUrl: "brand-mark.svg",
   tagline: "THE DAILY ARCANE ARCHIVE",
   entries: SPELLS,
   traits: [
@@ -61,28 +69,29 @@ export const SPELLDLE_CONFIG: DndleConfig<Spell> = {
   ],
   daily: { startUtc: [2026, 0, 1], multiplier: 17, offset: 5 },
   itemLabel: "Spell",
+  collectionTitle: "Spell Archive",
   archiveName: "ARCANE ARCHIVE",
-  resultsTitle: "The Signs",
-  selectPrompt: "Select an entry from the Arcane Archive.",
-  readyPrompt: "Ready to cast your guess.",
+  resultsTitle: "Your guesses",
+  selectPrompt: "Pick a spell, then cast your guess.",
+  readyPrompt: "Cast to compare its traits.",
   actionLabel: "CAST",
   howTitle: "Find the spell",
-  howIntro: "You have six guesses. Compare each result to uncover the spell hidden in the Arcane Archive.",
-  howSteps: ["Choose a spell from the archive and cast your guess.", "Use the colors to compare all seven spell properties.", "Follow the arrows to narrow down ordered values."],
+  howIntro: "You have seven guesses to find today's spell. Each guess gives you clues for the next.",
+  howSteps: ["Pick a spell and cast your guess.", "Use the colors to compare its seven traits with today's spell.", "Arrows point toward higher or lower values."],
   arrowTraits: "level, range and duration",
-  successKicker: (guesses) => `SOLVED IN ${guesses} GUESSES`,
+  successKicker: (guesses) => `SOLVED IN ${guesses} ${guesses === 1 ? "GUESS" : "GUESSES"}`,
   failureKicker: "THE ARCANE ARCHIVE CLOSES",
   nextLabel: "NEXT SPELL IN",
   shareQuestion: "Which spell is hidden in the Arcane Archive today?",
-  shareUrl: "https://sirrio.github.io/spelldle/?share=1",
+  shareUrl: "https://spelldle.com/?share=1",
   shareAction: "Find out here!",
   relatedGame: {
     prompt: "Or hunt monsters instead?",
-    url: "https://sirrio.github.io/critterdle/",
+    url: "https://critterdle.com/",
   },
   resultSummary: (spell) => `${levelLabel(spell.level)} · ${spell.school} · ${spell.range} · ${displayDuration(spell.duration)}`,
   renderIcon: (spell) => <SpellIcon spell={spell} />,
-  credits: <><p>This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at <a href="https://www.dndbeyond.com/srd" target="_blank" rel="noreferrer">dndbeyond.com/srd</a>. The SRD 5.2.1 is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank" rel="noreferrer">Creative Commons Attribution 4.0 International License</a>.</p><p>Spell icons by Lorc, Delapouite and the contributors of <a href="https://game-icons.net/" target="_blank" rel="noreferrer">Game-icons.net</a>, used under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noreferrer">CC BY 3.0</a>.</p></>,
+  credits: <><p>This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at <a href="https://www.dndbeyond.com/srd" target="_blank" rel="noreferrer">dndbeyond.com/srd</a>. The SRD 5.2.1 is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank" rel="noreferrer">Creative Commons Attribution 4.0 International License</a>.</p><p>Pixel spell icons licensed by <a href="https://clockworkraven.itch.io/" target="_blank" rel="noreferrer">Clockwork Raven</a>, including artwork by <a href="https://x.com/Skull_inaJelly" target="_blank" rel="noreferrer">Skull Jelly</a> and <a href="https://www.instagram.com/manowellplayed/" target="_blank" rel="noreferrer">Manowell</a>. Raven artwork is included only as part of Spelldle; this repository grants no extraction, redistribution as assets or reuse in other projects. See the <a href="spell-icons/RAVEN-LICENSE-v1.2.pdf" target="_blank" rel="noreferrer">Raven license</a>. Icons for Alarm, Arcane Lock, Blur, Counterspell, Entangle, Feather Fall, Fly, Hold Person, Invisibility and Mage Hand by <a href="https://franuka.itch.io/" target="_blank" rel="noreferrer">Franuka</a>, from the RPG Icon pack, used under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>. Raven's Resurrect 64 palette by Kerrie Lake.</p><p>Fallback spell icons by Lorc, Delapouite and the contributors of <a href="https://game-icons.net/" target="_blank" rel="noreferrer">Game-icons.net</a>, used under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noreferrer">CC BY 3.0</a>.</p><p>Book UI by <a href="https://crusenho.itch.io/complete-ui-book-styles-pack" target="_blank" rel="noreferrer">Crusenho Agus Hennihuno</a>. Original WizardBook sprites are used unchanged; layout and nine-slice scaling adapted for Spelldle. Used under the bundled custom license.</p></>,
 };
 
 export default function App() {

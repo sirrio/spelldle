@@ -1,0 +1,33 @@
+/* Original source PNGs stay intact. Fog Cloud has a display-only gray palette. */
+.spelldle-theme .spell-pixel-icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.spelldle-theme .spell-pixel-icon[src$="/fog-cloud.png"] {
+  filter: grayscale(1);
+}
+
+.spelldle-theme .selected .option-sigil:has(.spell-pixel-icon) {
+  transform: none;
+}
+
+.spelldle-theme .option-sigil:has(.spell-pixel-icon) {
+  grid-template-rows: minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.spelldle-theme .row-sigil:has(.spell-pixel-icon) {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.spelldle-theme .reveal-sigil .spell-pixel-icon {
+  width: 64px;
+  height: 64px;
+}

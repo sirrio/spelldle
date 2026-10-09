@@ -15,6 +15,7 @@ import {
   GiTombstone, GiTowerFall, GiVineLeaf, GiWarlockEye, GiWingfoot, GiBread,
 } from "react-icons/gi";
 import spellData from "./spells.generated.json";
+import pixelIcons from "./spell-icons.generated.json";
 
 export type Spell = {
   name: string;
@@ -26,6 +27,7 @@ export type Spell = {
   range: string;
   duration: string;
   icon: IconType;
+  iconPath?: string;
 };
 
 const ICONS: Record<string, IconType> = {
@@ -56,4 +58,10 @@ const ICONS: Record<string, IconType> = {
   "Shatter": GiTowerFall,
 };
 
-export const SPELLS: Spell[] = spellData.map((spell) => ({ ...spell, icon: ICONS[spell.name] }));
+const PIXEL_ICONS: Readonly<Record<string, string>> = pixelIcons;
+
+export const SPELLS: Spell[] = spellData.map((spell) => ({
+  ...spell,
+  icon: ICONS[spell.name],
+  iconPath: PIXEL_ICONS[spell.name],
+}));

@@ -1,11 +1,40 @@
 @import "@sirrio/dndle-core/styles.css";
+@import "./book-layout.css";
+@import "./spell-icons.css";
 
 .spelldle-theme {
-  --header-bg: #11162a;
-  --red: #5170ff;
-  --red-dark: #263bb7;
-  --accent-hover: #3f5de8;
-  --accent-soft: #eef1ff;
-  --accent-border: #b8c3ff;
-  --accent-shadow: rgba(81, 112, 255, .2);
+  --header-bg: #252c40;
+  --red: #405a9b;
+  --red-dark: #303e66;
+  --accent-hover: #405a9b;
+  --accent-soft: #e0e5f0;
+  --accent-border: #768093;
+  --accent-shadow: rgba(48, 62, 102, .22);
+  --paper: #fce5ca;
+  --ink: #342e2a;
+  --ink-soft: #62584d;
+  --muted: #786e61;
+  --line: #ccb298;
+  --green: #356347;
+  --yellow: #87611a;
+  --gray: #655c58;
+  --book-cover: url("/book-ui/cover.png");
+  --book-left: url("/book-ui/page-left.png");
+  --book-right: url("/book-ui/page-right.png");
+  --book-button: url("/book-ui/button.png");
+  --book-button-pressed: url("/book-ui/button-pressed.png");
+  --book-checkbox: url("/book-ui/checkbox.png");
+  --book-checkbox-checked: url("/book-ui/checkbox-checked.png");
+  --book-slot: url("/book-ui/slot.png");
+  --book-slot-selected: url("/book-ui/slot-selected.png");
+  --slot-slice: 6 4; --slot-width: 12px 8px; --press-shift: 4px;
+  --trait-columns: .42fr .68fr .92fr .82fr .55fr .82fr .68fr 1fr;
+  --brand-name: "SPELLDLE";
+  --cover-slice: 32; --cover-width: 64px;
+  --page-left-slice: 3 1 3 8; --page-left-width: 6px 2px 6px 16px;
+  --page-right-slice: 3 8 3 1; --page-right-width: 6px 16px 6px 2px;
+  --button-slice: 6 3 5; --button-width: 12px 6px 10px;
+  --button-ink: #252c40; --button-muted: #525b70;
+  --panel-tint: #f2d9bb; --empty-tint: #f6dfc3;
+  --cover-color: #484b68; --tooltip-bg: #30354b;
 }
